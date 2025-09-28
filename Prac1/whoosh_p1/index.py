@@ -3,8 +3,6 @@ index.py
 Author: Jorge Pagan Saiz and Jiahao Ye
 Last update: 2025-09-27
 
-Simple program to create an inverted index with the contents of text/xml files contained in a docs folder
-This program is based on the whoosh library. See https://pypi.org/project/Whoosh/ .
 Usage: python index.py -docs <docsPath> -index <indexPath>
 """
 
@@ -23,7 +21,6 @@ def create_folder(folder_name):
 
 class MyIndex:
     def __init__(self,index_folder):
-        # TODO: create new LanguageAnalyzer using Whoosh libraries
         language_analyzer = LanguageAnalyzer(lang="es" , expression=r"\w+")
         schema = Schema(path=ID(stored=True), autor=TEXT(analyzer=language_analyzer),
                         director=TEXT(analyzer=language_analyzer), departamento=TEXT(analyzer=language_analyzer),
@@ -36,28 +33,12 @@ class MyIndex:
     def index_docs(self,docs_folder):
         if (os.path.exists(docs_folder)):
             for file in sorted(os.listdir(docs_folder)):
-                # print(file)
                 if file.endswith('.xml'):
                     self.index_xml_doc(docs_folder, file)
-                elif file.endswith('.txt'):
-                    self.index_txt_doc(docs_folder, file)
         self.writer.commit()
-
-    # No se utiliza, se podría eliminar
-    def index_txt_doc(self, foldername,filename):
-        file_path = os.path.join(foldername, filename)
-        # print(file_path)
-        with open(file_path) as fp:
-            text = ' '.join(line for line in fp if line)
-            
-        # print(text)
-        
-        atime = datetime.fromtimestamp(os.path.getmtime(file_path))
-        self.writer.add_document(path=filename, content=text, stored=atime)
 
     def index_xml_doc(self, foldername, filename):
         file_path = os.path.join(foldername, filename)
-        # print(file_path)
         tree = ET.parse(file_path)
         root = tree.getroot()
         
@@ -84,11 +65,6 @@ class MyIndex:
             subjects += str(subj.text) + " "
 
         anyo_element = root.find('.//dc:date', namespaces)
-
-        #raw_text = "".join(root.itertext())
-        # break into lines and remove leading and trailing space on each
-        #text = ' '.join(line.strip() for line in raw_text.splitlines() if line)
-        # print(text)
         
         self.writer.add_document(path=path_element.text, autor=autor_element.text, director=str(directores),
                                  departamento=departamento_element.text, titulo=title_element.text,
@@ -97,6 +73,7 @@ class MyIndex:
 
 if __name__ == '__main__':
 
+    # Valores por defecto
     index_folder = '../whooshindex'
     docs_folder = '../docs'
     i = 1
