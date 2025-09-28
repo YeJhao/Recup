@@ -1,0 +1,1 @@
+autor:Lázaro AND director:Nicolás AND departamento:Derecho AND titulo:fraude AND descripcion:contratación AND subject:recursos AND anyo:2016
