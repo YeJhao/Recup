@@ -13,6 +13,8 @@ from whoosh.fields import *
 from whoosh.analysis import LanguageAnalyzer
 from datetime import datetime
 
+from analyzer import CustomAnalyzer
+
 import os
 
 import xml.etree.ElementTree as ET
@@ -23,8 +25,7 @@ def create_folder(folder_name):
 
 class MyIndex:
     def __init__(self,index_folder):
-        # TODO: create new LanguageAnalyzer using Whoosh libraries
-        language_analyzer = LanguageAnalyzer(lang="es" , expression=r"\w+")
+        language_analyzer = CustomAnalyzer()
         schema = Schema(path=ID(stored=True), autor=TEXT(analyzer=language_analyzer),
                         director=TEXT(analyzer=language_analyzer), departamento=TEXT(analyzer=language_analyzer),
                         titulo=TEXT(analyzer=language_analyzer), descripcion=TEXT(analyzer=language_analyzer),
@@ -36,7 +37,7 @@ class MyIndex:
     def index_docs(self,docs_folder):
         if (os.path.exists(docs_folder)):
             for file in sorted(os.listdir(docs_folder)):
-                # print(file)
+                #print(file) # Debug: print the file name being processed
                 if file.endswith('.xml'):
                     self.index_xml_doc(docs_folder, file)
                 elif file.endswith('.txt'):
@@ -67,7 +68,7 @@ class MyIndex:
         subjects = ""
 
         path_element = root.find('.//dc:identifier', namespaces)
-        autor_element = root.find('.//dc:autor', namespaces)
+        autor_element = root.find('.//dc:creator', namespaces)
         director_element = root.findall('.//dc:contributor', namespaces)
 
         for dir in director_element:
@@ -90,10 +91,14 @@ class MyIndex:
         #text = ' '.join(line.strip() for line in raw_text.splitlines() if line)
         # print(text)
         
-        self.writer.add_document(path=path_element.text, autor=autor_element.text, director=str(directores),
-                                 departamento=departamento_element.text, titulo=title_element.text,
-                                 descripcion=description_element.text, subject=str(subjects),
-                                 anyo=anyo_element.text)
+        self.writer.add_document(path=path_element.text,
+                                 autor=autor_element.text if autor_element is not None else "",
+                                 director=str(directores),
+                                 departamento=departamento_element.text if departamento_element is not None else "",
+                                 titulo=title_element.text if title_element is not None else "",
+                                 descripcion=description_element.text if description_element is not None else "",
+                                 subject=str(subjects),
+                                 anyo=int(anyo_element.text) if anyo_element is not None else 0)
 
 if __name__ == '__main__':
 
