@@ -31,8 +31,9 @@ class MySearcher:
                 doc_id = result.get("path")
                 if(doc_id):
                     output.write(f"{query_num}\t{doc_id}\n")
-                else:
-                    print("Error: Document without dc_identifier field")
+                #Opción para depurar, de poco interés en ejecución
+                #else:
+                #    print("Error: Document without dc_identifier field")
 
 
 if __name__ == '__main__':
@@ -53,7 +54,7 @@ if __name__ == '__main__':
         i = i + 1
 
     searcher = MySearcher(index_folder)
-
+    # Ejecucion con fichero de queries
     if info_PATH:
         with open(info_PATH, 'r', encoding='utf-8') as f, open(output_PATH, 'w', encoding='utf-8') as out:
             query_num = 1
@@ -62,7 +63,7 @@ if __name__ == '__main__':
                 if(query):
                     searcher.search(query, output_file=output_PATH, query_num=query_num)
                     query_num += 1
-
+    # Alternativa interactiva por si se quiere prescindir de un fichero de queries
     else:
         query = input('Introduce a query (\'q\' for exit): ')
         while query != 'q':

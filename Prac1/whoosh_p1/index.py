@@ -3,8 +3,6 @@ index.py
 Author: Jorge Pagan Saiz and Jiahao Ye
 Last update: 2025-09-27
 
-Simple program to create an inverted index with the contents of text/xml files contained in a docs folder
-This program is based on the whoosh library. See https://pypi.org/project/Whoosh/ .
 Usage: python index.py -docs <docsPath> -index <indexPath>
 """
 
@@ -40,25 +38,10 @@ class MyIndex:
                 #print(file) # Debug: print the file name being processed
                 if file.endswith('.xml'):
                     self.index_xml_doc(docs_folder, file)
-                elif file.endswith('.txt'):
-                    self.index_txt_doc(docs_folder, file)
         self.writer.commit()
-
-    # No se utiliza, se podría eliminar
-    def index_txt_doc(self, foldername,filename):
-        file_path = os.path.join(foldername, filename)
-        # print(file_path)
-        with open(file_path) as fp:
-            text = ' '.join(line for line in fp if line)
-            
-        # print(text)
-        
-        atime = datetime.fromtimestamp(os.path.getmtime(file_path))
-        self.writer.add_document(path=filename, content=text, stored=atime)
 
     def index_xml_doc(self, foldername, filename):
         file_path = os.path.join(foldername, filename)
-        # print(file_path)
         tree = ET.parse(file_path)
         root = tree.getroot()
         
@@ -102,6 +85,7 @@ class MyIndex:
 
 if __name__ == '__main__':
 
+    # Valores por defecto
     index_folder = '../whooshindex'
     docs_folder = '../docs'
     i = 1
