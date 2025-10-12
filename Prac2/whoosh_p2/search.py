@@ -22,7 +22,7 @@ class MySearcher:
         if model_type == 'tfidf':
             self.searcher = ix.searcher(weighting=scoring.TF_IDF())
         else:
-            self.searcher = ix.searcher()
+            self.searcher = ix.searcher(weighting=scoring.BM25F())
         self.parser = MultifieldParser(["autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo", "east", "north", "west", "south"], schema=
                                        ix.schema, group = OrGroup)
 
@@ -33,7 +33,7 @@ class MySearcher:
             query = query_text.strip().split(" ")
             spatial_query = query[0]
             text_query = query[1] if len(query) > 1 else ""
-            print("", text_query)
+            #print("", text_query)
 
             query = spatial_query.strip()[8:].strip().split(",")
             west = float(query[0])
@@ -46,7 +46,18 @@ class MySearcher:
             northRangeQuery = NumericRange("north", start = south, end = None)
 
             spatialQuery = And([westRangeQuery, eastRangeQuery, southRangeQuery, northRangeQuery])
-            final_query = Or([spatialQuery, self.parser.parse(text_query)]) if text_query else spatialQuery
+
+            if text_query:
+                textQuery = self.parser.parse(text_query)
+                
+                # Aumentamos el peso de la parte textual
+                textQuery.boost *= 2.0
+
+                # Combinamos ambas con la disyunción
+                final_query = Or([spatialQuery, textQuery])
+            else:
+                final_query = spatialQuery
+
             results = self.searcher.search(final_query, limit=limit)
 
             for result in results:
@@ -57,14 +68,14 @@ class MySearcher:
                 doc_north = result.get("north")
                 if(doc_west is not None and doc_east is not None and doc_south is not None and doc_north is not None) and intersect(west, east, south, north, doc_west, doc_east, doc_south, doc_north):
                         if(doc_id):
-                            print("Debug: Found document", doc_id)
+                            #print("Debug: Found document", doc_id)
                             res.append(doc_id)
                             res_score.append(result.score)
                         else:
                             print("Error: Document without dc_identifier field")
                 else:
                     if doc_id:
-                        print("Debug: Found document without spatial data", doc_id)
+                        #print("Debug: Found document without spatial data", doc_id)
                         res.append(doc_id)
                         res_score.append(result.score)
             
@@ -87,7 +98,7 @@ class MySearcher:
                 with open(output_file, 'a', encoding='utf-8') as output:
                     doc_id = result.get("path")
                     if(doc_id):
-                        output.write(f"{doc_id}\n")
+                        output.write(f"{doc_id}\t{result.score}\n")
                     else:
                         print("Error: Document without dc_identifier field")
 
