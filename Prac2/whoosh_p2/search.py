@@ -18,96 +18,31 @@ from whoosh import scoring
 import whoosh.index as index
 
 class MySearcher:
-    def __init__(self, index_folder, model_type = 'tfidf'):
+    def __init__(self, index_folder, model_type = 'bm25'):
         ix = index.open_dir(index_folder)
         if model_type == 'tfidf':
             self.searcher = ix.searcher(weighting=scoring.TF_IDF())
         else:
             self.searcher = ix.searcher(weighting=scoring.BM25F())
-        self.parser = MultifieldParser(["autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo", "east", "north", "west", "south"], schema=
-                                       ix.schema, group = OrGroup)
+        self.parser = MultifieldParser(["autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo"], 
+        schema=ix.schema, 
+        group = OrGroup
+        )
 
     def search(self, query_text, output_file, limit=100):
-        if query_text.strip().lower().startswith("spatial"):
-            res = []
-            res_score = []
-            query = query_text.strip().split(" ")
-            spatial_query = query[0]
-            text_query = query[1] if len(query) > 1 else ""
-            #print("", text_query)
+        query = self.parser.parse(query_text)
+        results = self.searcher.search(query, limit=limit)
 
-            query = spatial_query.strip()[8:].strip().split(",")
-            west = float(query[0])
-            east = float(query[1])
-            south = float(query[2])
-            north = float(query[3])
-            westRangeQuery = NumericRange("west", start = None, end = east)
-            eastRangeQuery = NumericRange("east", start = west, end = None)
-            southRangeQuery = NumericRange("south", start = None, end = north)
-            northRangeQuery = NumericRange("north", start = south, end = None)
-
-            spatialQuery = And([westRangeQuery, eastRangeQuery, southRangeQuery, northRangeQuery])
-
-            if text_query:
-                textQuery = self.parser.parse(text_query)
-                
-                # Aumentamos el peso de la parte textual
-                textQuery.boost *= 2.0
-
-                # Combinamos ambas con la disyunción
-                final_query = Or([spatialQuery, textQuery])
-            else:
-                final_query = spatialQuery
-
-            results = self.searcher.search(final_query, limit=limit)
-
-            for result in results:
-                doc_id = result.get("path")
-                doc_west = result.get("west")
-                doc_east = result.get("east")
-                doc_south = result.get("south")
-                doc_north = result.get("north")
-                if(doc_west is not None and doc_east is not None and doc_south is not None and doc_north is not None) and intersect(west, east, south, north, doc_west, doc_east, doc_south, doc_north):
-                        if(doc_id):
-                            #print("Debug: Found document", doc_id)
-                            res.append(doc_id)
-                            res_score.append(result.score)
-                        else:
-                            print("Error: Document without dc_identifier field")
-                else:
-                    if doc_id:
-                        #print("Debug: Found document without spatial data", doc_id)
-                        res.append(doc_id)
-                        res_score.append(result.score)
-            
-            # Extraer solo el número al inicio de cada línea
-            numbers = [line.split("-")[0] for line in res]
-
-            scores_str = [f"{s:.2f}" for s in res_score]
-
-            # Unirlos por comas
-            result = ",".join(numbers)
-            result_scores = ",".join(scores_str)
-
-            with open(output_file, 'a', encoding='utf-8') as output:
-                output.write(f"{query_num}\t{len(numbers)}\t{result}\t{result_scores}\n")
-            
-        else:
-            query = self.parser.parse(query_text)
-            results = self.searcher.search(query, limit=limit)
-            for result in results:
-                with open(output_file, 'a', encoding='utf-8') as output:
-                    doc_id = result.get("path")
-                    if(doc_id):
-                        output.write(f"{doc_id}\t{result.score}\n")
-                    else:
-                        print("Error: Document without dc_identifier field")
+        aux = []
+        for result in results:
+            aux.append((result["identifier"], result.score))
+        return aux
 
 
 if __name__ == '__main__':
-    index_folder = '../index'
+    index_folder = '../whoosindex'
     info_PATH = None
-    output_PATH = '../result.txt'
+    output_PATH = '../resultados.txt'
     i = 1
     while (i < len(sys.argv)):
         if sys.argv[i] == '-index':
@@ -130,6 +65,7 @@ if __name__ == '__main__':
             for need in root.findall('informationNeed'):
                 identifier = need.find('identifier').text.strip()
                 text = need.find('text').text.strip()
+
                 results = searcher.search(text, output_file=output_PATH)
                 for doc_id, _ in results:
                     out.write(f"{identifier}\t{doc_id}\n")
