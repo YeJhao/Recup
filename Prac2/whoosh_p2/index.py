@@ -26,11 +26,14 @@ def create_folder(folder_name):
 class MyIndex:
     def __init__(self,index_folder):
         language_analyzer = CustomAnalyzer()
-        schema = Schema(path=ID(stored=True), autor=TEXT(analyzer=language_analyzer),
-                        director=TEXT(analyzer=language_analyzer), departamento=TEXT(analyzer=language_analyzer),
-                        titulo=TEXT(analyzer=language_analyzer), descripcion=TEXT(analyzer=language_analyzer),
-                        subject=TEXT(analyzer=language_analyzer), anyo=NUMERIC(), east=NUMERIC(stored=True), north=NUMERIC(stored=True),
-                        west=NUMERIC(stored=True), south=NUMERIC(stored=True))
+        schema = Schema(path=ID(stored=True), 
+                        autor=TEXT(analyzer=language_analyzer),
+                        director=TEXT(analyzer=language_analyzer), 
+                        departamento=TEXT(analyzer=language_analyzer),
+                        titulo=TEXT(analyzer=language_analyzer), 
+                        descripcion=TEXT(analyzer=language_analyzer),
+                        subject=TEXT(analyzer=language_analyzer), 
+                        anyo=NUMERIC())
         create_folder(index_folder)
         index = create_in(index_folder, schema)
         self.writer = index.writer()
@@ -38,11 +41,12 @@ class MyIndex:
     def index_docs(self,docs_folder):
         if (os.path.exists(docs_folder)):
             for file in sorted(os.listdir(docs_folder)):
-                #print(file) # Debug: print the file name being processed
                 if file.endswith('.xml'):
                     self.index_xml_doc(docs_folder, file)
                 elif file.endswith('.txt'):
                     self.index_txt_doc(docs_folder, file)
+        else:
+            print(f"{docs_folder} no encontrada")
         self.writer.commit()
 
     # No se utiliza, se podría eliminar
@@ -76,8 +80,7 @@ class MyIndex:
             directores += str(dir.text) + " "
 
         departamento_element = root.find('.//dc:publisher', namespaces)
-
-        title_element = root.find('.//dc:title', namespaces)
+        titulo_element = root.find('.//dc:title', namespaces)
         description_element = root.find('.//dc:description', namespaces)
 
         subject_element = root.findall('.//dc:subject', namespaces)
@@ -86,18 +89,6 @@ class MyIndex:
             subjects += str(subj.text) + " "
 
         anyo_element = root.find('.//dc:date', namespaces)
-
-        lower_corner_element = root.find('.//ows:LowerCorner', namespaces)
-        upper_corner_element = root.find('.//ows:UpperCorner', namespaces)
-
-        lower_lat, upper_lat, lower_lon, upper_lon = None, None, None, None
-
-        # Partimos las coordenadas y pasamos a float
-        if lower_corner_element is not None:
-            lower_lat, lower_lon = map(float, lower_corner_element.text.strip().split())
-
-        if upper_corner_element is not None:
-            upper_lat, upper_lon = map(float, upper_corner_element.text.strip().split())
 
 
         #raw_text = "".join(root.itertext())
@@ -110,11 +101,10 @@ class MyIndex:
                                  autor=autor_element.text if autor_element is not None else "",
                                  director=str(directores),
                                  departamento=departamento_element.text if departamento_element is not None else "",
-                                 titulo=title_element.text if title_element is not None else "",
+                                 titulo=titulo_element.text if titulo_element is not None else "",
                                  descripcion=description_element.text if description_element is not None else "",
                                  subject=str(subjects),
-                                 anyo=int(anyo_element.text) if anyo_element is not None else 0,
-                                 east=upper_lat, north=upper_lon, west=lower_lat, south=lower_lon)
+                                 anyo=int(anyo_element.text) if anyo_element is not None else 0)
 
 if __name__ == '__main__':
 
