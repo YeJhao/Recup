@@ -7,6 +7,7 @@ Usage: python search.py -index <indexPath> -infoNeeds <queryFile> -output <resul
 """
 
 import sys
+import xml.etree.ElementTree as ET
 
 from intersect import intersect
 from whoosh.qparser import QueryParser, MultifieldParser
@@ -26,7 +27,7 @@ class MySearcher:
         self.parser = MultifieldParser(["autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo", "east", "north", "west", "south"], schema=
                                        ix.schema, group = OrGroup)
 
-    def search(self, query_text, output_file, query_num, limit=100):
+    def search(self, query_text, output_file, limit=100):
         if query_text.strip().lower().startswith("spatial"):
             res = []
             res_score = []
@@ -123,17 +124,17 @@ if __name__ == '__main__':
     searcher = MySearcher(index_folder)
 
     if info_PATH:
+        tree = ET.parse(info_PATH)
+        root = tree.getroot()
         with open(info_PATH, 'r', encoding='utf-8') as f, open(output_PATH, 'w', encoding='utf-8') as out:
-            query_num = 1
-            for line in f:
-                query = line.strip()
-                
-                if(query):
-                    searcher.search(query, output_file=output_PATH, query_num=query_num)
-                    query_num += 1
-
+            for need in root.findall('informationNeed'):
+                identifier = need.find('identifier').text.strip()
+                text = need.find('text').text.strip()
+                results = searcher.search(text, output_file=output_PATH)
+                for doc_id, _ in results:
+                    out.write(f"{identifier}\t{doc_id}\n")
     else:
         query = input('Introduce a query (\'q\' for exit): ')
         while query != 'q':
-            searcher.search(query, output_file=output_PATH, query_num=1)
+            searcher.search(query, output_file=output_PATH)
             query = input('Introduce a query (\'q\' for exit): ')
