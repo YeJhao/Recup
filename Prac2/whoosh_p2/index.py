@@ -49,21 +49,8 @@ class MyIndex:
             print(f"{docs_folder} no encontrada")
         self.writer.commit()
 
-    # No se utiliza, se podría eliminar
-    def index_txt_doc(self, foldername,filename):
-        file_path = os.path.join(foldername, filename)
-        # print(file_path)
-        with open(file_path) as fp:
-            text = ' '.join(line for line in fp if line)
-            
-        # print(text)
-        
-        atime = datetime.fromtimestamp(os.path.getmtime(file_path))
-        self.writer.add_document(path=filename, content=text, stored=atime)
-
     def index_xml_doc(self, foldername, filename):
         file_path = os.path.join(foldername, filename)
-        # print(file_path)
         tree = ET.parse(file_path)
         root = tree.getroot()
         
@@ -89,13 +76,6 @@ class MyIndex:
             subjects += str(subj.text) + " "
 
         anyo_element = root.find('.//dc:date', namespaces)
-
-
-        #raw_text = "".join(root.itertext())
-        # break into lines and remove leading and trailing space on each
-        #text = ' '.join(line.strip() for line in raw_text.splitlines() if line)
-        # print(text)
-        # print(path_element.text, lower_lat, upper_lat, lower_lon, upper_lon)
         
         self.writer.add_document(path=path_element.text,
                                  autor=autor_element.text if autor_element is not None else "",
