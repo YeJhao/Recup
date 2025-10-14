@@ -24,7 +24,7 @@ class MySearcher:
             self.searcher = ix.searcher(weighting=scoring.TF_IDF())
         else:
             self.searcher = ix.searcher(weighting=scoring.BM25F())
-        self.parser = MultifieldParser(["autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo"], 
+        self.parser = MultifieldParser(["path", "autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo"], 
         schema=ix.schema, 
         group = OrGroup
         )
@@ -35,14 +35,14 @@ class MySearcher:
 
         aux = []
         for result in results:
-            aux.append((result["identifier"], result.score))
+            aux.append((result["path"], result.score))
         return aux
 
 
 if __name__ == '__main__':
     index_folder = '../whoosindex'
     info_PATH = None
-    output_PATH = '../resultados.txt'
+    output_PATH = '../equipo111.txt'
     i = 1
     while (i < len(sys.argv)):
         if sys.argv[i] == '-index':
