@@ -1,7 +1,7 @@
 """
 search.py
 Author: Jorge Pagan Saiz and Jiahao Ye
-Last update: 2025-09-28
+Last update: 2025-10-14
 
 Usage: python search.py -index <indexPath> -infoNeeds <queryFile> -output <resultFile>
 """

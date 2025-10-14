@@ -1,7 +1,7 @@
 """
 index.py
 Author: Jorge Pagan Saiz and Jiahao Ye
-Last update: 2025-09-29
+Last update: 2025-10-14
 
 Simple program to create an inverted index with the contents of text/xml files contained in a docs folder
 This program is based on the whoosh library. See https://pypi.org/project/Whoosh/ .

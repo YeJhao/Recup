@@ -1,7 +1,7 @@
 """
 analyzer.py
 Author: Jorge Pagan Saiz and Jiahao Ye
-Last update: 2025-09-28
+Last update: 2025-10-14
 
 Language analyzer para la práctica 1 de Recuperación de Información usando
 librerías Whoosh.
