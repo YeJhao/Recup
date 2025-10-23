@@ -102,5 +102,3 @@ if __name__ == '__main__':
 
     my_index = MyIndex(index_folder)
     my_index.index_docs(docs_folder)
-
-

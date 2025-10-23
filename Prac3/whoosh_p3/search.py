@@ -16,6 +16,7 @@ from whoosh.query import NumericRange
 from whoosh.query import And, Or
 from whoosh import scoring
 import whoosh.index as index
+import spacy
 
 class MySearcher:
     def __init__(self, index_folder, model_type = 'bm25'):
@@ -24,12 +25,45 @@ class MySearcher:
             self.searcher = ix.searcher(weighting=scoring.TF_IDF())
         else:
             self.searcher = ix.searcher(weighting=scoring.BM25F())
+
         self.parser = MultifieldParser(["path", "autor", "director", "departamento", "titulo", "descripcion", "subject", "anyo"], 
         schema=ix.schema, 
         group = OrGroup
         )
 
+        try:
+            nlp = spacy.load("es_core_news_sm")
+        except OSError:
+            print("Modelo spaCy 'es_core_news_sm' no encontrado")
+        
+    def preprocess(self, query_text):
+        doc = nlp(query_text)
+        # Esrtuctura para guardar cada tipo de entidad que distingue spacy
+        entities = {"PERSON": [], "ORG": [], "LOC": [], "GPE": [], "DATE": []}
+        for entity in doc.ents:
+            if entity.label_ in entities:
+                entities[entity.label_].append(entity.text)
+
+        # Subconsultas basadas en el tipo de entidad
+        subqueries = []
+        for p in entities["PERSON"]:
+            subqueries.append(f"autor:{p} OR director:{p}")
+        for o in entities["ORG"]:
+            subqueries.append(f"departamento:{o}")
+        for l in entities["LOC"] + entities["GPE"]:
+            subqueries.append(f"descripcion:{l} OR subject:{l}")
+        for d in entities["DATE"]:
+            subqueries.append(f"anyo:{d}")
+
+        # Combinación de las subconsultas
+        final_query_text = f"({query_text})" 
+        for q in subqueries:
+            final_query_text = final_query_text + f" OR ({q})"
+
+        return final_query_text
+
     def search(self, query_text, output_file, limit=100):
+        query_text = self.preprocess(query_text)
         query = self.parser.parse(query_text)
         results = self.searcher.search(query, limit=limit)
 
