@@ -8,6 +8,8 @@ Usage: python evaluation.py -qrels <qrelsFileName> -results <resultsFileName> -o
 
 import sys
 import numpy as np
+import matplotlib.pyplot as plt
+import matplotlib.cm as cm 
 
 def prec_at_k(k, results, qrels):
     docs_relev_recup = 0
@@ -78,6 +80,50 @@ def print_interpolated_rec_prec(rec_prec):
     
     return aux
 
+def generate_precision_recall_plot(total_inter_rec_prec):
+    """Genera y guarda el gráfico de precisión-exhaustividad"""
+    fig, ax = plt.subplots()
+
+    # Colores distintos para cada necesidad de información
+    colors = cm.tab10(np.linspace(0, 1, len(total_inter_rec_prec)))
+
+    # Curvas por necesidad de información
+    for i, (inter_rec_prec, color) in enumerate(zip(total_inter_rec_prec, colors)):
+        recalls = [rp[0] for rp in inter_rec_prec]
+        precisions = [rp[1] for rp in inter_rec_prec]
+        ax.plot(
+            recalls,
+            precisions,
+            color=color,
+            label=f'information need {i+1}',
+            linewidth=1.5
+        )
+
+    # Curva promedio (Total)
+    recalls_total = np.arange(0.0, 1.1, 0.1)
+    precisions_total = [np.mean([interp[i][1] for interp in total_inter_rec_prec]) for i in range(11)]
+    ax.plot(
+        recalls_total,
+        precisions_total,
+        color='black',
+        label='Total',
+        linewidth=2
+    )
+
+    # Configuración del gráfico
+    ax.set_xlabel('exhaustividad (recall)')
+    ax.set_ylabel('precisión')
+    ax.set_xlim(0, 1.0)
+    ax.set_xticks(np.arange(0.0, 1.1, 0.1))
+    ax.set_ylim(0, 1.05)
+    ax.set_yticks(np.arange(0.0, 1.3, 0.2))
+    ax.legend(loc='upper right')
+    ax.yaxis.grid(True, linestyle='-', alpha=0.6)
+
+    # Guardar y mostrar
+    plt.tight_layout()
+    plt.savefig('precision_recall_curve.png', dpi=300)
+    plt.show()
 
 if __name__ == '__main__':
     qrelsfile = None
@@ -201,6 +247,5 @@ if __name__ == '__main__':
         for i, valor in enumerate(np.arange(0.0, 1.1, 0.1)):
             prom = np.mean([interp[i][1] for interp in total_inter_rec_prec])
             f.write(f"{valor:.3f}\t{prom:.3f}\n")
-            
 
-
+    #generate_precision_recall_plot(total_inter_rec_prec)  # Descomenta para generar el gráfico
