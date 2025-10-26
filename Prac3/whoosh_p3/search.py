@@ -42,7 +42,7 @@ class MySearcher:
         entities = {"PERSON": [], "ORG": [], "LOC": [], "GPE": [], "DATE": []}
         for entity in doc.ents:
             if entity.label_ in entities:
-                entities[entity.label_].append(entity.text)
+                entities[entity.label_].append(entity.text.strip())
 
         # Subconsultas basadas en el tipo de entidad
         subqueries = []
@@ -56,9 +56,12 @@ class MySearcher:
             subqueries.append(f"anyo:{d}")
 
         # Combinación de las subconsultas
-        final_query_text = f"({query_text})" 
-        for q in subqueries:
-            final_query_text = final_query_text + f" OR ({q})"
+        if not subqueries:
+            return query_text  #Devolver la consulta original si no se reconoce ninguna entidad
+        else:
+            final_query_text = f"({subqueries[0]})"
+            for q in subqueries[1:]:
+                final_query_text = final_query_text + f" OR ({q})"
 
         return final_query_text
 
