@@ -88,6 +88,8 @@ if __name__ == '__main__':
     
     data_df["categoria"] = data_df.apply(xml_loader.asignar_categoria, axis=1)
     
+    data_df = data_df[data_df['categoria'] != "Otros"]
+
     columnas_resultado = ["title", "description", "categoria"]
 
     data_df[columnas_resultado].to_csv(output_file, index=False)

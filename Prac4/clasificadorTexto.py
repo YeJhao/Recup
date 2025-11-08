@@ -15,6 +15,8 @@ from commonFunctions import set_random_seed, Sequential, Adam, Dense, Embedding,
 class MyClassifier:
     def __init__(self, pandas):
         self.data = pandas
+        
+        # Definimos las categorías y sus palabras clave asociadas
         self.categorias = {
             'Ciencia': ['fisica', 'quimica', 'biologia', 'ciencia', 'investigacion', 'laboratorio'],
             'Ingenieria': ['informatica', 'electronica', 'mecanica', 'ingenieria', 'tecnologia', 'robotica', 'compilacion'],
