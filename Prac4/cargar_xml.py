@@ -10,6 +10,7 @@ import os
 import sys
 import pandas as pd
 from tqdm import tqdm
+from sklearn.model_selection import train_test_split
 
 class XMLLoader:
     def __init__(self):
@@ -67,16 +68,18 @@ class XMLLoader:
 if __name__ == '__main__':
     # Valores por defecto
     xml_folder = '../recordsdc'
-    output_file = './xml_data.csv'
+    output_dir = './xml_data.csv'
     i = 1
     while i < len(sys.argv):
         if sys.argv[i] == '-dir':
             xml_folder = sys.argv[i + 1]
             i = i + 1
         elif sys.argv[i] == '-output':
-            output_file = sys.argv[i + 1]
+            output_dir = sys.argv[i + 1]
             i = i + 1
         i = i + 1
+    
+    os.makedirs(output_dir, exist_ok=True)
 
     xml_loader = XMLLoader()
     data_df = xml_loader.load_xmls(xml_folder)
@@ -86,10 +89,14 @@ if __name__ == '__main__':
         if col not in data_df.columns:
             data_df[col] = ""
     
-    data_df["categoria"] = data_df.apply(xml_loader.asignar_categoria, axis=1)
+    data_df["category"] = data_df.apply(xml_loader.asignar_categoria, axis=1)
     
-    data_df = data_df[data_df['categoria'] != "Otros"]
+    data_df = data_df[data_df['category'] != "Otros"]
 
-    columnas_resultado = ["title", "description", "categoria"]
+    # Dividir en entrenamiento y test
+    train_df, test_df = train_test_split(data_df, test_size=0.2, random_state=42, stratify=data_df["Category"])
 
-    data_df[columnas_resultado].to_csv(output_file, index=False)
+    columnas_resultado = ["title", "description", "category"]
+
+    train_df.to_csv(os.path.join(output_dir, "zaguan_train.csv"), index=False)
+    test_df.to_csv(os.path.join(output_dir, "zaguan_test.csv"), index=False)
