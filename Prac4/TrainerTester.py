@@ -61,7 +61,7 @@ def trainerTester(model, data, epochs, dir_name, categories):
     plt.title('Evolución de la precisión')
     plt.legend()
     plt.tight_layout()
-    plt.savefig(os.path.join(dir_path, 'error.jpg'))
+    plt.savefig(os.path.join(dir_path, 'accuracy.jpg'))
     plt.close()
 
     print(f"[i] Final accuracy: {accuracy:.4f}")

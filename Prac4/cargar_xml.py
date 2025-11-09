@@ -68,7 +68,7 @@ class XMLLoader:
 if __name__ == '__main__':
     # Valores por defecto
     xml_folder = '../recordsdc'
-    output_dir = './xml_data.csv'
+    output_dir = './xml_data'
     i = 1
     while i < len(sys.argv):
         if sys.argv[i] == '-dir':
@@ -94,9 +94,9 @@ if __name__ == '__main__':
     data_df = data_df[data_df['category'] != "Otros"]
 
     # Dividir en entrenamiento y test
-    train_df, test_df = train_test_split(data_df, test_size=0.2, random_state=42, stratify=data_df["Category"])
+    train_df, test_df = train_test_split(data_df, test_size=0.2, random_state=42, stratify=data_df["category"])
 
     columnas_resultado = ["title", "description", "category"]
 
-    train_df.to_csv(os.path.join(output_dir, "zaguan_train.csv"), index=False)
-    test_df.to_csv(os.path.join(output_dir, "zaguan_test.csv"), index=False)
+    train_df[columnas_resultado].to_csv(os.path.join(output_dir, "zaguan_train.csv"), index=False)
+    test_df[columnas_resultado].to_csv(os.path.join(output_dir, "zaguan_test.csv"), index=False)
