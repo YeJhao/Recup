@@ -1,0 +1,79 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix zaguan:   <http://zaguan.unizar.es/ontologia#> .
+
+
+#=========================== Clases =================================
+#====================================================================
+zaguan:documento a rdfs:Class .
+zaguan:persona  a rdfs:Class .
+zaguan:Tema     a rdfs:Class .
+zaguan:Entidad  a rdfs:Class .
+zaguan:tesis    a rdfs:Class ; rdfs:subClassOf zaguan:documento .
+zaguan:PFC      a rdfs:Class ; rdfs:subClassOf zaguan:documento .
+zaguan:TFG      a rdfs:Class ; rdfs:subClassOf zaguan:documento .
+zaguan:TFM      a rdfs:Class ; rdfs:subClassOf zaguan:documento .
+
+#==================== Propiedades documento =========================
+#====================================================================
+zaguan:title a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range rdfs:Literal .
+
+zaguan:date a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range xsd:date .
+
+zaguan:description a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range rdfs:Literal .
+
+zaguan:language a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range rdfs:Literal .
+
+zaguan:rights a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range rdfs:Literal .
+
+zaguan:relation a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range rdfs:Literal .
+
+zaguan:subject a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range zaguan:Tema .
+
+zaguan:publisher a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range zaguan:Entidad .
+
+#======================= Propiedades persona ========================
+#====================================================================
+zaguan:author a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range zaguan:persona .
+
+zaguan:contributor a rdf:Property ;
+    rdfs:domain zaguan:documento ;
+    rdfs:range zaguan:persona .
+
+zaguan:nombrePersona a rdf:Property ;
+    rdfs:subPropertyOf zaguan:author ;
+    rdfs:domain zaguan:persona ;
+    rdfs:range rdfs:Literal .
+
+#======================= Propiedades tema ===========================
+#====================================================================
+zaguan:nombreTema a rdf:Property ;
+    rdfs:subPropertyOf zaguan:subject ;
+    rdfs:domain zaguan:Tema ;
+    rdfs:range rdfs:Literal .
+
+#======================= Propiedades entidad ========================
+#====================================================================
+zaguan:nombreEntidad a rdf:Property ;
+    rdfs:subPropertyOf zaguan:publisher ;
+    rdfs:domain zaguan:Entidad ;
+    rdfs:range rdfs:Literal .

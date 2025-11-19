@@ -1,106 +1,109 @@
 """
-    SemanticGenerator.py
-    Genera un grafo RDF/Turtle a partir de una colección XML (Zaguán Unizar)
-    Uso:
-    python SemanticGenerator.py -rdf salida.ttl -docs ./coleccion/
+semantic_generator.py
+
+Generador de datos RDF/Turtle basados en Zaguan
+
+Usa: python SemanticGenerator.py -rdf coleccion.ttl -docs carpeta_xml
 """
 
-import os
-import argparse
-from rdflib import Graph, URIRef, Literal, Namespace
-from rdflib.namespace import RDF, RDFS, DC
-import xml.etree.ElementTree as ET
+from rdflib import Graph, Namespace, Literal, URIRef, BNode
+from rdflib.namespace import RDF, RDFS, XSD, FOAF
+import uuid
+import datetime
+import random
 
-# Namespaces
-ZAG = Namespace("http://zaguan.unizar.es/schema#")
-BASE = Namespace("http://zaguan.unizar.es/resource/")
+# namespaces
+ZAGUAN = Namespace("http://zaguan.unizar.es/ontologia#")
+ZAG = Namespace("http://example.org/zaguan/")
+# Prefijos
+PREFIXES = {
+    "zaguan": ZAGUAN,
+    "zag": ZAG,
+    "rdf": RDF,
+    "rdfs": RDFS,
+    "xsd": XSD,
+    "foaf": FOAF
+}
 
+# Generador de URIs únicas
+def new_uri(prefix="zag", kind="resource"):
+    uid = str(uuid.uuid4())
+    return ZAG[f"{kind}/{uid}"]
 
-def parse_zaguan_xml(file_path, model):
-    tree = ET.parse(file_path)
-    root = tree.getroot()
+# Creación de clases
+def createPersona(g: Graph, name: str, id: str):
+    person_uri = URIRef(new_uri(kind="persona"))
+    g.add((person_uri, RDF.type, ZAGUAN.persona))
+    g.add((person_uri, ZAGUAN.nombrePersona, Literal(name, datatype=XSD.string)))
+    g.add((person_uri, FOAF.page, URIRef(id)))
+    return person_uri
 
-    ids = [el.text for el in root.findall(".//{http://purl.org/dc/elements/1.1/}identifier")]
-    if not ids:
-        return
-    doc_uri = URIRef(ids[0])
-    model.add((doc_uri, RDF.type, ZAG.Tesis))
+def createTema(g: Graph, nombre: str):
+    tema_uri = URIRef(new_uri(kind="tema"))
+    g.add((tema_uri, RDF.type, ZAGUAN.Tema))
+    g.add((tema_uri, ZAGUAN.nombreTema, Literal(nombre, datatype=XSD.string)))
+    return tema_uri
 
-    # Campos de texto
-    mappings = {
-        "title": ZAG.titulo,
-        "description": ZAG.descripcion,
-        "date": ZAG.fechaPublicacion,
-        "language": ZAG.lengua,
-        "type": ZAG.tipoDocumento,
-        "rights": ZAG.derechos
-    }
+def createEntidad(g: Graph, nombre: str):
+    entidad_uri = URIRef(new_uri(kind="entidad"))
+    g.add((entidad_uri, RDF.type, ZAGUAN.Entidad))
+    g.add((entidad_uri, ZAGUAN.nombreEntidad, Literal(nombre, datatype=XSD.string)))
+    return entidad_uri
 
-    for tag, prop in mappings.items():
-        for el in root.findall(f".//{{http://purl.org/dc/elements/1.1/}}{tag}"):
-            if el.text:
-                model.add((doc_uri, prop, Literal(el.text.strip())))
+def createDocumento(
+    g: Graph,
+    title: str,
+    date: datetime.date,
+    description: str = None,
+    language: str = "es",
+    rights: str = None,
+    relation: str = None,
+    subject_tema_uri: URIRef = None,
+    publisher_entidad_uri: URIRef = None,
+    authors: list = None,
+    contributors: list = None,
+):
+    doc_uri = URIRef(new_uri(kind="documento"))
+    g.add((doc_uri, RDF.type, ZAGUAN.documento))
+    g.add((doc_uri, ZAGUAN.title, Literal(title, datatype=XSD.string)))
+    g.add((doc_uri, ZAGUAN.date, Literal(date.isoformat(), datatype=XSD.date)))
+    if description:
+        g.add((doc_uri, ZAGUAN.description, Literal(description, datatype=XSD.string)))
+    if language:
+        g.add((doc_uri, ZAGUAN.language, Literal(language, datatype=XSD.string)))
+    if rights:
+        g.add((doc_uri, ZAGUAN.rights, Literal(rights, datatype=XSD.string)))
+    if relation:
+        g.add((doc_uri, ZAGUAN.relation, Literal(relation, datatype=XSD.string)))
+    if subject_tema_uri:
+        g.add((doc_uri, ZAGUAN.subject, subject_tema_uri))
+    if publisher_entidad_uri:
+        g.add((doc_uri, ZAGUAN.publisher, publisher_entidad_uri))
+    if authors:
+        for a in authors:
+            g.add((doc_uri, ZAGUAN.author, a))
+    if contributors:
+        for c in contributors:
+            g.add((doc_uri, ZAGUAN.contributor, c))
+    return doc_uri
 
-    # Autor
-    for el in root.findall(".//{http://purl.org/dc/elements/1.1/}creator"):
-        if el.text:
-            autor_uri = URIRef(BASE + "autor/" + el.text.replace(" ", "_"))
-            model.add((autor_uri, RDF.type, ZAG.Autor))
-            model.add((autor_uri, ZAG.nombre, Literal(el.text)))
-            model.add((doc_uri, ZAG.autor, autor_uri))
-
-    # Colaboradores
-    for el in root.findall(".//{http://purl.org/dc/elements/1.1/}contributor"):
-        if el.text:
-            col_uri = URIRef(BASE + "colaborador/" + el.text.replace(" ", "_"))
-            model.add((col_uri, RDF.type, ZAG.Colaborador))
-            model.add((col_uri, ZAG.nombre, Literal(el.text)))
-            model.add((doc_uri, ZAG.colaborador, col_uri))
-
-    # Temas
-    for el in root.findall(".//{http://purl.org/dc/elements/1.1/}subject"):
-        if el.text:
-            model.add((doc_uri, ZAG.tema, Literal(el.text.strip())))
-
-    # Publisher
-    for el in root.findall(".//{http://purl.org/dc/elements/1.1/}publisher"):
-        if el.text:
-            inst_uri = URIRef(BASE + "inst/" + el.text.replace(" ", "_"))
-            model.add((inst_uri, RDF.type, ZAG.Institucion))
-            model.add((inst_uri, ZAG.nombre, Literal(el.text)))
-            model.add((doc_uri, ZAG.editor, inst_uri))
-
-    # Relaciones
-    for el in root.findall(".//{http://purl.org/dc/elements/1.1/}relation"):
-        if el.text:
-            model.add((doc_uri, ZAG.relacion, URIRef(el.text.strip())))
-
-def main():
-    parser = argparse.ArgumentParser(description="Generador semántico para la colección Zaguán-Unizar")
-    parser.add_argument("-rdf", required=True, help="Ruta del archivo de salida RDF/Turtle")
-    parser.add_argument("-docs", required=True, help="Ruta del directorio con los XML de entrada")
-    args = parser.parse_args()
-
-    docs_path = args.docs
-    rdf_path = args.rdf
-
-    # Crear grafo y enlazar namespaces
+# Inicialización del grafo
+def createGraph():
     g = Graph()
-    g.bind("zag", ZAG)
-    g.bind("dc", DC)
-    g.bind("rdfs", RDFS)
+    # bind de prefijos
+    for pfx, ns in PREFIXES.items():
+        g.bind(pfx, ns)
+    # Declaraciones de clases y propiedades
+    g.add((ZAGUAN.documento, RDF.type, RDFS.Class))
+    g.add((ZAGUAN.persona, RDF.type, RDFS.Class))
+    g.add((ZAGUAN.Tema, RDF.type, RDFS.Class))
+    g.add((ZAGUAN.Entidad, RDF.type, RDFS.Class))
+    # Declaración de propiedades
+    for prop in ("title", "date", "description", "language", "rights", "relation", "subject", "publisher", "author", "contributor", "nombrePersona", "nombreTema", "nombreEntidad"):
+        g.add((ZAGUAN[prop], RDF.type, RDF.Property))
+    return g
 
-    # Recorrer todos los XML del directorio
-    for filename in os.listdir(docs_path):
-        if filename.lower().endswith(".xml"):
-            file_path = os.path.join(docs_path, filename)
-            print(f"Procesando: {file_path}")
-            parse_zaguan_xml(file_path, g)
+def main()
 
-    # Guardar el grafo resultante
-    g.serialize(destination=rdf_path, format="turtle")
-    print(f"\n✅ Grafo RDF generado correctamente en: {rdf_path}")
-
-# ------------------------------------------------------
 if __name__ == "__main__":
     main()
