@@ -88,8 +88,9 @@ def createDocumento(
     return doc_uri
 
 # Inicialización del grafo
-def createGraph():
+def createGraph(schema_path):
     g = Graph()
+    g.parse(schema_path, format="turtle")#para importar el esquema creo
     # bind de prefijos
     for pfx, ns in PREFIXES.items():
         g.bind(pfx, ns)
@@ -103,7 +104,9 @@ def createGraph():
         g.add((ZAGUAN[prop], RDF.type, RDF.Property))
     return g
 
-def main()
+def main():
+    createGraph("esquema.ttl")
+    
 
 if __name__ == "__main__":
     main()
