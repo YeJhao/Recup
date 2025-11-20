@@ -60,20 +60,17 @@ zaguan:contributor a rdf:Property ;
     rdfs:range zaguan:persona .
 
 zaguan:nombrePersona a rdf:Property ;
-    rdfs:subPropertyOf zaguan:author ;
     rdfs:domain zaguan:persona ;
     rdfs:range rdfs:Literal .
 
 #======================= Propiedades tema ===========================
 #====================================================================
 zaguan:nombreTema a rdf:Property ;
-    rdfs:subPropertyOf zaguan:subject ;
     rdfs:domain zaguan:Tema ;
     rdfs:range rdfs:Literal .
 
 #======================= Propiedades entidad ========================
 #====================================================================
 zaguan:nombreEntidad a rdf:Property ;
-    rdfs:subPropertyOf zaguan:publisher ;
     rdfs:domain zaguan:Entidad ;
     rdfs:range rdfs:Literal .
