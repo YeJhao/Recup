@@ -196,7 +196,7 @@ def createGraph(input_path, output_path, schema_path="esquema.ttl"):
         # Guardar el grafo en formato Turtle
         os.makedirs(output_path, exist_ok=True)
 
-        g.serialize(destination=os.path.join(output_path, "rdfGraph.ttl"), format="turtle")
+        g.serialize(destination=os.path.join(output_path, "coleccion.ttl"), format="turtle")
     else:
         print(f"{input_path} no encontrada") 
 
