@@ -23,7 +23,7 @@ zaguan:title a rdf:Property ;
 
 zaguan:date a rdf:Property ;
     rdfs:domain zaguan:documento ;
-    rdfs:range xsd:date .
+    rdfs:range xsd:gYear .
 
 zaguan:description a rdf:Property ;
     rdfs:domain zaguan:documento ;

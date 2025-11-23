@@ -1,0 +1,81 @@
+## Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0
+
+@prefix :        <#> .
+@prefix fuseki:  <http://jena.apache.org/fuseki#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix tdb2:    <http://jena.apache.org/2016/tdb#> .
+@prefix text:    <http://jena.apache.org/text#> .
+@prefix zaguan:  <http://zaguan.unizar.es/ontologia#> .
+
+[] rdf:type fuseki:Server ;
+   fuseki:services (
+     :service
+   ) .
+
+:service rdf:type fuseki:Service ;
+    fuseki:name "datasetExample" ;
+    fuseki:endpoint [ 
+        fuseki:operation fuseki:query ;
+        fuseki:name "sparql" 
+    ];
+    fuseki:endpoint [
+        fuseki:operation fuseki:query ;
+        fuseki:name "query" 
+    ] ;
+    fuseki:endpoint [
+        fuseki:operation fuseki:update ;
+        fuseki:name "update"
+    ] ;
+    fuseki:endpoint [
+        fuseki:operation fuseki:gsp-r ;
+        fuseki:name "get"
+    ] ;
+    fuseki:endpoint [ 
+        fuseki:operation fuseki:gsp-rw ; 
+        fuseki:name "data"
+    ] ; 
+    fuseki:endpoint [ 
+        fuseki:operation fuseki:patch ;
+        fuseki:name "patch"
+    ] ; 
+    fuseki:dataset :text_dataset ;
+    .
+
+:text_dataset rdf:type     text:TextDataset ;
+    text:dataset   :base_dataset ;
+    text:index     :indexLucene ;
+    .
+
+:base_dataset rdf:type      tdb2:DatasetTDB ;
+    tdb2:location "/fuseki/databases/datasetFuseki/TDB2"
+    .
+
+:indexLucene a text:TextIndexLucene ;
+    # File location of index
+    text:directory "/fuseki/databases/datasetFuseki/Lucene" ;
+    text:entityMap :entMap ;
+    .
+
+:entMap a text:EntityMap ;
+    text:entityField "uri" ;
+    text:uidField "uid" ;
+    text:defaultField "title description subject publisher";
+    text:map (
+        [ text:field "title" ; text:predicate zaguan:title ]
+        [ text:field "identifier" ; text:predicate zaguan:identifier ]
+        [ text:field "author" ; text:predicate zaguan:nombrePersona ]
+        [ text:field "contributor" ; text:predicate zaguan:contributor ]
+        [ text:field "description" ; text:predicate zaguan:description ]
+        [ text:field "subject" ; text:predicate zaguan:subject ]
+        [ text:field "publisher" ; text:predicate zaguan:publisher ]
+        [ text:field "rights" ; text:predicate zaguan:rights ]
+        [ text:field "relation" ; text:predicate zaguan:relation ]
+        [ text:field "language" ; text:predicate zaguan:language ]
+        [ text:field "date" ; text:predicate zaguan:date ]
+        [ text:field "type" ; text:predicate rdf.type ]
+        )
+    .
+
