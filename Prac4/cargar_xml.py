@@ -16,12 +16,11 @@ class XMLLoader:
     def __init__(self):
         # Definimos las categorías y sus palabras clave asociadas
         self.categorias = {
-            'Ciencia': ['fisica', 'quimica', 'biologia', 'ciencia', 'investigacion', 'laboratorio'],
-            'Ingenieria': ['informatica', 'electronica', 'mecanica', 'ingenieria', 'tecnologia', 'robotica', 'compilacion'],
-            'Matematicas': ['algebra', 'geometria', 'calculo', 'matematicas', 'estadistica', 'probabilidad'], 
-            'Artes': ['musica', 'pintura', 'escultura', 'arte', 'dibujo', 'teatro'], 
-            'Humanidades' : ['historia', 'filosofia', 'literatura', 'cultura', 'idiomas'], 
-            'Salud' : ['medicina', 'enfermeria', 'salud', 'hospital', 'clinica', 'fisioterapia'],
+            'Ciencias': ['Fisica', 'Quimica', 'Biologia', 'Matemáticas', 'Geologia']
+            'Ingenieria': ['Informatica', 'Eléctrica' 'Electronica', 'Mecanica', 'Telecomunicaciones'], 'Industrial',
+            'Ciencias de la salud': ['Medicina', 'Enfermeria', 'Fisioterapia', 'Psicologia', 'Veterinaria'], 
+            'Artes y Humanidades': ['Bellas Artes', 'Filosofia', 'Historia', 'Lenguas Modernas'],
+            'Sociales' : ['Deporte', 'Derecho', 'Economia', 'ADE', 'Empresa'] 
         }
     
     def load_xmls(self,xml_folder):
@@ -91,7 +90,7 @@ if __name__ == '__main__':
     
     data_df["category"] = data_df.apply(xml_loader.asignar_categoria, axis=1)
     
-    data_df = data_df[data_df['category'] != "Otros"]
+    data_df = data_df[data_df['category'].notna()]
 
     # Dividir en entrenamiento y test
     train_df, test_df = train_test_split(data_df, test_size=0.2, random_state=42, stratify=data_df["category"])
