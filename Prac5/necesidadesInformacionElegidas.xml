@@ -2,8 +2,8 @@
 <informationNeeds>
     <!-- 
     Necesidad de información 101-4:
-    Buscar TFGs o TFMs relacionados con animación o visión por computador
-    escritos en español y publicados desde 2005 en adelante. 
+    TFGs o TFMs relacionados con animación o visión por computador
+    escritos en español y publicados en los últimos 20 años. 
     -->
     <informationNeed>
         <identifier>101-4</identifier>
@@ -25,7 +25,7 @@
     </informationNeed>
     <!--
     Necesidad 106-4:
-    Trabajos relacionados con veterinaria y gatos o perros,
+    Trabajos veterinarios relacionados con especies felinas o caninas,
     publicados entre 2012 y 2018
     -->
     <informationNeed>
@@ -47,9 +47,9 @@
     </informationNeed>
     <!--
     Necesidad 206-4:
-    Documentos cuyo autor o contribuidor contenga López
-    publicados por la entidad Informática
-    y que sean TFG o TFM
+    Documentos cuyo autor o contribuidor sea de la familia López
+    publicados por el departamento de Informática
+    y TFG o TFM
     -->
     <informationNeed>
         <identifier>206-4</identifier>
@@ -75,8 +75,8 @@
     </informationNeed>
     <!--
     Necesidad 209-2:
-    Buscar documentos cuyo texto incluya las palabras
-    "arte" y "aragonés", publicados antes de 1900
+    Documentos que traten sobre arte aragones
+    que no traten temas posteriores al siglo XIX
     -->
     <informationNeed>
         <identifier>209-2</identifier>
@@ -97,7 +97,7 @@
     </informationNeed>
     <!--
     Necesidad 305-4:
-    Consultas textuales complejas sobre medicina y algoritmia
+    Documento que traten algoritmos de búsqueda ene entornos relacionados con la medicina
     -->
     <informationNeed>
         <identifier>305-4</identifier>
