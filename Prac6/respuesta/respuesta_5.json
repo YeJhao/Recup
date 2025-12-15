@@ -1,7 +1,7 @@
 {
   "responseHeader": {
     "status": 0,
-    "QTime": 22,
+    "QTime": 5,
     "params": {
       "q": "content:((informátic* “algoritmo* de búsqueda”) AND (medicina síntoma* paciente* \"cadena* de proteina*\"))",
       "indent": "true",
