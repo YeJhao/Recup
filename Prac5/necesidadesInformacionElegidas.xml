@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <informationNeeds>
+    <!-- 
+    Necesidad de información 101-4:
+    TFGs o TFMs relacionados con animación o visión por computador
+    escritos en español y publicados en los últimos 20 años. 
+    -->
     <informationNeed>
         <identifier>101-4</identifier>
         <text>
@@ -7,18 +12,22 @@
             PREFIX text: <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-            SELECT ?doc
+            SELECT DISTINCT ?doc
             WHERE {
-                ?doc text:query ("animación OR 'visión por computador') .
+                ?doc text:query "animación OR 'visión por computador'" .
                 ?doc zaguan:language "spa" .
                 ?doc zaguan:date ?date .
-                ?doc rdf:type ?type .
                 FILTER (?date >= "2005"^^xsd:gYear && 
                     (?type = zaguan:TFG || ?type = zaguan:TFM))
             }
             LIMIT 100
         </text>
     </informationNeed>
+    <!--
+    Necesidad 106-4:
+    Trabajos veterinarios relacionados con especies felinas o caninas,
+    publicados entre 2012 y 2018
+    -->
     <informationNeed>
         <identifier>106-4</identifier>
         <text>
@@ -26,36 +35,49 @@
             PREFIX text: <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-            SELECT ?doc
+            SELECT DISTINCT ?doc
             WHERE {
-                ?doc text:query ("veterinaria") .
-                ?doc text:query ("gato OR perro") .
+                ?doc text:query "veterinaria" .
+                ?doc text:query "gato OR perro" .
                 ?doc zaguan:date ?date .
                 FILTER (?date >= "2012"^^xsd:gYear && ?date <= "2018"^^xsd:gYear)
             }
             LIMIT 100
         </text>
     </informationNeed>
+    <!--
+    Necesidad 206-4:
+    Documentos cuyo autor o contribuidor sea de la familia López
+    publicados por el departamento de Informática
+    y TFG o TFM
+    -->
     <informationNeed>
         <identifier>206-4</identifier>
         <text>
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
             PREFIX text: <http://jena.apache.org/text#>
 
-            SELECT ?doc
+            SELECT DISTINCT ?doc
             WHERE {
                 {
-                    ?doc text:query ("López" "author") .
+                    ?doc text:query "López AND author" .
                 } UNION {
-                    ?doc text:query ("López" "contributor") .
+                    ?doc text:query "López AND contributor" .
                 }
-                ?doc zaguan:publisher "Informática" .
+                ?doc zaguan:publisher ?ent .
+                ?ent zaguan:nombreEntidad "Informática" .
+
                 ?doc rdf:type ?type .
                 FILTER (?type = zaguan:TFG || ?type = zaguan:TFM)
             }
             LIMIT 100
         </text>
     </informationNeed>
+    <!--
+    Necesidad 209-2:
+    Documentos que traten sobre arte aragones
+    que no traten temas posteriores al siglo XIX
+    -->
     <informationNeed>
         <identifier>209-2</identifier>
         <text>
@@ -63,16 +85,20 @@
             PREFIX text: <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-            SELECT ?doc
+            SELECT DISTINCT ?doc
             WHERE {
-                ?doc text:query ("arte") .
-                ?doc text:query ("aragonés") .
+                ?doc text:query "arte" .
+                ?doc text:query "aragonés" .
                 ?doc zaguan:date ?date .
                 FILTER (?date <= "1899"^^xsd:gYear)
             }
             LIMIT 100
         </text>
     </informationNeed>
+    <!--
+    Necesidad 305-4:
+    Documento que traten algoritmos de búsqueda ene entornos relacionados con la medicina
+    -->
     <informationNeed>
         <identifier>305-4</identifier>
         <text>
@@ -81,7 +107,7 @@
 
             SELECT ?doc
             WHERE {
-                ?doc text:query ("algoritmos de búsqueda AND (medicina OR proteinas OR síntomas OR pacientes)") .
+                ?doc text:query "algoritmos de búsqueda AND (medicina OR proteinas OR síntomas OR pacientes)" .
             }
             LIMIT 100
         </text>
