@@ -1,0 +1,546 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 21,
+    "params": {
+      "q": "content:((TFG TFM PFC) AND arte AND arag*n* AND -(XX XXI))",
+      "indent": "true",
+      "q.op": "OR",
+      "rows": "100",
+      "wt": "json",
+      "useParams": ""
+    }
+  },
+  "response": {
+    "numFound": 25,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "tstamp": [
+          "2025-12-03T10:49:30.759Z"
+        ],
+        "digest": [
+          "d57782a7b4d8e05f9face1348fa16bd2"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000020972182],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47033.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47033.xml"
+        ],
+        "content": [
+          "Ibáñez Fernández, Javier Piazuelo Rodríguez, Ismael 2015 La Catedral de Jaca es un monumento románico de capital importancia a nivel aragonés, español y europeo que fue construido en distintas etapas y, aunque el comienzo de las obras tuvo lugar en la segunda mitad del siglo XI, el templo ha ido evolucionando hasta la Edad Contemporánea hasta adquirir el aspecto que tiene hoy. Está profusamente decorada escultóricamente tanto en el tímpano, como en los capiteles como en otras zonas del edificio con motivos tanto religiosos como políticos, vegetales, animales, mitológicos o de origen todavía desconocido; algunos parecen agruparse en torno a un mismo programa mientras que otros son independientes. Tanto su arquitectura como su decoración responden a unos usos litúrgicos que ha ido evolucionando a lo largo de los años. http://zaguan.unizar.es/record/47033 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/47033/files/TAZ-TFM-2015-1003.pdf http://zaguan.unizar.es/record/47033/files/TAZ-TFM-2015-1003_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Estudios Avanzados en Historia del Arte El arte románico de la Catedral de Jaca TAZ-TFM\n"
+        ],
+        "_version_": 1.8504981570912256e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47033.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:22:29.948Z"
+        ],
+        "digest": [
+          "ba6242fd1eeb01a3241d2a72cdde9563"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0009487969],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria11/oai_zaguan.unizar.es_12810.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria11/oai_zaguan.unizar.es_12810.xml"
+        ],
+        "content": [
+          "BIEL IBÁÑEZ, MARÍA PILAR BASSO ROS, MERCEDES GÓMEZ JORDANA, BEATRIZ ROSA 2013 Este proyecto analiza la situación de la presencia en España de la asociación internacional Slow Food a través de sus 25 asociaciones locales, y traza estrategias para movilizarla, cohesionarla, promoverla y poner en evidencia el importante y cualificado papel que puede y quiere jugar en la salvaguardia del patrimonio alimentario en riesgo en España, y especialmente en Aragón. Dentro del contexto de las nuevas políticas culturales y de protección del patrimonio inmaterial, en una situación de crisis, tanto interna de la propia asociación como externa por la crítica situación socioeconómica actual, propone acciones que permitan superar las dificultades y salir reforzada, para enfrentar los próximos años en los que el alimento va a condicionar cada vez más el futuro de los individuos, de las comunidades y de los países. Del mundo, en suma. http://zaguan.unizar.es/record/12810 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/12810/files/TAZ-TFM-2013-1063_ANE.pdf http://zaguan.unizar.es/record/12810/files/TAZ-TFM-2013-1063.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ slow food españa aragón patrimonio inmaterial alimentos gastronomía tradición oficios biodiversidad Máster Universitario en Gestión del Patrimonio Cultural LA ASOCIACIÓN SLOW FOOD COMO AGENTE PARA LA SALVAGUARDA DEL PATRIMONIO CULTURAL ALIMENTARIO EN RIESGO EN ESPAÑA TAZ-TFM\n"
+        ],
+        "_version_": 1.850483343206908e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria11/oai_zaguan.unizar.es_12810.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:42:07.665Z"
+        ],
+        "digest": [
+          "7dbd1f820b90290dcbab0d576524a07e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58601.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58601.xml"
+        ],
+        "content": [
+          "Hernández Martínez, Ascensión Gracia Beltrán, Juan Antonio 2016 Los procesos de restauración son una magnífica oportunidad para redescubrir los bienes sobre los que se interviene, en nuestro caso, tendremos ocasión de constatarlo tomando como modelo las iglesias de Santa Tecla en Cervera de la Cañada, Santa María en Tobed, y San Félix en Torralba de Ribota, representativos ejemplos del mudéjar aragonés y objeto de importantes restauraciones, en éste último caso a falta de realizarse de manera integral. Con el uso de nuestros dispositivos móviles, teléfonos inteligentes o tabletas, a través de la tecnología de Códigos QR, tendremos acceso al corpus fotográfico que se genera en estos procesos, y forma parte de las Memorias y Proyectos de restauración, a los que debemos sumar imágenes de archivos, estudios y monografías, que en ocasiones éstos también incluyen. A partir de todo el material fotográfico con el que contamos, se ha realizado una selección y elaborado una serie de propuestas para cada una de las iglesias, en función de diferentes criterios. El visitante podrá acceder a toda esta información, alojada en una página web diseñada para este fin, de una manera casi instantánea, permitiéndole conocer entre otros ejemplos los estados de conservación previos a la intervención, procesos de consolidación, limpieza o reintegración, imágenes comparativas…, además de reconocer estos mismos espacios a través de la mirada especial de las imágenes antiguas. http://zaguan.unizar.es/record/58601 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/58601/files/TAZ-TFM-2016-1141.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Gestión del Patrimonio Cultural La restauración como oportunidad para redescubrir el arte mudéjar aragonés TAZ-TFM The restoration as an opportunity to rediscover mudejar aragonese art\n"
+        ],
+        "_version_": 1.8504981574152356e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58601.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:23:49.780Z"
+        ],
+        "digest": [
+          "6997436f0768ff7cd8c9a9ddad06bc5b"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00038435866],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88690.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88690.xml"
+        ],
+        "content": [
+          "Hernández Martínez, Ascensión Aladrén Pérez, Adrián 2019 Este proyecto trata de poner en valor a través de la musealización y la gestión unos afloramientos geológicos localizados en la Cordillera Ibérica y ubicados en las inmediaciones del municipio de Moscardón (Teruel). Estos afloramientos ilustran una plataforma carbonatada con desarrollo de grandes biohermos silíceos de edad jurásica (165 millones de años aproximadamente). A través de la puesta en valor de este patrimonio geológico, se pretende vertebrar el territorio de la comarca Sierra de Albarracín con estrategias como la instalación de paneles, mesas informativas y con algunas otras más innovadoras, como la edición de guías de campo, talleres divulgativos, conferencias (en las que intervendrán prestigiosos investigadores) y mediante la celebración de concursos en redes sociales. De esta manera convertiremos la roca en historia y Moscardón en el escenario dónde este patrimonio cobra vida, también pretendemos darlo a conocer en toda la región aragonesa y cuyo objetivo final será que se conozca en toda España.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/88690 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/88690/files/TAZ-TFM-2019-1196.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Gestión del Patrimonio Cultural Puesta en valor y gestión de los afloramientos del Bajociense (Jurásico medio) de Moscardón (Teruel). TAZ-TFM Put in value and management of outcrops of the Bajocian (Middle Jurassic) of Moscardón (Teruel).\n"
+        ],
+        "_version_": 1.8504833390178468e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88690.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:29:23.823Z"
+        ],
+        "digest": [
+          "66ec63732622ca972d7757932fd4a3f6"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00040929252],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95135.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95135.xml"
+        ],
+        "content": [
+          "Lomba Serrano, Concepción Mombiela Díaz, María Irene 2020 El proyecto que vamos a plantear en esta memoria, y que se desarrolla dentro del TFM de GPC de la Universidad de Zaragoza, gira en torno a la figura y obra del escultor aragonés Manuel Arcón (Graus, Huesca, 1928- Zaragoza, 2018). Tras su fallecimiento consideramos oportuno plantear una acción cultural necesaria para que no quede en el olvido una de las figuras de origen aragonés que han dedicado toda su vida a la escultura y cuyo reconocimiento consideramos necesario. Este proyecto, en lo que se refiere a la celebración del homenaje, viene respaldado por otros escultores y artistas como son Alberto GÓMEZ ASCASO, Luis HINOJOSA GALINDO y Alfonso VAL ORTEGO, quienes al conocer la propuesta, que pretendo llevar a cabo, se ofrecieron para participar en el homenaje.\u003Cbr /\u003ELa propuesta en la que trabajamos formará parte de las actividades culturales que cada verano se desarrollan en Graus, localidad donde nació el artista y que han manifestado interés para que así sea. Pero desde principio de este año, cuando comenzó a trabajar en el desarrollo del proyecto, hasta la fecha han sucedido algunos acontecimientos que han desvirtuado la actividad que hemos diseñado. Nos hemos encontrado con una serie de restricciones de movilidad, debidas al estado de alarma sanitaria originadas por la pandemia COVID19, que nos ha impedido trabajar interprovincialmente hasta este mes de junio.\u003Cbr /\u003EDentro de la propuesta que presentamos destacaré la organización de una exposición audiovisual de su producción escultórica, acompañada de obras de escultores que lo conocieron (y cuya invitación a participar ya ha sido enviada) y que en este homenaje propiciarían con sus esculturas un acompañamiento a “el maestro” desaparecido y un diálogo necesario entre diferentes generaciones de artistas. Por las características de la exposición, titulada “Patios de Arte”, creo que es propicio plantear el evento este año ya que la muestra está previsto ubicarla en espacios abiertos, con capacidad de público reducida y que invita al paseo tranquilo. En lo que se refiere a la acogida del evento expositivo, este año se espera gran afluencia de visitantes, tanto de turistas como de quienes tienen su segunda residencia en Graus y que, debido a la incertidumbre de viajar a destinos vacacionales fuera de la península, consideramos que se verá incrementada su afluencia dentro de la comunidad aragonesa.\u003Cbr /\u003EEntre las propuestas que componen el programa que presentamos más adelante, está el compromiso ya cerrado para la instalación de un retrato en escultura que realizará el escultor Alberto Gómez Ascaso, discípulo de Arcón, y que se inauguraría el día en el que se presentan las actividades vinculadas a la conmemoración del escultor. Su ubicación será en la plaza Compañía, delante del espacio Pirineos en el que un día expusiera Manuel, con otros escultores de la Ribagorza. Con una proyección de la obras del artista sobre las fachadas de la plaza mayor, un lugar especial donde el evento toma cuerpo y el particular mundo del artista creador se aprecia en las imágenes-luz proyectadas acompañadas por la música Gymnopédies de Erik Satie como fondo y unas palabras del alcalde de Graus.\u003Cbr /\u003EEste acto esperamos que tenga continuidad en otras manifestaciones artísticas que se realizarán en un futuro próximo en la ciudad de Zaragoza y en Graus (Huesca) donde las Escuelas de arte y Asociaciones de artistas aragoneses tienen un papel fundamental y que con el nombre del escultor podrán programar jornadas en torno a la escultura aragonesa, junto a la participación de la Universidad de Zaragoza, donde los especialistas pueden aportar a la sociedad una parte del conocimiento que junto a los artistas emergentes y contemporáneos será generadora de sinergias para motivar con estas iniciativas una exposición posterior de las esculturas de Manuel Arcón, mediando su familia, para acceder al Espacio Pirineos de Graus. \u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/95135 spa Universidad de Zaragoza http://zaguan.unizar.es/record/95135/files/TAZ-TFM-2020-294.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Gestión del Patrimonio Cultural Patios de arte, en memoria de Manuel Arcón. TAZ-TFM Patios de arte, in memory of Manuel Arcón.\n"
+        ],
+        "_version_": 1.8504833467416576e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95135.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:41:26.722Z"
+        ],
+        "digest": [
+          "5538bd495abfb6356b40520de99ce14c"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000020972182],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47339.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47339.xml"
+        ],
+        "content": [
+          "Hernández Martínez, Ascensión Urgel Masip, Asunción Montes Pastor, Nieves 2015 La ermita de Nuestra Señora de los Bañales se encuentra en la comunidad autónoma de Aragón, dentro de la comarca de las Cinco Villas, muy cerca de Uncastillo. Los primeros vestigios de ella datan del siglo XVI, aunque sufrió una gran remodelación durante el siglo XVIII, pocas informaciones han llegado hasta nuestros días sobre ella fruto de las escasas investigaciones que se han centrado en el inmueble, a pesar de ser un Santuario dedicado a una Virgen, que goza de mucha devoción en varias localidades vecinas, pero no solo posee valor etnográfico sino artístico, paisajístico y social, de manera que merece tener un plan de actuación e intervención que garantice su puesta en valor. http://zaguan.unizar.es/record/47339 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/47339/files/TAZ-TFG-2015-3023.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte La ermita de Nuestra Señora de Los Bañales (Uncastillo, Aragón). Informe histórico-artístico. TAZ-TFG\n"
+        ],
+        "_version_": 1.850498149965103e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47339.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:17:51.848Z"
+        ],
+        "digest": [
+          "11dd12726ddec94ac24fc91f33ecb345"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85491.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85491.xml"
+        ],
+        "content": [
+          "Juan García, Natalia Gállego Banderas, Alba 2019 El presente Trabajo Fin de Grado, que lleva por título Pintar sin miedo: La obra gráfica de Alberto Carrera Blecua, tiene como principal propósito inventariar y poner en contexto la obra gráfica de este artista plástico contemporáneo con fin de proporcionar herramientas suficientes para el estudio exhaustivo de su trayectoria profesional. Se profundiza en su obra gráfica, en la que encontramos tanto inmensos bocetos de los que partió para ejecutar sus principales series como obras que versan sobre sus miedos, inquietudes y pensamientos. Asimismo, trazamos las líneas generales sobre la situación plástica contemporánea aragonesa para establecer relaciones e influencias con sus trabajos.\u003Cbr /\u003E http://zaguan.unizar.es/record/85491 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/85491/files/TAZ-TFG-2019-2055.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte Pintar sin miedo: La obra gráfica de Alberto Carrera Blecua. TAZ-TFG Paint without fear: Alberto Carrera Blecua's graphic work.\n"
+        ],
+        "_version_": 1.85048333646037e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85491.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:47:23.497Z"
+        ],
+        "digest": [
+          "2571c72df549cfb021dc1433100432a3"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000020972182],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47344.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47344.xml"
+        ],
+        "content": [
+          "Criado Mainar, Jesús Gracia Melero, Sandra 2015 Este Trabajo Fin de Grado (TFG) tiene como objetivo la realización del estudio histórico-artístico y del proceso de restauración de una pintura sobre lienzo de San Antonio Abad perteneciente a la iglesia de la Asunción de Nuestra Señora de Pozuelo de Aragón (Zaragoza). Esta obra, fechada en 1563 y firmada por un artista apellidado Espinosa, ha escondido desde el momento de su ejecución una segunda pieza sacada a la luz durante su reciente restauración: el indicador horario de un antiguo reloj mecánico del siglo XV procedente del Monasterio de Santa María de Veruela. Como complemento de las investigaciones concernientes a este hallazgo, que han dado lugar a la publicación en fecha reciente (2015) de una monografía dedicada al reloj bajomedieval, aquí nos ocuparemos del estudio de la pintura sobre lienzo renacentista. http://zaguan.unizar.es/record/47344 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/47344/files/TAZ-TFG-2015-3014.pdf http://zaguan.unizar.es/record/47344/files/TAZ-TFG-2015-3014_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El lienzo de San Antonio Abad de la iglesia de la Asunción de Nuestra Señora de Pozuelo de Aragón TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981499692974e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47344.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:27:47.056Z"
+        ],
+        "digest": [
+          "0d5414daf976031b507b159f428be673"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76427.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76427.xml"
+        ],
+        "content": [
+          "Carretero Calvo, Rebeca Zarza Pallazhco, Isaí 2018 En este trabajo presentamos las manifestaciones artísticas desarrolladas en el contexto inmediatamente posterior a la celebración del Concilio de Trento (1545-1563), vinculadas con el sacramento de la Eucaristía en Aragón. De esta manera, analizaremos los óculos expositores, tipología ya existente en la Baja Edad Media pero continuada en los albores de la Edad Moderna, los tabernáculos incluidos en los retablos mayores, y las capillas sacramentales y trasagrarios, espacios reservados para la adoración de la Eucaristía. Asimismo, dedicamos un epígrafe específico a la importancia concedida a este sacramento por la Orden Cartujana deteniéndonos en el caso de la cartuja de Aula Dei de Zaragoza. http://zaguan.unizar.es/record/76427 spa Universidad de Zaragoza; Departamento de Historia del Arte http://zaguan.unizar.es/record/76427/files/TAZ-TFG-2018-4280.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El sacramento de la Eucaristía en el arte aragonés desde el Concilio de Trento hasta finales del Setecientos TAZ-TFG The sacrament of the Eucharist in Aragonese art since the Council of Trent until the end of the 18th century\n"
+        ],
+        "_version_": 1.850483334763774e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76427.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:37:18.174Z"
+        ],
+        "digest": [
+          "d5d2f4dd427fe758f5bd3d93d9a2d040"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76413.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76413.xml"
+        ],
+        "content": [
+          "Arce Oliva, Ernesto Trallero Moreno, Esther 2018 El Convento del Desierto de Calanda (Teruel) es un convento barroco de grandes dimensiones perteneciente a la Orden de los Carmelitas Descalzos. Ubicado en un entorno privilegiado de agrestes y bellos paisajes, está formado por iglesia, claustro y dependencias conventuales. Testigo directo de la historia bajoaragonesa, ha sufrido varios incendios y graves destrucciones en contiendas bélicas, además de expolio y vandalismo. Estos hechos, sumados a la desidia y el abandono, han hecho que se encuentre en un estado de ruina y de grave riesgo pese a tratarse de un Bien Catalogado y contar con protección legal, por lo que es necesario poner de manifiesto la necesidad de actuar para su salvaguarda con un plan de conservación y protección. http://zaguan.unizar.es/record/76413 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/76413/files/TAZ-TFG-2018-4304.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El Convento del Desierto de Calanda (Teruel, Aragón). Informe histórico-artístico. TAZ-TFG The Convent of the Desert of Calanda (Teruel, Aragón). Historical-artistic report.\n"
+        ],
+        "_version_": 1.850483344430596e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76413.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:49:56.008Z"
+        ],
+        "digest": [
+          "e50cf594eed421a953d5b198f5691f93"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000020972182],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47347.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47347.xml"
+        ],
+        "content": [
+          "Lozano López, Juan Carlos Valle Ortigas, Ignacio 2015 Sos del Rey Católico es un municipio de la comarca de las Cinco Villas con un riquísimo patrimonio histórico y cultural. Fue cuna del rey Fernando II de Aragón y una plaza fuerte entre los reinos de Navarra y Aragón. Su pasado le ha llevado a estar siempre en boca de historiadores y en los objetivos de muchos fotógrafos, generándose así un amplio material fotográfico que nos permite conocer cómo ha evolucionado la villa con el paso del tiempo. Estos documentos gráficos son el mejor testimonio del pasado, con su estudio se puede realizar una historia fotográfica de las restauraciones que se han sucedido en las últimas décadas con la intención de devolverle a esta localidad el aspecto más aproximado al que tendría en la época de Fernando el Católico. http://zaguan.unizar.es/record/47347 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/47347/files/TAZ-TFG-2015-3005.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte La fotografía como fuente documental para el estudio y conocimiento del patrimonio de Sos del Rey Católico (Zaragoza) TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981571237315e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47347.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:22:30.464Z"
+        ],
+        "digest": [
+          "21d1062be2e673f1ad3aa52f62d8d19a"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56911.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56911.xml"
+        ],
+        "content": [
+          "Juan García, Natalia Campo Marco, Lara 2016 El presente trabajo se propone el análisis histórico, patrimonial y cinematográfico de cuatro localizaciones fundamentales de la película La Novia, de Paula Ortiz. Todas ellas están ubicadas en Aragón: el monasterio de Casbas, el conjunto románico de El Bayo, la finca Paridera Baja de El Temple y el almacén La Sulfúrica, en la salada de Mediana de Aragón. Aragón ha ofrecido siempre abundantes escenarios y recursos para el rodaje de películas, aumentando el interés por nuestro patrimonio y enclaves como escenario cinematográfico. En el caso de La Novia, estas localizaciones destacan no solo por su valor histórico-artístico, sino por el papel fundamental que juegan en la película: su análisis permitirá el estudio de aspectos cinematográficos de La Novia, una de las mejores adaptaciones de Bodas de sangre, de Federico García Lorca. http://zaguan.unizar.es/record/56911 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/56911/files/TAZ-TFG-2016-3277_ANE.pdf http://zaguan.unizar.es/record/56911/files/TAZ-TFG-2016-3277.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte Patrimonio y Cine: \"La Novia\", de Paula Ortiz TAZ-TFG Patrimony and Cinema: \"The Bride\", by Paula Ortiz\n"
+        ],
+        "_version_": 1.850483343530918e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56911.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:09:22.276Z"
+        ],
+        "digest": [
+          "6961fdefecdfd82c6b9fa40a50f0b13e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62729.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62729.xml"
+        ],
+        "content": [
+          "Criado Mainar, Jesús Chamorro Callejo, Mª Pilar 2017 El Trabajo de Fin de Grado El Románico lombardo en Aragón aborda el estudio del tipo de construcciones, tanto religiosas como militares, que durante el siglo XI se levantaron en diferentes puntos de Aragón (Ribagorza, Sobrarbe, Santa Cruz de la Serós y Loarre) por constructores de procedencia lombarda, identificados en la documentación aragonesa como magistri comacini. http://zaguan.unizar.es/record/62729 spa Universidad de Zaragoza; Departamento de Historia del Arte http://zaguan.unizar.es/record/62729/files/TAZ-TFG-2017-1569.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El románico lombardo en Aragón TAZ-TFG The Lombard romanesque in Aragon\n"
+        ],
+        "_version_": 1.850483344319447e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62729.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:17:50.576Z"
+        ],
+        "digest": [
+          "6d6436a811bc601a8652b844fd2c71f1"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85519.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85519.xml"
+        ],
+        "content": [
+          "Vázquez Astorga, Mónica Díaz Castillo, Jorge Nelson 2019 En este Trabajo se estudia el Rincón de Goya de Zaragoza, que fue construido por el arquitecto Fernando García Mercadal (Zaragoza, 1896-Madrid, 1985) en el parque José Antonio Labordeta entre 1926 y 1928. Su proyecto responde al encargo del Ayuntamiento de esta ciudad con motivo de la celebración del primer centenario del fallecimiento de Francisco de Goya y Lucientes (Fuendetodos, 1746-Burdeos, 1828). Este profesional concibió un conjunto arquitectónico con funciones de museo, biblioteca y sala de exposiciones y conferencias (destinándose finalmente a otros usos). En su resolución constructiva, García Mercadal apostó por la modernidad, poniendo de manifiesto su deuda con la arquitectura europea. De hecho, este edificio es considerado por la historiografía como uno de los primeros testimonios de la arquitectura moderna realizada en nuestro país y en Aragón.\u003Cbr /\u003E http://zaguan.unizar.es/record/85519 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/85519/files/TAZ-TFG-2019-1990_ANE.pdf http://zaguan.unizar.es/record/85519/files/TAZ-TFG-2019-1990.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El arquitecto Fernando García Mercadal (1896-1985) y el Rincón de Goya de Zaragoza (1926-1928). TAZ-TFG The architect Fernando García Mercadal (1896-1985) and the Rincón de Goya of Zaragoza (1926-1928).\n"
+        ],
+        "_version_": 1.8504833449307668e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85519.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:30:12.340Z"
+        ],
+        "digest": [
+          "00b48070488a42cd317ddb37c0c98ab1"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00040929252],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95240.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95240.xml"
+        ],
+        "content": [
+          "Escanilla Martín, Alicia Mallada Perales, Sheila 2020 En este Trabajo de Fin de Grado el principal objetivo que tiene es facilitar el proceso de enseñanza-aprendizaje de la Historia mediante la Historia del Arte, proponiendo una propuesta metodológica dirigida a 5º de Educación Primaria, la cual consiste en impartir contenidos de la Edad Media a partir de unos instrumentos que utilizan los historiadores en sus investigaciones para conocer el pasado, las fuentes artísticas. Estableciendo los puntos de explicación teniendo de referencia el currículo de Aragón, analizando las fuentes, enseñándoles una de las partes fundamentales del método histórico y explicando qué contenidos históricos pueden interiorizar nuestros alumnos mediante ellas. Explicando la importancia de la Historia en el ámbito educativo y la relación de interdependencia que existe entre la Historia y la Historia del Arte.\u003Cbr /\u003E http://zaguan.unizar.es/record/95240 spa Universidad de Zaragoza; Departamento de Didáctica de las Lenguas y de las Ciencias Humanas y Sociales; Área de Didáctica de las Ciencias Sociales http://zaguan.unizar.es/record/95240/files/TAZ-TFG-2020-2722.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Primaria La Historia del Arte en Primaria como herramienta para facilitar el proceso de enseñanza-aprendizaje de la Historia TAZ-TFG The History of Art in Primary as a tool to facilitate the teaching-learning process of History\n"
+        ],
+        "_version_": 1.850483340028674e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95240.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:28:41.826Z"
+        ],
+        "digest": [
+          "80818b2bdca9477f849c05feff4e64b8"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56906.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56906.xml"
+        ],
+        "content": [
+          "Ibáñez Fernández, Javier Lorente Sebastián, Paloma 2016 Los humanistas y anticuarios ponían toda su atención en los descubrimientos de Roma hasta el siglo XVI cuando un nuevo fenómeno se extendió por Europa, la recuperación de la Antigüedad vernácula. El interés se fijó en los restos arqueológicos que salían a la luz en ambientes locales. Los dirigentes y aristócratas se apropiaron de la simbología de estas piezas para, de ese modo, identificarse con un pasado glorioso que reafirmara su prestigio. Asimismo, los artistas retomaron modelos y formas a partir de los hallazgos arqueológicos locales. En este contexto destacó en Aragón la figura de Gaspar Galcerán, conde de Guimerá (1584-1638). Se trataba de un erudito aragonés que se interesó por recuperar, valorar y estudiar los vestigios que afloraban en su entorno. Gracias a su labor, plasmada en multitud de manuscritos, en la actualidad se puede tener noticia de piezas ya desaparecidas o del estado original de monumentos dañados con el tiempo. http://zaguan.unizar.es/record/56906 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/56906/files/TAZ-TFG-2016-3293.pdf http://zaguan.unizar.es/record/56906/files/TAZ-TFG-2016-3293_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte La recuperación de la Antigüedad vernácula en Aragón en el siglo XVII a través de la figura del conde de Guimerá TAZ-TFG The recovery of the vernacular Antiquity in Aragón in the 17th century through the figure of Count of Guimerá\n"
+        ],
+        "_version_": 1.8504833435298693e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56906.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:34:55.061Z"
+        ],
+        "digest": [
+          "59052e165fc595edb07f659b6fc339ef"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56989.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56989.xml"
+        ],
+        "content": [
+          "Arce Oliva, Ernesto Rojo Pueyo, Sofía 2016 El retablo expositor es una modalidad de retablo de gran éxito en Aragón desde su aparición en el retablo mayor de la Seo de Zaragoza a finales del siglo XV, alcanzando su momento de esplendor en el transcurso del siglo siguiente. Retablos expositores presiden algunos de los templos aragoneses más importantes, como la Catedral-Basílica del Pilar, la Catedral del Salvador de Zaragoza o la Catedral de Barbastro, pero también templos de menor entidad, como la iglesia parroquial de Santa María de Tauste. Prestando especial atención a estos cuatro ejemplares, el trabajo analiza la presencia y la función eucarística del óculo expositor en Aragón a partir de la aún escasa bibliografía que proporciona alguna información o consideración de interés sobre el tema. De momento no está claro si la incorporación del óculo se debe a un privilegio otorgado por el Papa Luna a los templos aragoneses o simplemente a una moda, que, vinculada a un uso litúrgico, servía para la custodia y devoción del Santísimo. Se formalizó así una novedad unida a una capilla-sagrario oculta tras el altar que con el paso del tiempo cayó en desuso, quedando hoy el óculo como simple testimonio del antiguo ceremonial eucarístico aragonés salvo en retablos y oratorios del Opus Dei. http://zaguan.unizar.es/record/56989 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/56989/files/TAZ-TFG-2016-2963.pdf http://zaguan.unizar.es/record/56989/files/TAZ-TFG-2016-2963_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El Retablo Expositor en Aragón: desde Gótico Final al Romanismo. TAZ-TFG The exhibitor altarpiece in Aragon: since the Final Gothic to Romanism.\n"
+        ],
+        "_version_": 1.8504833330441093e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56989.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:43:29.139Z"
+        ],
+        "digest": [
+          "e41072575c30407751a1e5933c54e9a7"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000020972182],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47257.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47257.xml"
+        ],
+        "content": [
+          "Poblador Muga, María Pilar Artero Muñoz, Juan Pablo Blasco Quílez, Jéssica 2015 La apertura del Centro de Arte y Tecnología de Zaragoza, Etopia, en 2013 supuso el fomento de nuevos contenidos y eventos basados en el arte de nuevos medios: una corriente de actuación reciente para la ciudad que fusiona la interdisciplinariedad de las manifestaciones culturales ya conocidas con el manejo de ordenadores y de procesadores informáticos. Asimismo, la prensa aragonesa juega un papel imprescindible en el enfoque y difusión de este tipo de informaciones. Por todo ello, este estudio busca analizar de manera cuantitativa y cualitativa el impacto que las webs de Heraldo de Aragón, El Periódico de Aragón y Aragón Digital brindan de las actividades de Etopia. De esta manera, se puede observar que al principio, la prensa digital aragonesa dio una gran difusión a los eventos celebrados en el centro a finales de 2013, pero luego, la cobertura de las actividades desarrolladas en los dos años siguientes se redujo significativamente. http://zaguan.unizar.es/record/47257 spa Universidad de Zaragoza; Departamento de Lingüística General e Hispánica; Área de Periodismo http://zaguan.unizar.es/record/47257/files/TAZ-TFG-2015-4144_ANE.pdf http://zaguan.unizar.es/record/47257/files/TAZ-TFG-2015-4144.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Periodismo Impacto de las actividades artísticas de Etopia en la prensa digital aragonesa TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981571132457e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_47257.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:48:26.765Z"
+        ],
+        "digest": [
+          "33837ad24319c96702b59c866e197dde"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58210.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58210.xml"
+        ],
+        "content": [
+          "Pelegrín Campo, Julián Fran Herrero, Adrián 2016 El arte mudéjar es uno de los máximos exponentes artísticos que poseemos en la comunidad autónoma de Aragón y por lo tanto la legislación educativa vigente (LOMCE), debe tener este hecho presente y dedicarle un espacio acorde a la educación primaria, con especial hincapié en las posibles modificaciones curriculares que como gobierno autonómico puede realizar. En este documento presento una investigación descriptiva que puede dar paso a una futura analítica, en la que muestro si existen o no, carencias educativas en los alumnos de quinto y sexto de educación primaria en cuanto a los conocimientos del patrimonio mudéjar. Así mismo revisaremos los recursos didácticos, como por ejemplo los libros de texto y recientes propuestas didácticas. Se han facilitado unas encuestas, tanto de conocimientos académicos sobre características del arte mudéjar como de interés propio del investigador, a alumnos de quinto y sexto de primaria y a ocho maestros que imparten el área de ciencias sociales en diferentes colegios de la comarca del Bajo Aragón. Del análisis de los resultados de dicha investigación se han obtenido una serie de conclusiones de la actual situación de la didáctica del patrimonio sobre el mudéjar y se aportan finalmente unas recomendaciones. http://zaguan.unizar.es/record/58210 spa Universidad de Zaragoza; Departamento de Didáctica de las Lenguas y de las Ciencias Humanas y Sociales; Área de Didáctica de las Ciencias Sociales http://zaguan.unizar.es/record/58210/files/TAZ-TFG-2016-3467.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Maestro Educación Primaria Didáctica del Patrimonio: el mudéjar aragonés TAZ-TFG Teaching heritage: the aragonese mudejar\n"
+        ],
+        "_version_": 1.850498157399507e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58210.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:37:40.756Z"
+        ],
+        "digest": [
+          "89cbd877faea868b9aa38755162ca215"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00040929252],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_94631.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_94631.xml"
+        ],
+        "content": [
+          "Castán Chocarro, Alberto Pérez Vela, David 2020 El siguiente trabajo versa sobre la ornamentación simbólica en la casa tradicional del Pirineo central. La intención ha sido mostrar en su contexto este tipo de decoración, las razones que motivan su aparición y la relación que tienen con el hombre y con el medio.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/94631 spa Universidad de Zaragoza http://zaguan.unizar.es/record/94631/files/TAZ-TFG-2020-2481.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte Simbología en la arquitectura popular en el Pirineo aragonés. TAZ-TFG Symbology in popular architecture in the Aragonese Pyrenees.\n"
+        ],
+        "_version_": 1.8504833465980027e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_94631.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:18:05.073Z"
+        ],
+        "digest": [
+          "80c8c9ba4eb89d5e20c71fa36da3c588"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00038435866],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_87330.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_87330.xml"
+        ],
+        "content": [
+          "Gracia Villa, Luis Milián Fuentes, José Manuel 2019 El objeto de este Trabajo Fin de Grado es el de diseñar y analizar estructuralmente una pasarela peatonal de tablero suspendido y piso de forjado colaborante. \u003Cbr /\u003ELas pasarelas peatonales son un elemento cada vez más común en nuestras ciudades y vías de comunicación, pero la gran mayoría de ellas poseen un diseño más funcional que arquitectónico. Por ello, al diseñar esta pasarela se ha tenido en cuenta otorgarle un valor añadido a su diseño. El diseño de la pasarela es un homenaje a un arte tan presente e importante en Aragón como es el arte mudéjar, colocando en la parte central de la misma una estrella mudéjar. \u003Cbr /\u003EEn cuanto al cálculo estructural, se han dimensionado los diferentes perfiles metálicos de la estructura para que soportaran las tensiones y las deformaciones máximas calculadas con los parámetros e indicaciones que aparecen en el Código Técnico. \u003Cbr /\u003EUna vez se consiguió la estructura definitiva, se analizó su comportamiento en relación a un incremento de temperatura, en relación a su estabilidad y a como le afectan los diferentes modos de vibración. \u003Cbr /\u003ELos programas informáticos utilizados han sido SolidWorks para el diseño y DLUBAL RFEM para el cálculo estructural y los análisis de temperatura, estabilidad y vibración. \u003Cbr /\u003EUna vez analizados todos los resultados, se han realizado los planos de la pasarela. \u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/87330 spa Universidad de Zaragoza; Departamento de Ingeniería Mecánica; Área de Mec. de Medios Contínuos y Teor. de Estructuras http://zaguan.unizar.es/record/87330/files/TAZ-TFG-2019-4517_ANE.pdf http://zaguan.unizar.es/record/87330/files/TAZ-TFG-2019-4517.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Mecánica Diseño y análisis estructural de una pasarela peatonal de tablero suspendido y piso de forjado colaborante TAZ-TFG Design and structural analysis of pedestrian footbridge of suspended board and floor of forged collaborating\n"
+        ],
+        "_version_": 1.8504833376022692e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_87330.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:20:48.439Z"
+        ],
+        "digest": [
+          "ffd10c731453fe6b2389156fb0a6285e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85339.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85339.xml"
+        ],
+        "content": [
+          "Hernando Sebastián, Pedro Luis Suñer García,Jaime 2019 En el trabajo de Fin de Grado “Los prioratos de San Juan de la Peña anexionados durante el siglo XI” se han elaborado una serie de comentarios histórico-artísticos acerca de los vestigios de ocho de los monasterios más importantes que durante el siglo XI, y en el contexto de la formación del Reino de Aragón, se anexionaron a la órbita de San Juan de la Peña, prestando especial atención a la iglesia de Santa María de Iguácel.\u003Cbr /\u003E http://zaguan.unizar.es/record/85339 spa Universidad de Zaragoza http://zaguan.unizar.es/record/85339/files/TAZ-TFG-2019-2176_ANE.pdf http://zaguan.unizar.es/record/85339/files/TAZ-TFG-2019-2176.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte Los prioratos de San Juan de la Peña anexionados durante el siglo XI. TAZ-TFG The priorates of San Juan de la Peña annexed during the XIth century.\n"
+        ],
+        "_version_": 1.8504833449097953e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85339.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:17:20.786Z"
+        ],
+        "digest": [
+          "8cebf693ac96e38436cc1d76028dd778"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00038435866],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88838.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88838.xml"
+        ],
+        "content": [
+          "Castán Chocarro, Alberto Ferrández González, Yania 2019 José Luís Pomarón fue un dibujante, pintor, fotógrafo, director, productor de cine y, además, inventor, que ocupa un puesto significativo en la historia del cine aragonés. En el apartado de su biografía se hace un recorrido por su vida y se contextualiza la época con el auge de los cineclubs y el cine amateur, del que Pomarón es uno de los más importantes directores aragoneses, así como de las tertulias, que suponían unos lugares de encuentro favorables a la expresión de ideas en un momento duro de la posguerra y la dictadura de Franco en que la censura estaba omnipresente. Se analizan sus películas desde un punto de vista temático y técnico. Asimismo, se señala la presencia de su actividad plástica, la pintura, en su cine.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/88838 spa Universidad de Zaragoza http://zaguan.unizar.es/record/88838/files/TAZ-TFG-2019-4290.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte José Luís Pomarón, un artista versátil. Acerca de su pintura, su fotografía y su cine. TAZ-TFG José Luís Pomarón, a versatile artist. About his painting, photography and cinema.\n"
+        ],
+        "_version_": 1.8504833391940076e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88838.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:18:04.087Z"
+        ],
+        "digest": [
+          "de83b0d32fc1261a1ac8192cc50a1d4a"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00038435866],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88831.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88831.xml"
+        ],
+        "content": [
+          "Hernández Martínez, Ascensión Asso Tobajas, Ángela 2019 ¿Por qué la destrucción de edificios es un problema recurrente en nuestro país? ¿Por qué la sociedad carece de un interés real hacia su entorno construido y por ende hacia la arquitectura histórica? La falta de disposición en proteger, cuidar y mantener nuestros edificios y en definitiva nuestro patrimonio, se ha visto favorecida en numerosas ocasiones por motivos externos que destruyen nuestra historia. Estas causas, de diversas índoles, se traducen en pobreza cultural, lo que conlleva la emigración de obras al extranjero o su fatal destrucción. Sin embargo, la recuperación del Patio de la Infanta, ofrece a la capital aragonesa la oportunidad de redimirse del constante desprecio de sus bienes y recuperar así, años de ricas manifestaciones artísticas realizadas por las diferentes culturas que forjaron Zaragoza y de las que la casa Zaporta fue partícipe. \u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/88831 spa Universidad de Zaragoza http://zaguan.unizar.es/record/88831/files/TAZ-TFG-2019-4307.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte Recuperación y puesta en valor de una obra ''emigrada'': el Patio de la Infanta. TAZ-TFG Recovery and enhancement of an ''emigrated'' piece: Infanta's Playground.\n"
+        ],
+        "_version_": 1.8504833457171988e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_88831.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:24:14.849Z"
+        ],
+        "digest": [
+          "463179260eabc011758e789cd59760c7"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61028.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61028.xml"
+        ],
+        "content": [
+          "María Jesús Lapeña Marcos Martín Miedes, Fernando 2017 A lo largo del presente trabajo se va a abordar el estudio de los conceptos de seguridad y privacidad contemplados en la LOPD (Ley Orgánica de Protección de Datos) centrándonos sobre todo en el ámbito informático. Analizaremos las leyes y normas en materia de seguridad de la información, privacidad y derecho a la intimidad. Revisaremos el estado del arte tanto en España como fuera de ella y consideraremos aspectos como el uso de contraseñas y control de accesos a la hora de acceder a la información, copias de seguridad..., teniendo en cuenta los distintos niveles de criticidad de la información. Una vez presentado el marco teórico, aplicaremos todo lo estudiado a un caso práctico. Se realizará una auditoria a una empresa y al Servicio Aragonés de Salud, con el objetivo de analizar el grado de cumplimiento de la Ley Orgánica de Protección de Datos. El objetivo de dichas auditorias será detectar posibles fallos de seguridad o incumplimiento de la ley y proponer acciones de mejora. Se revisaran guías de adaptación de la LOPD y diseñaremos un cuestionario para el análisis. Finalizaremos con las conclusiones derivadas del trabajo realizado. http://zaguan.unizar.es/record/61028 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas http://zaguan.unizar.es/record/61028/files/TAZ-TFG-2017-288.pdf http://zaguan.unizar.es/record/61028/files/TAZ-TFG-2017-288_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Marketing e Investigación de Mercados Seguridad y Privacidad en el uso de las TIC en Marketing TAZ-TFG Security and privacy in the use of ICT in Marketing\n"
+        ],
+        "_version_": 1.8504833333471478e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61028.xml"
+      }
+    ]
+  }
+}

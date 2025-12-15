@@ -1,0 +1,651 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 6,
+    "params": {
+      "q": "content:((TFG TFM) AND (\"visión por computador\" animación) AND [20050101 TO 20260101] AND spa)",
+      "indent": "true",
+      "q.op": "OR",
+      "rows": "100",
+      "wt": "json",
+      "useParams": ""
+    }
+  },
+  "response": {
+    "numFound": 30,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "tstamp": [
+          "2025-12-03T10:09:35.462Z"
+        ],
+        "digest": [
+          "5ff839b678d670730988a283176b06e9"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00038435866],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_87302.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_87302.xml"
+        ],
+        "content": [
+          "Guerrero Campo, José Jesús Bermúdez Cameo, Jesús Berenguel Baeta, Samuel Bruno 2019 La motivación de este proyecto es la necesidad de bases de imágenes omnidireccionales y panorámicas para visión por computador. Su elevado campo de visión permite obtener una gran cantidad de información del entorno a partir de una única imagen. Sin embargo, la distorsión propia de estas imágenes requiere desarrollar algoritmos específicos para su tratamiento e interpretación. Además, un elevado número de imágenes es imprescindible para el correcto entrenamiento de algoritmos de visión por computador basados en aprendizaje profundo. La adquisición, etiquetado y preparación de estas imágenes de forma manual con sistemas reales requiere una cantidad de tiempo y volumen de trabajo que en la práctica limita el tamaño de estas bases de datos. En este trabajo se propone la implementación de una herramienta que permita generar imágenes omnidireccionales sintéticas fotorrealistas que automatice la generación y el etiquetado como estrategia para aumentar el tamaño de estas bases de datos. Este trabajo se apoya en los entornos virtuales que se pueden crear con el motor de videojuegos Unreal Engine 4, el cual se utiliza junto a uno de sus plugin, UnrealCV. A partir de estos entornos virtuales se construyen imágenes de una variedad de cámaras omnidireccionales y 360º con calidad fotorrealista. Las características del entorno permiten además generar imágenes de profundidad y semánticas. Al hacerse todo de forma virtual, se pueden controlar los parámetros de adquisición de la cámara y las características del entorno, permitiendo construir una base de datos con un etiquetado automático sin supervisión. Conocidos los parámetros de calibración, posición y orientación de la cámara y la distribución del entorno y sus objetos, se puede conseguir el ground truth para diversos algoritmos de visión. Con las imágenes e información que se dispone, se pueden evaluar algoritmos de extracción de rectas en imágenes dióptricas y catadióptricas, obtención de layouts en panoramas o métodos de reconstrucción 3D como la localización y mapeado simultáneos (SLAM).\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/87302 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/87302/files/TAZ-TFM-2019-1437_ANE.pdf http://zaguan.unizar.es/record/87302/files/TAZ-TFM-2019-1437.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Ingeniería Industrial Simulador de imágenes omnidireccionales fotorealistas para visión por computador TAZ-TFG Photo-realistic and omnidirectional image simulator for computer vision\n"
+        ],
+        "_version_": 1.8504833451813765e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria41/oai_zaguan.unizar.es_87302.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:09:18.197Z"
+        ],
+        "digest": [
+          "7932c910c4dfe516484aa1dbf5e5b0a4"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61094.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61094.xml"
+        ],
+        "content": [
+          "Bermúdez Cameo, Jesús Guerrero Campo, José Jesús Guerrero Viu, Manuel 2016 Las personas reciben la información del entorno que les rodea por medio de los sentidos. La vista es el sentido que más información aporta acerca de una escena y de los objetos ubicados en la misma. A través de la visión y el aprendizaje somos capaces de reconocer objetos, personas, etc, pudiendo así, interactuar con ellos. Sin embargo, algunas patologías pueden causar daños en los sistemas visuales, conduciendo incluso a la ceguera. En función del tipo de daño, existen investigaciones en curso para colocar una prótesis de visión biónica que, mediante una estimulación eléctrica en determinadas zonas del nervio óptico o del cortex cerebral, permiten la visualización de puntos de luz denominados fosfenos. Para la estimulación de los fosfenos, una de las posibilidades es la captura de información de la escena mediante una cámara. Las técnicas actuales de procesamiento de imagen que se aplican sobre las prótesis visuales son bastante limitadas. La introducción de técnicas avanzadas de visión por computador incluyendo información de profundidad puede provocar un punto de inflexión en la forma de interacción con el entorno de las personas operadas con estos novedosos implantes. En este proyecto se ha avanzado en el desarrollo de un simulador de prótesis visuales considerando nuevas técnicas de visión por computador para favorecer la interpretación del entorno. En particular, se ha desarrollado una aplicación para la detección de personas y su representación mediante fosfenos. Se ha partido de un sistema compuesto de un sensor de profundidad RGB-D, Kinect v2 y de un sistema de realidad virtual, Oculus DK2. Mediante técnicas de visión por computador se ha inferido una descripción articular de la persona y una descripción de la cara que incluye ojos, boca y estado de ánimo. Esta información es representada de manera icónica en el simulador de visión protésica para una mejor interpretación por parte del usuario. Además, se han realizado varias pruebas para poder evaluar diferentes tipos de representación, en función de los distintos mapas de fosfenos diseñados. Los resultados obtenidos han sido bastante satisfactorios, cumpliendo todas las previsiones realizadas. Uno de los objetivos más importantes ha sido la de realizar la representación mediante fosfenos proponiendo varios ejemplos que permitan una correcta interpretación por parte del usuario pese a disponer de una resolución reducida. http://zaguan.unizar.es/record/61094 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/61094/files/TAZ-TFG-2016-4418.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Electrónica y Automática Detección de personas para simulación de prótesis visual TAZ-TFG People detection for simulated prosthetic vision\n"
+        ],
+        "_version_": 1.8504833436085125e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61094.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:42:40.078Z"
+        ],
+        "digest": [
+          "9efacc5926f42b6967d57d850d220325"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00001235691],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/categoria311/oai_zaguan.unizar.es_77796.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/categoria311/oai_zaguan.unizar.es_77796.xml"
+        ],
+        "content": [
+          "Civera Sancho, Javier Oliva Maza, Laura 2018 La visión por computador es uno de los campos tecnológicos con mayor actividad. Esto es debido a la gran cantidad de aplicaciones potenciales relacionadas con ella. Dentro de la visión por computador se encuentra la visión 3D cuyo objetivo es generar una reconstrucción 3D de una escena a partir de imágenes 2D de la misma. La visión 3D tiene aplicaciones, por ejemplo, dentro de la robótica y la realidad aumentada. Hoy en día, para generar un mapa en 3D se utilizan algoritmos de estimación. Estos algoritmos reciben un estado y unas medidas, y devuelven un estado actualizado. Para obtener estas medidas lo más habitual es utilizar un sensor visual-inercial. Este sensor está compuesto por una cámara y una unidad inercial (IMU). Uno de los problemas de los algoritmos de estimación es que, aunque son bastante robustos, a la hora de inicializar necesitan una semilla inicial precisa. La generación de semillas iniciales o inicialización del estado visual-inercial es un problema no resuelto. En este trabajo de fin de grado se ha estudiado, implementado y evaluado un algoritmo de inicialización del estado visual-inercial. Para la evaluación del algoritmo se ha utilizado el dataset EuRoC y se han diseñado diferentes experimentos para evaluar cómo afectan los diferentes parámetros a su precisión y robustez. A partir de los resultados obtenidos en los experimentos se han escogido los parámetros con los que se obtienen mejores resultados, permitiendo ejecutar el algoritmo en tiempo real y obteniendo elevadas tasas de robustez y alta precisión. http://zaguan.unizar.es/record/77796 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/77796/files/TAZ-TFG-2018-2322.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Informática Inicialización del estado para un sistema monocular inercial TAZ-TFG State initialization for monocular-inertial systems\n"
+        ],
+        "_version_": 1.850498151694205e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/categoria311/oai_zaguan.unizar.es_77796.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:47:50.671Z"
+        ],
+        "digest": [
+          "ee9c561ecdb10ce1d33c4b6577823539"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000026475225],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64156.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64156.xml"
+        ],
+        "content": [
+          "Guerrero Campo, José Jesús Montesinos García, Juan Felipe 2017 El trabajo elaborado en este TFG se centra en el uso de la cámara RGB-D Kinect V2 y sus algoritmos de detección del esqueleto. Se analizan las características de la cámara y las condiciones de funcionamiento. Además plantea un mecanismo para realizar la transformación homogénea entre la cámara y el robot industrial IRB 120 de ABB, que permite una interacción offline. http://zaguan.unizar.es/record/64156 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/64156/files/TAZ-TFG-2017-2956.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería de Tecnologías Industriales Visión por computador con cámara rgb-d para detección de personas en aplicaciones de robótica TAZ-TFG Computer vision with rgb-d camera for detection of people in robotics aplications\n"
+        ],
+        "_version_": 1.850498157829423e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64156.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:22:12.105Z"
+        ],
+        "digest": [
+          "421e3ec66c1eb351ac69f5087a1c0c1b"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84998.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84998.xml"
+        ],
+        "content": [
+          "Torcal Milla, Francisco José López Torres, Ana María Jin, Zhuolin 2019 En este trabajo se muestra el desarrollo de un dispositivo compacto y barato para el control activo de un semáforo utilizando como placa de control la Raspberry Pi.\u003Cbr /\u003EEl dispositivo se basa en algoritmos de visión por computador para determinar cuántas personas hay en cada momento esperando para cruzar y el tiempo que llevan esperando.\u003Cbr /\u003EPosteriormente utiliza una máquina de estados para determinar si debe abrirse o no el semáforo y cuánto tiempo debe permanecer abierto. En este aspecto, también es sensible a la velocidad de avance de los peatones, manteniendo el semáforo abierto más tiempo si es necesario, dentro de un cierto margen máximo.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/84998 spa Universidad de Zaragoza; Departamento de Física Aplicada; Área de Física Aplicada http://zaguan.unizar.es/record/84998/files/TAZ-TFG-2019-3469.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Electrónica y Automática Control automático de semáforos basado en procesado digital de imágenes sobre Raspberry Pi TAZ-TFG Automatic control of traffic lights based on digital image processing on Raspberry Pi\n"
+        ],
+        "_version_": 1.8504833447902577e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84998.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:20:49.244Z"
+        ],
+        "digest": [
+          "2f5811a25f26dc0afebf61fd211f2940"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62791.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62791.xml"
+        ],
+        "content": [
+          "Resano López, Juan Cruz Lázaro Cruz, Eva 2017 Hoy en día vivimos en la era de la comunicación y, centrándonos en el tema de este TFG, la animación. En este trabajo, veremos un poco de la historia de la animación señalando algunas de las técnicas que, considero, resultan más interesantes para trabajar en el aula y, haremos especial hincapié en aquellos temas que poco a poco comenzamos a ver en las películas de dibujos y que antes podían ser considerados tabú. Iniciaremos este trabajo con una presentación del marco legal educativo actual y su correspondiente apartado a la Educación Plástica y Visual, así como algunos detalles sobre la atención a la diversidad. Finalmente, propongo la realización de un corto de animación, con niños de entre 7 y 8 años, donde sean ellos los principales protagonistas y creadores de la historia, desde el argumento de la misma, la caracterización de los personajes y el diseño de decorados. http://zaguan.unizar.es/record/62791 spa Universidad de Zaragoza; Departamento de Expresión Musical, Plástica y Corporal; Área de Didáctica de la Expresión Plástica http://zaguan.unizar.es/record/62791/files/TAZ-TFG-2017-1295.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Primaria Propuesta de animación en un aula de educación primaria: stop-motion TAZ-TFG Animation proposal for a primary education class: stop-motion\n"
+        ],
+        "_version_": 1.8504833344565412e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62791.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:06:58.992Z"
+        ],
+        "digest": [
+          "647b3644b1ea79bb41d4561529db7902"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.011425028],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57132.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57132.xml"
+        ],
+        "content": [
+          "Errazu Colás, María Ángeles Loreto Ferradás Eito, Lucía 2016 En el presente trabajo he pretendido profundizar en el concepto de lectura, entendida no solo como fuente de conocimientos sino también como fuente de diversión y placer, para poder plantear después y como objetivo central del trabajo una propuesta de animación a la lectura que acerque a los niños a los libros. Por ello, he desarrollado la importancia que tiene en los diferentes ámbitos de la vida y el papel fundamental que juega el concepto de animación para promover y desarrollar el interés por la lectura en nuestros alumnos. A lo largo del trabajo se presenta por un lado, una base teórica en la que se indaga sobre estos conceptos y también, sobre el papel del profesor como animador o los tipos de textos que podemos utilizar para animar a leer a nuestros alumnos. Por otro lado, se plantea una propuesta de animación a la lectura para el segundo curso de Educación Primaria, basada en el rol protagonista del alumnado y en la posibilidad de participación de las familias. En ella se propone trabajar la lectura mediante diferentes tipos de textos (noticias, cartas, cuentos…) y la creación de una pequeña colección de libros. En definitiva, se expone una propuesta de animación a la lectura que, desde la práctica, permita y ayude a los profesores a despertar o desarrollar el interés por la lectura en sus alumnos. http://zaguan.unizar.es/record/57132 spa Universidad de Zaragoza; Departamento de Didáctica de las Lenguas y de las Ciencias Humanas y Sociales; Área de Didáctica de la Lengua y la Literatura http://zaguan.unizar.es/record/57132/files/TAZ-TFG-2016-2935.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Primaria La animación a la lectura: una propuesta para alumnos de segundo curso de educación primaria TAZ-TFG Encouraging reading: a proposal for year two primary pupils\n"
+        ],
+        "_version_": 1.8504813321031516e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57132.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:12:37.545Z"
+        ],
+        "digest": [
+          "79344c2385d8d08cdbda904310f75649"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76408.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76408.xml"
+        ],
+        "content": [
+          "Martínez Herranz, Amparo Diestre Flores, Javier 2018 La influencia de todo lo que ha rodeado a Walt Disney y su empresa en la sociedad actual es más que destacable, partiendo de una producción familiar de dibujos de animación y llegando hasta la que hoy en día es considerada como la mayor compañía de medios de comunicación y entretenimiento del mundo. Dentro de su historia el largometraje de animación La Bella Durmiente (1959) posee un papel destacado marcando el final de una etapa, recogiendo todos los avances conseguidos hasta el momento y anunciando algunos otros que estaban por venir. Su cuidada animación y su personal estilo hacen de la película una verdadera obra de arte dentro del mundo del cine. El film no es solo el resultado final de un proceso de producción, sino que es además el reflejo de toda una década dentro de la vida del propio Walt Disney y de su compañía. http://zaguan.unizar.es/record/76408 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/76408/files/TAZ-TFG-2018-4314_ANE.pdf http://zaguan.unizar.es/record/76408/files/TAZ-TFG-2018-4314.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte Disney y los cambios en el cine de animación durante la década de los 50. La Bella Durmiente, fuentes artísticas y aportaciones estéticas. TAZ-TFG Disney and the changes in the animation in the decade of the 50’s. The Sleeping Beauty artistic sources and aesthetic contributions.\n"
+        ],
+        "_version_": 1.850483344428499e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76408.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:06:24.891Z"
+        ],
+        "digest": [
+          "0b7de2eb741097bdaa3ea8ac28b3ea27"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.009535492],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/oai_zaguan.unizar.es_76460.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/oai_zaguan.unizar.es_76460.xml"
+        ],
+        "content": [
+          "Garrido Laparte, María Ángeles Martínez Castillejo, Clara 2018 La lectura tiene un gran potencial formativo a nivel académico y personal. Otorga a las personas la capacidad de ser autónomas en muchos ámbitos. Por esta razón, es importante que desde pequeños se mantenga una actitud abierta ante la lectura, pero, ¿cómo fomentar hoy en día ese hábito de lectura como fuente de ocio y disfrute en los niños? La respuesta a esta incógnita la encontramos en las actividades de animación a la lectura, unida, para que sean efectivas, a ciertas condiciones en el aula y en el contexto cercano al niño. Una de estas condiciones, es el uso del cuento como primer texto seleccionado para la toma de contacto, es importante, de esta manera, realizar actividades en torno al mismo. El presente trabajo tratará las bases de animación a la lectura y las condiciones que ha de tener ésta en el aula, relacionándolas con el cuento multisensorial para llegar a la realización de una propuesta de actividad que demuestre la gran potencialidad de este tipo de cuento, utilizado normalmente como medio de estimulación en los centros de educación especial, como actividad de animación a la lectura dentro de un aula ordinaria. http://zaguan.unizar.es/record/76460 spa Universidad de Zaragoza; Departamento de Psicología y Sociología; Área de Psicología Evolutiva y de la Educación http://zaguan.unizar.es/record/76460/files/TAZ-TFG-2018-4213.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Primaria Actividades de animación a la lectura.El cuento multisensorial TAZ-TFG Activities to encourage reading in the classroom. The multisensory tale\n"
+        ],
+        "_version_": 1.8504813322373693e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/oai_zaguan.unizar.es_76460.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:20:09.670Z"
+        ],
+        "digest": [
+          "b84f8106b1df108d41e85230ae595ae1"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84842.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84842.xml"
+        ],
+        "content": [
+          "Jarabo Torrijos, Adrián Gutiérrez Pérez, Diego Galindo Ramos, Miguel Jorge 2019 En la última década, la captura del transporte transitorio de la luz a trillones de fotogramas por segundo está teniendo un gran impacto en los campos de gráficos y visión por computador.\u003Cbr /\u003E La riqueza de la información en el perfil temporal, combinada con técnicas de imagen computacional apropiadas, hace posible recuperar vídeos de la luz en movimiento, capturar objetos a través de medios turbios, inferir propiedades materiales, o incluso ver a través de esquinas.\u003Cbr /\u003E Esta última aplicación, conocida como Non-Line-of-Sight imaging (NLOS), ha resultado ser de especial interés, con multitud de aplicaciones potenciales como apoyo en situaciones de rescate, seguridad en vehículos autónomos o endoscopia médica.\u003Cbr /\u003E No obstante, estas aplicaciones siguen lejos de ser realidad, con la mayoría prototipos de la tecnología funcionando tan solo en entornos controlados de laboratorio ideados para lograr ver superficies sencillas y aisladas a través de una esquina.\u003Cbr /\u003E \u003Cbr /\u003E En este trabajo modificamos un motor de render transitorio para crear un dataset sintético de 300 escenarios NLOS con complejidad variada y que publicamos para fomentar la colaboración con otros equipos de invesigación simplificando su tarea. \u003Cbr /\u003E Tenemos como objetivo proponer retos mucho más complejos a los que se han enfrentado los investigadores hasta ahora, buscando lograr mejoras significativas en los resultados que lleven NLOS imaging a aplicaciones prácticas en el mundo real.\u003Cbr /\u003E En consecuencia, buscamos poder evaluar resultados de diferentes métodos de reconstrucción, para lo que proponemos métricas que permitan compararlos de forma justa a datos de referencia.\u003Cbr /\u003E Además, esperamos que el dataset permita el uso de técnicas de aprendizaje automático en el campo.\u003Cbr /\u003E Finalmente, derivamos un nuevo método y mostramos sus resultados junto los dos métodos más representativos dentro del estado del arte de la visión a través de esquinas, verificando los datos de nuestro dataset.\u003Cbr /\u003E http://zaguan.unizar.es/record/84842 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Lenguajes y Sistemas Informáticos http://zaguan.unizar.es/record/84842/files/TAZ-TFM-2019-355.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Ingeniería Informática Framework para la Evaluación de Técnicas de Reconstrucción de geometría no visible TAZ-TFM An Evaluation Framework for Non-Line-of-Sight Reconstruction Techniques\n"
+        ],
+        "_version_": 1.8504833444536648e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84842.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:27:53.576Z"
+        ],
+        "digest": [
+          "f5c69cf632dc27ed1f1abe58f4b77e71"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76426.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76426.xml"
+        ],
+        "content": [
+          "Sanz Ferreruela, Fernando Fraile Alonso, Miguel 2018 En este Trabajo de Fin de Grado se hace un análisis de la filmografía del director de cine de animación Hayao Miyazaki, con un resumen biográfico, destacando las figuras o hechos que más han influenciado en su vida y en su manera de hacer cine.Destacando la fundación del Studio Ghibli en 1985, que se convirtió en uno de los estudios de animación más aclamados en todo el mundo, tanto por la crítica especializada como por cinéfilos, siendo a menudo comparada con la compañía de Walt Disney. También se hará un estudio detallado de las características temáticas de sus películas, así como el impacto que estas han tenido en el mundo de la animación en general, destacando lo mucho que han influido en la compañía Pixar. http://zaguan.unizar.es/record/76426 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/76426/files/TAZ-TFG-2018-4284.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte El mundo fantástico de Hayao Miyazaki TAZ-TFG The fantastic world of Hayao Miyazaki\n"
+        ],
+        "_version_": 1.8504833444368876e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76426.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:26:26.049Z"
+        ],
+        "digest": [
+          "e376955e95e02f182960f326c1cdcaff"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00040929252],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95208.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95208.xml"
+        ],
+        "content": [
+          "Ramos Vallecillo, Nora Mata Vallés, Paula 2020 En nuestra sociedad, la televisión es el medio audiovisual favorito de los escolares y, a través del mismo, reciben una gran cantidad de información de los contenidos que visionan y consumen, es decir, de la animación. Como docentes, debemos incorporar la televisión en el ámbito escolar como otro aspecto más de la realidad en la que vivimos. Este Trabajo de Fin de Grado tiene por objetivo el análisis de las características de la animación en cuanto a su diseño gráfico y su gran poder de influencia en la infancia, concretamente en la etapa de Educación Infantil. El método empleado ha sido un estudio, en el que se han analizado las características de los dibujos animados en términos gráficos, su influencia en los escolares, su transmisión de valores y sus posibilidades como recurso didáctico en las aulas. A partir de ese estudio, se ha realizado una selección representativa de diferentes series y películas animadas atendiendo al tipo de animación, a los valores que difunde, así como al estilo gráfico que las representa. Como resultado, se ha obtenido un listado con propuestas de animaciones que se recomiendan como recurso para trabajar en las aulas. A partir de estos datos, se ha diseñado un Proyecto de Aprendizaje con actividades para el aula de Educación Infantil empleando la animación y la expresión plástica como recursos principales. Posteriormente, se han establecido unas conclusiones sobre las relaciones entre la enseñanza a través de la educación artística y las animaciones, pues las últimas tendencias artísticas están abiertas a todo tipo de materiales, entre ellos los recursos audiovisuales. Finalmente, se ha reflexionado acerca de la necesidad de mejorar la formación de los futuros profesionales de la educación en este campo y de renovar los contenidos y la metodología de las aulas, incorporando la televisión como recurso didáctico en las escuelas. \u003Cbr /\u003E http://zaguan.unizar.es/record/95208 spa Universidad de Zaragoza; Departamento de Expresión Musical, Plástica y Corporal; Área de Didáctica de la Expresión Plástica http://zaguan.unizar.es/record/95208/files/TAZ-TFG-2020-2978.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Infantil El área de educación plástica para el fomento de valores por medio de la animación en educación infantil TAZ-TFG The area of plastic arts for the promotion of values through animation in pre-school education\n"
+        ],
+        "_version_": 1.8504833400118968e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95208.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:41:44.043Z"
+        ],
+        "digest": [
+          "31fdae747af3dd251201a879890f978b"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58976.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58976.xml"
+        ],
+        "content": [
+          "Córdoba Guardado, Soledad Gros Ruiz de Conejo, Cristina 2016 El resultado de este Trabajo Fin de Grado es un bestiario mitológico, además está combinado con mi gran pasión, la animación. Para ello he investigado acerca de multitud de temas relacionados como los manuscritos iluminados, la mitología aragonesa, la historia de la animación, etc. con el objetivo de recopilar los datos necesarios para la creación de la memoria teórica. La finalidad de la memoria consiste en la descripción de las ideas, procedimientos y caminos seguidos durante la realización de este proyecto, un bestiario mitológico; en el cual encontraremos una serie de representaciones pictóricas de algunos de los seres que nos podemos encontrar en la mitología de Aragón. http://zaguan.unizar.es/record/58976 spa Universidad de Zaragoza; Departamento de Expresión Musical, Plástica y Corporal http://zaguan.unizar.es/record/58976/files/TAZ-TFG-2016-4415.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Bellas Artes Breve introducción a la Mitología Aragonesa TAZ-TFG Brief introduction to Aragonese Mythology\n"
+        ],
+        "_version_": 1.8504981503646106e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58976.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:42:41.267Z"
+        ],
+        "digest": [
+          "4653098057ad5dcae255e3e51cf3af9c"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000025504905],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_65388.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_65388.xml"
+        ],
+        "content": [
+          "Eito Mateo, Antonio Cebollada Latorre, Andrea 2017 El presente trabajo aborda una aproximación al estudio de las series de animación dirigida a la infancia enfocando la problemática que encierran los conceptos sexo y género que se presentan. Prestando especial atención a los sexos biológicos representados, el significado del sexo o construcción social del género y los consiguientes estereotipos de género masculinos y femeninos lo cuales pueden crear sistemas de exclusión social presentando así posibles líneas de acción desde el Trabajo Social. http://zaguan.unizar.es/record/65388 spa Universidad de Zaragoza; Departamento de Psicología y Sociología; Área de Trabajo Social y Servicios Sociales http://zaguan.unizar.es/record/65388/files/TAZ-TFG-2017-1751.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Trabajo Social Las series de animación dirigidas a la infancia y las representaciones del sexo y el género. Una aproximación desde el Trabajo Social. TAZ-TFG The animation shows aimed to the childhood and the sex and gender representations. An approach from Social Work.\n"
+        ],
+        "_version_": 1.850498151323009e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_65388.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:33:13.793Z"
+        ],
+        "digest": [
+          "e25beea387c10cac749a9d148a3f6135"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00040929252],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95285.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95285.xml"
+        ],
+        "content": [
+          "Gimeno Lanuza, David Capilla Correas, Sandra 2020 Este trabajo recoge los aspectos generales de la lectura y recuerda la importancia que tiene en el aprendizaje del niño para promover su éxito académico, concretando diferentes puntos esenciales desde una perspectiva teórica para luego crear una propuesta didáctica de animación a la lectura adecuada para alumnos de tercero de Educación Primaria, planteada en diferentes sesiones que emplean diversas estrategias de fomento del hábito lector y contando con la variedad de temáticas según los intereses del alumnado.\u003Cbr /\u003E http://zaguan.unizar.es/record/95285 spa Universidad de Zaragoza; Departamento de Psicología y Sociología; Área de Psicología Evolutiva y de la Educación http://zaguan.unizar.es/record/95285/files/TAZ-TFG-2020-332.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Primaria La animación a la lectura: una propuesta para desarrollar la curiosidad por leer en tercero de Educación Primaria TAZ-TFG Encouraging Reading: A proposal to develop curiosity to read in third of Primary Education\n"
+        ],
+        "_version_": 1.8504833468129608e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_95285.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:45:00.110Z"
+        ],
+        "digest": [
+          "51803850e8e66a11fe4c131fe6f37285"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000020972182],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_36976.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_36976.xml"
+        ],
+        "content": [
+          "Del Moral Barrigüete, Cristina Burmester Quintero, Ana Pilar 2015 Los lenguajes verbal y musical han mantenido una estrecha vinculación a lo largo de la historia, que se ha reflejado en incontables creaciones artísticas. Este Trabajo de Fin de Grado pretende dar respuesta a esa necesidad, cada vez más acuciante de aplicar un modelo didáctico intertextual en las aulas en el área de Lengua castellana y música. Teniendo en cuenta la importancia de la lectura en el desarrollo de los alumnos en edad de cursar la etapa de Educación Primaria y la notable falta de comprensión lectora en los centros escolares, se propone un proyecto de Animación a la lectura para que los alumnos adquieran un buen hábito lector. La música, el juego y la creación serán las herramientas necesarias para llevar a cabo dicha tarea. En lo que refiere a la parte teórica, se trata de aplicar los conocimientos teóricos previos a través de una serie de actividades enfocadas a quinto curso de Educación Primaria, que pretenden interesar y motivar al alumnado, convirtiendo la literatura en algo lúdico y divertido. Para ello el docente desempeñará un papel clave en dicho aprendizaje, convirtiéndose en mediador entre el niño y la literatura. http://zaguan.unizar.es/record/36976 spa Universidad de Zaragoza; Departamento de Didáctica de las Lenguas y de las Ciencias Humanas y Sociales; Área de Didáctica de la Lengua y la Literatura http://zaguan.unizar.es/record/36976/files/TAZ-TFG-2015-4169.pdf http://zaguan.unizar.es/record/36976/files/TAZ-TFG-2015-4169_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Maestro Educación Primaria Banco de actividades de animación a la lectura a través de la música. Una estrategia didáctica para la animación a la lectura. TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981570660598e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria131/oai_zaguan.unizar.es_36976.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:25:47.303Z"
+        ],
+        "digest": [
+          "1071a3ecc3d3778472b4fb15922d0d89"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_60797.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_60797.xml"
+        ],
+        "content": [
+          "Sanz Ferreruela, Fernando MARÍN GUALLAR, Lucía 2017 Tim Burton, director estadounidense, pertenece al grupo de cineastas de la denominada autoría post-moderna. Al igual que todos estos, su forma de trabajar se caracteriza por ser capaz de aunar lo comercial con la afirmación de su propia singularidad. Burton, cineasta sin prejuicios, ha desarrollado en sus películas su peculiar mundo interior. En el presente Trabajo Fin de Grado nos centramos en el estudio de sus largometrajes de animación, todos ellos realizados mediante la técnica del stop-motion: Pesadilla antes de Navidad (1993), La novia cadáver (2005) y Frankenweenie (2005). Profundizaremos en estos films mostrando sus influencias, temática y estética, todas ellas reflejo del estilo personal de su creador. http://zaguan.unizar.es/record/60797 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/60797/files/TAZ-TFG-2017-119.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte EL CINE DE ANIMACIÓN DE TIM BURTON: CONSTANTES TEMÁTICAS Y ESTÉTICAS DE SU OBRA TAZ-TFG TIM BURTON'S ANIMATION FILMS: THEME AND VISUAL CONSTANTS FEATURES\n"
+        ],
+        "_version_": 1.8504833332517274e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_60797.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:31:12.122Z"
+        ],
+        "digest": [
+          "baf2abd745ab3b62ae0d01eea30db594"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85252.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85252.xml"
+        ],
+        "content": [
+          "Martínez Montiel, José María Delgado Llamas, Alexandro 2019 El trabajo se enmarca dentro del proyecto de investigación \"DPI2017-91104-EXP: SLAM Visual Deformable para Endoscopia\", que tiene como objetivo realizar mapas 3D de las cavidades intracorpóreas y localizar la cámara del endoscopio a partir del flujo de vídeo de un endoscopio estándar. Un primer paso de la investigación es la grabación de secuencias de vídeo correspondientes a endoscopias reales para validar los algoritmos desarrollados. Para maximizar el rendimiento de los algoritmos se van a realizar grabaciones de vídeo de alta calidad y se van a almacenar mediante compresión sin pérdidas.\u003Cbr /\u003EAdemás de registrar vídeo de alta calidad, es necesario anonimizar los vídeos para preservar la identidad de los pacientes que acceden a que las grabaciones de sus exploraciones sean empleadas en la investigación. Estos requisitos están lejos de los que ofrecen los sistemas de grabación comerciales.\u003Cbr /\u003EEl objetivo del proyecto es el diseño y la implementación de este sistema grabador que llamaremos EndoStore. El alcance cubre el diseño y montaje de un equipo de adquisición y el desarrollo del software en C++ empleando las bibliotecas estándares de OpenCV para visión por computador y Tesseract para el reconocimiento de texto.\u003Cbr /\u003ESe ha construido un prototipo que se ha montado y probado tanto en los laboratorios de la EINA como en el Hospital Clínico Lozano Blesa (HCLB) de Zaragoza. La conexión del sistema de adquisición con el endoscopio permite la grabación con una mínima interferencia sobre el procedimiento médico que se esté llevando a cabo. A partir de los resultados se ha realizado el diseño definitivo del sistema de adquisición.\u003Cbr /\u003E http://zaguan.unizar.es/record/85252 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/85252/files/TAZ-TFG-2019-2706.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Electrónica y Automática Adquisición de endoscopias en alta calidad TAZ-TFG Endoscopies acquisition in high quality\n"
+        ],
+        "_version_": 1.8504833448867267e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85252.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:51:31.960Z"
+        ],
+        "digest": [
+          "0375b22bd419d10a27b01b43a019ad26"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00001235691],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/categoria311/oai_zaguan.unizar.es_78589.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/categoria311/oai_zaguan.unizar.es_78589.xml"
+        ],
+        "content": [
+          "Guerrero Campo, José Jesús Medina Franca, Juan Carlos 2018 En este trabajo se ha desarrollado un método de identificación de los bordes estructurales de habitaciones a partir de una única imagen. Han sido muchos los trabajos que han tratado de resolver este problema a lo largo de la última década. Estos métodos generalmente se basan en la generación de diferentes hipótesis de modelos de layouts a partir de razonamientos puramente geométricos, o bien mas recientemente, utilizando técnicas de aprendizaje profundo (para, o bien apoyar las hipótesis basadas en la geometría o bien hacer hipótesis basadas solamente en el aprendizaje profundo). La principal limitación de realizar hipótesis que impliquen razonamientos geométricos es que en las imágenes con muchas oclusiones las direcciones principales pueden ser muy difíciles de detectar, mientras que confiar las hipótesis solamente alas técnicas de aprendizaje profundo (Deep Learning) no es del todo eficaz, ya que el uso de estas para este fin todavía esta en fase de desarrollo y no tienen la eficacia deseada. Este trabajo tiene la principal novedad de combinar dos tipos de hipótesis,una basada en razonamientos geométricos de visión por computador y otra a partir únicamente de técnicas ’Deep Learning’ siendo capaces de detectar la mejor solución en cada caso. En este trabajo se muestran resultados de reconstrucción de layouts con imágenes de la base de datos pública LSUN (Large-scale Scene Understanding Challenge) usada por otros trabajos del estado del arte. Con ellos demostramos la efectividad del método con respecto a trabajos existentes, situándonos en nuestros primeros experimentos a la cabeza del estado del arte. http://zaguan.unizar.es/record/78589 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/78589/files/TAZ-TFG-2018-4665.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería de Tecnologías Industriales Estimación del layout 3D en interiores a partir de imágenes TAZ-TFG Indoor 3D layout estimation from images\n"
+        ],
+        "_version_": 1.8504981583075738e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/categoria311/oai_zaguan.unizar.es_78589.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:37:17.683Z"
+        ],
+        "digest": [
+          "269db1b4b6d623086df6f4aca1aa183e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00040929252],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_94748.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_94748.xml"
+        ],
+        "content": [
+          "Castán Chocarro, Alberto García Enguita, Montserrat 2020 En este Trabajo Fin de Grado se realiza una investigación sobre cómo la tecnología ha influido en el campo del cine de animación. Para ello se hace un recorrido que va desde sus orígenes hasta la era digital. Como ejemplo de este gran cambio se toma como referencia la película del binomio Disney – Pixar: Toy Story (1995), pues es el hito que marca el antes y el después en el cine de este género debido a varios factores como son la introducción de los ordenadores en el proceso técnico – creativo, el guion y sobre todo la historia. Además, se explicará de forma detallada cómo se elabora una película infográfica en 3D desde cero y las consecuencias obtenidas a raíz de este film las cuales presentan un nuevo escenario en la cultura audiovisual actual.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/94748 spa Universidad de Zaragoza; Departamento de Historia del Arte; Área de Historia del Arte http://zaguan.unizar.es/record/94748/files/TAZ-TFG-2020-1686.pdf http://zaguan.unizar.es/record/94748/files/TAZ-TFG-2020-1686_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Historia del Arte La revolución digital en el cine de animación: Toy Story (1995). TAZ-TFG The digital revolution in animated filmography: Toy Story (1995).\n"
+        ],
+        "_version_": 1.850483339815813e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria4/categoria42/oai_zaguan.unizar.es_94748.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:26:32.896Z"
+        ],
+        "digest": [
+          "51264d808bf95572d32174e7706afedf"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61396.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61396.xml"
+        ],
+        "content": [
+          "Tardós Solano, Juan Domingo Burillo Ortín, Juan Luis 2017 El proyecto realizado consiste en el desarrollo de una aplicación para el sistema operativo Android que permita la obtención de un modelo 3D del entorno utilizando técnicas de visión por computador. El dispositivo objetivo sobre el que se ha desarrollado la aplicación es una tableta Project Tango de Google. La peculiaridad de este dispositivo es que cuenta con una cámara RGB-D que permite obtener información de color y de profundidad. Para poder crear la reconstrucción es necesario en primer lugar poder localizarse en el entorno. Para ello se ha utilizado la librería ORB-SLAM2 desarrollada en la universidad de Zaragoza, que permite construir un mapa del entorno y localizarse en el mismo de forma simultanea. La librería esta pensada para funcionar en un PC convencional, por lo que se ha tenido que realizar el portado a Android y el desarrollo de un nuevo visualizador gráfico. A continuación se desarrolló la aplicación de reconstrucción 3D, que utiliza las poses de la cámara calculadas por ORB-SLAM2 y las imágenes RGB-D para construir incrementalmente un modelo 3D denso del entorno. Estas tareas requieren una gran capacidad de cálculo para funcionar en tiempo real. Al estar trabajando en un dispositivo móvil con capacidad de cálculo muy inferior a un PC convencional el rendimiento inicial de la aplicación no era el adecuado, por lo que se ha realizado un estudio del tiempo empleado por las funciones principales de la librería con el objetivo de encontrar los cuellos de botella y optimizarlos. Tras localizar las zonas más exigentes se han realizado optimizaciones basadas en la arquitectura de la CPU de la tableta. http://zaguan.unizar.es/record/61396 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/61396/files/TAZ-TFG-2017-073_ANE.pdf http://zaguan.unizar.es/record/61396/files/TAZ-TFG-2017-073.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Informática Reconstrucción 3D del entorno utilizando ORB-SLAM2 sobre un dispositivo Project Tango TAZ-TFG 3D reconstruction of the environment using ORB-SLAM2 on a Project Tango device\n"
+        ],
+        "_version_": 1.8504833337141494e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61396.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:19:50.803Z"
+        ],
+        "digest": [
+          "10ae1a786682139b472ce5fdab20ede0"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84953.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84953.xml"
+        ],
+        "content": [
+          "Sanjuán Ocabo, Jaime Jorge Martínez Fau, Laura 2019 El eje principal de este Trabajo de Fin de Grado es el análisis y la propuesta de implantación en un aula del cine de animación.\u003Cbr /\u003EPor una parte, a través del marco teórico se ha recopilado el origen, la evolución y las aportaciones de autores de gran relevancia que han dado lugar a los temas principales que conforman este trabajo y que en él se desarrollan como: las fórmulas cinematográficas más reclamadas por los niños y la importancia que poseen para la educación.\u003Cbr /\u003EFinalmente nos hemos centrado en el desarrollo de una propuesta de intervención educativa para niños de una clase de Educación Infantil en Noruega. Esta propuesta consta de 10 tareas llevadas a cabo a lo largo de una semana del primer trimestre y cada una de ellas está enfocada en potenciar la teoría llevada a cabo en el marco teórico de este trabajo. El fin de estas actividades es fomentar en el aula de Educación Infantil conocimientos de historia cinematográfica y los valores que puedan transmitirnos.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/84953 spa Universidad de Zaragoza http://zaguan.unizar.es/record/84953/files/TAZ-TFG-2019-3567.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Infantil Cine de animación como recurso educativo en las aulas de Educación Infantil: análisis y propuesta de implantación TAZ-TFG Animation cinema as an educational resource in the Infant Education classrooms: analysis and implementation proposal\n"
+        ],
+        "_version_": 1.8504833350175293e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_84953.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:50:22.360Z"
+        ],
+        "digest": [
+          "ddb559d0810f5494f0c158133e3a90f5"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58755.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58755.xml"
+        ],
+        "content": [
+          "Errazu Colás, María Ángeles Loreto López Muñoz, Alicia 2016 El siguiente Trabajo Fin de Máster de Profesorado en Educación Secundaria y Bachillerato, en la especialidad de Lengua Castellana y Literatura, pertenece a la modalidad B y versa sobre la importancia de la lectura como medio de conocimiento y de enriquecimiento personal pero que tiene que avanzar paralelamente al entendimiento de la lectura como placer. Los adolescentes pasan por un periodo de cambio y de insatisfacción con todas las normas dadas, de ahí la importancia de alejar la lectura de la obligatoriedad y de los controles o exámenes. Es necesario abrir una puerta de libertad donde se sientan cómodos intercambiando lecturas y aprendiendo diferentes puntos de vista sobre ellas. Todo esto en una sociedad marcada por las nuevas tecnologías es lo que nos llevó a la construcción de un proyecto motivador sustentado bajo la idea de tertulias literarias online. http://zaguan.unizar.es/record/58755 spa Universidad de Zaragoza; Departamento de Didáctica de las Lenguas y de las Ciencias Humanas y Sociales; Área de Didáctica de la Lengua y la Literatura http://zaguan.unizar.es/record/58755/files/TAZ-TFM-2016-232.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Máster Universitario en Profesorado de Educación Secundaria Obligatoria, Bachillerato, Formación Profesional y Enseñanza de Idiomas, Artísticas y Deportivas La animación a la lectura para adolescentes: tertulias literarias online TAZ-TFM Encouraging reading practice among teenagers: literary online discussions\n"
+        ],
+        "_version_": 1.8504981574309642e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58755.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:10:14.984Z"
+        ],
+        "digest": [
+          "df68001e37b48705e05d0edecf9b6adb"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85700.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85700.xml"
+        ],
+        "content": [
+          "Blásquiz Herrero, Conrad Sánchez Renedo, Enrique 2019 La animación japonesa (anime) es una actividad muy importante en Japón que está traspasando fronteras. No obstante, los estudios académicos entorno a esta representación cultural son escasos. El objetivo principal de este trabajo consiste en estudiar cómo se representa a los periodistas en los animes Hataraki Man, Banana Fish y Code Geass, comparando los resultados con la imagen que se presenta de los periodistas en la industria de Hollywood. Antes de entrar en el estudio de caso se han dedicado varias páginas al estudio de cómo se representa a los periodistas en Occidente y a la evolución y la importancia del anime. La hipótesis de la que se parte es que en el anime se presenta a los periodistas de una forma más positiva que en la industria de Hollywood. Para confirmarla, se ha usado una metodología basada en la triangulación metodológica: en primer lugar se han estudiado cualitativamente los animes mediante el análisis de discurso. Esta información se ha complementado con la inclusión de unas tablas con las que se ha comprobado de forma cuantitativa si los estereotipos fílmicos vinculados a los periodistas en el cine estadounidense se repiten en la animación japonesa. Las conclusiones apuntan a que la hipótesis planteada es correcta.\u003Cbr /\u003E http://zaguan.unizar.es/record/85700 spa Universidad de Zaragoza http://zaguan.unizar.es/record/85700/files/TAZ-TFG-2019-1536.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Periodismo La imagen del periodista en el anime: Análisis de Hataraki Man, Banana Fish y Code Geass. TAZ-TFG The Image of the Journalist in the Anime: Analysis of Hataraki Man, Banana Fish and Code Geass.\n"
+        ],
+        "_version_": 1.850483344967467e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85700.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:34:47.526Z"
+        ],
+        "digest": [
+          "d7c7310e38aec1a4d66b015dd9e7b503"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85319.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85319.xml"
+        ],
+        "content": [
+          "López Nicolás, Gonzalo Renta García, Eduardo 2019 En la actualidad, el uso de robots industriales se ha extendido a una gran variedad de aplicaciones en la industria gracias a su flexibilidad y fiabilidad. Este tipo de robots nos permite lograr buena calidad de producto con unos costes contenidos. En general, el motivo de desarrollo de este proyecto es el uso de la tecnología robótica para lograr la reproducción de imágenes digitales en papel. Entre los objetivos principales está el aprendizaje de herramientas de visión por computador y de robótica industrial, junto con diferentes programas y lenguajes de programación comerciales. Estas herramientas nos permiten desarrollar una aplicación que será simulada e implantada en un robot, trabajando aspectos de visión y robótica. En particular, se aborda el control de un robot industrial mediante un programa que, a partir de una imagen proporcionada por el usuario, dibuja una copia de dicha imagen en papel mediante un rotulador incorporado como elemento terminal del robot. Para cumplir los objetivos del trabajo se ha dividido la tarea propuesta en la resolución de varios problemas. El primero, conseguir que los datos contenidos en una imagen digital fueran comprensibles por un robot industrial, es decir, convertir los píxeles que componen la imagen en posiciones alcanzables por el Robot. Esta adaptación se ha logrado mediante funciones de tratamiento de imagen. Una vez codificada la imagen de forma apta para el robot surge el segundo problema, consistente en lograr transmitir la información del dibujo al robot. Para solventarlo se ha decidido realizar la transferencia de datos utilizando una estructura cliente-servidor del protocolo TCP/IP. Para comprobar el funcionamiento del sistema se ha realizado un gran número de simulaciones en el software RobotStudio, que permite emular de forma realista el comportamiento del Robot. Además de esto, para facilitar el uso de las aplicaciones desarrolladas se ha diseñado una interfaz gráfica que permite la integración de todas las funciones en un panel de control de fácil acceso y uso intuitivo. Por último, se ha realizado una evaluación experimental en el laboratorio de la universidad utilizando el robot ABB IRB120 y hemos verificado la calidad de las simulaciones realizadas.\u003Cbr /\u003E http://zaguan.unizar.es/record/85319 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/85319/files/TAZ-TFG-2019-2287.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería de Tecnologías Industriales Desarrollo de un sistema plóter basado en un robot ABB IRB 120 TAZ-TFG Development of a plotter system based on an ABB IRB 120 Robot\n"
+        ],
+        "_version_": 1.850483344905601e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85319.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:48:49.334Z"
+        ],
+        "digest": [
+          "a5a374c27ffafdcff13c74810afbeeae"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.00001528383],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/categoria122/oai_zaguan.unizar.es_31445.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/categoria122/oai_zaguan.unizar.es_31445.xml"
+        ],
+        "content": [
+          "Civera Sancho, Javier Montesano del Campo, Luis Fácil Ledesma, José María 2015 La localización de una cámara es un problema clásicos de la Visión por Computador con aplicaciones en diferentes campos como la robotica o la fotogrametría. El objetivo de la localización es recuperar la posición y orientación de la cámara respecto a una referencia global en el mundo. Para ello normalmente se utilizan mapas tri-dimensionales basados en características. Estas características son puntos salientes e invariantes a escala. Emparejando los puntos salientes del mapa con los de la imagen es posible recuperar la posición de la cámara. Aunque estas técnicas son ampliamente utilizadas, no son robustas a situaciones donde las características no sean estables. Por ejemplo, en entornos con brillos y reflejos no es posible extraer este tipo de características. En los últimos años se han propuesto soluciones de mapas densas. Este tipo de mapas, al contrario de los basados en características, obtienen una representación continua del espacio. Este proyecto pretende desarrollar algoritmos de seguimiento y localización para una cámara monocular basados en mapas densos. La idea principal es que utilizando la información densa, la localización va a ser más robusta en situaciones como las descritas anteriormente. El proyecto ha propuesto dos algoritmos. El primero es un algoritmo de seguimiento basado en la minimización del error fotométrico entre la imagen y el mapa denso. El algoritmo utiliza la posición anterior de la cámara como semilla inicial y optimización jerárquica para evitar mínimos locales en los primeros pasos. El segundo algoritmo extiende el anterior a casos donde la semilla inicial no es conocida, usualmente conocido como el problema de la relocalización. En este caso, se ha propuesto un método mixto en dos pasos. Comienza con una aproximación grosera basada en características y después minimiza el error fotométrico con el mapa denso. Ambos algoritmos han sido evaluados en dos datasets, uno de laboratorio y otro en un entorno de compra real. Se ha comparado la precisión del algoritmo con técnicas de Bundle Ajustment, que son el estado del arte en el problema de structure from motion. Los resultados muestran que la precisión obtenida con mapas densos en seguimiento es mejor que a la obtenida con un proceso de minimización sobre todas las imágenes. En cuanto a la relocalización, la estrategia híbrida permite encontrar una semilla suficientemente buena para correr la localización densa. http://zaguan.unizar.es/record/31445 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/31445/files/TAZ-TFG-2015-171.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Informática Seguimiento y relocalización de una cámara monocular en mapas densos tridimensionales TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981496578703e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/categoria122/oai_zaguan.unizar.es_31445.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:27:34.038Z"
+        ],
+        "digest": [
+          "cba9667a19e7e3d9257edc2f47a6b353"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61064.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61064.xml"
+        ],
+        "content": [
+          "Murillo Arnal, Ana Cristina Suárez Gracia, Darío Márquez Ferrer, Alejandro 2016 La capacidad de identificar y reconocer objetos es una tarea que la percepción del ser humano realiza sin problemas y de manera rutinaria. Sin embargo, crear un sistema informático capaz de igualar estas capacidades sigue siendo uno de los principales campos de investigación dentro de la disciplina de la visión por computador, VC. Esta razón unida a las posibilidades de ayuda que la VC puede ofrecer a personas con necesidades especiales han sido los acicates que han dado lugar a este trabajo. Además, en los últimos años los smartphone han experimentado una gran evolución en términos de potencia, haciendo que cada persona tenga un “mini-ordenador” en el bolsillo. Por ello, se ha enfocado el trabajo hacia esta plataforma y se han evaluado distintos algoritmos reconocedores para implementarlos en un pequeño prototipo de asistencia al usuario que, en tiempo real, sea capaz de identificar qué objetos que aparezcan en la cámara y listar los alérgenos que contiene. Se han investigado dos tipos de algoritmos distintos para el reconocimiento de los objetos: uno basado en local features, que puede ser ejecutado tanto en local como en modo cliente-servidor, y otro basado en técnicas más novedosas, concretamente Deep Learning, que debido a que es más exigente en términos de recursos sólo podrá ser ejecutado en modo cliente-servidor. Como punto de partida, se ha creado una base de datos de objetos propios de un supermercado. A continuación, se ha implementado un reconocedor de objetos basado en local features, y se ha investigado y evaluado qué algoritmos de reconocimiento funcionaban mejor con esa base de datos. Una vez elegido el que se ha considerado más óptimo, se ha implementado ese mismo reconocedor en modo cliente-servidor. Después, se ha implementado el reconocedor basado en Deep Learning, y se han evaluado sus resultados. Por último, se han comparado el rendimiento y los resultados obtenidos entre las distintas técnicas y arquitecturas, y se han extraı́do conclusiones acerca de ellos: ventajas, desventajas de cada uno y posibles mejoras. Finalmente, se ha desarrollado un pequeño prototipo, consistente en una aplicación de asistencia cuya función es reconocer los objetos de la base de datos creada a través de la cámara del dispositivo e indicar la lista de alérgenos que contienen, todo ello en tiempo real. http://zaguan.unizar.es/record/61064 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Lenguajes y Sistemas Informáticos http://zaguan.unizar.es/record/61064/files/TAZ-TFG-2016-4538.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Informática Reconocimiento de objetos en Android para aplicaciones de asistencia TAZ-TFG Object recognition assistant application for Android\n"
+        ],
+        "_version_": 1.8504833334163538e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_61064.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:33:34.319Z"
+        ],
+        "digest": [
+          "20f858f76cfa2c022cd8bc4e9151c579"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_60806.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_60806.xml"
+        ],
+        "content": [
+          "Murillo Arnal,Ana Cristina Pascual Navarro, Cristina 2016 El reconocimiento e identificación de una cara es una parte importante de la capacidad del sistema de percepción humano y una tarea rutinaria para las personas. Sin embargo, la construcción de un sistema informático capaz de realizar este trabajo continúa siendo un área de investigación muy activa, aunque también se trata de una de las que más avances han logrado. Por ello y por la gran cantidad de aplicaciones que tiene esta tarea se trata de uno de los campos más conocidos de la visión por computador. Como punto de partida se ha realizado un estudio y evaluación de las técnicas de reconocimiento facial existentes seleccionando aquella más apropiada para el sistema interactivo que se propone. Se han diseñado e implementado las etapas correspondientes al sistema con el objetivo de comparar aquellos aspectos relevantes con la precisión de la predicción y la capacidad de hacerlo un sistema realista.Como existen muchísimas técnicas de reconocimiento facial, en este trabajo se centra la atención en las técnicas que ofrecen las librerías del entorno escogido de OpenCV / C++. Su rendimiento fue evaluado con diversas bases de datos de libre acceso a la comunidad científica. Posteriormente se elaboró una base de datos propia la cual fue empleada para la adaptación del diseño e implementación para su funcionamiento en el sistema real. En la parte experimental se han llevado a cabo ensayos diferenciados que permiten valorar cada etapa de la que el sistema consta de modo que se puedan evaluar de forma detallada las ventajas y desventajas. Los experimentos constan de un proceso de varias etapas: la detección del rostro en una imagen, la extracción de las características y la identificación/verificación de la cara mediante la clasificación de las características. El objetivo de la evaluación se centra en la extracción de las características y el reconocimiento de personas para lo que se han evaluado los tiempos de procesamiento y las tasas de error respectivamente. Los resultados obtenidos basados en metodología tradicional ofrecieron buenos resultados dentro de las propias limitaciones que presentan. Con el objetivo de estudiar y evaluar metodologías más actuales basadas en algoritmos más robustos se tomó la determinación de usar alguna de las técnicas más novedosas y actuales basadas en redes neuronales de convolución El sistema interactivo es el resultado de estos estudios en el que se propone un sistema. El sistema interactivo diseñado utiliza el método Local Binary Patterns, que es el que mejores características presentaba para esta aplicación. http://zaguan.unizar.es/record/60806 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Ingeniería de Sistemas y Automática http://zaguan.unizar.es/record/60806/files/TAZ-TFG-2016-2088.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Electrónica y Automática Sistema interactivo de identificación de usuarios mediante reconocimiento facial TAZ-TFG Interactive face recognition system\n"
+        ],
+        "_version_": 1.8504833435707638e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_60806.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:43:23.869Z"
+        ],
+        "digest": [
+          "0fdd67b0c46fc195ce6cbfcc40696a29"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000021339356],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria132/oai_zaguan.unizar.es_48493.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria132/oai_zaguan.unizar.es_48493.xml"
+        ],
+        "content": [
+          "García Fernández, José Antonio Gracia Romeo, Lorena 2016 Este trabajo conlleva un análisis del contexto educativo actual, concretamente en la escuela rural, en relación al hábito lector. Así pues se plantea una propuesta didáctica para animar a la lectura en un CRA, utilizando las maletas viajeras como biblioteca escolar. Creemos que es muy importante enseñar ya desde edades tempranas una visión positiva y lúdica de la lectura, siendo como docentes el eslabón entre el niño y el libro. Primeramente comenzaremos aclarando los términos que giran alrededor de la animación lectora, como son leer, lectura, etc. Pasando a ver la legislación que regula la educación y la importancia que da a la lectura. Finalizando el análisis con una revisión bibliográfica sobre el tema, centrándonos en varios teóricos. Tratando temas como la figura del animador, las bibliotecas escolares, hábito lector, etc. Y finalmente hemos planteado una propuesta didáctica, para un curso escolar, teniendo en cuenta el marco teórico. Siendo el objetivo central del plan fomentar el hábito lector entre nuestros alumnos. http://zaguan.unizar.es/record/48493 spa Universidad de Zaragoza; Departamento de Didáctica de las Lenguas y de las Ciencias Humanas y Sociales; Área de Didáctica de la Lengua y la Literatura http://zaguan.unizar.es/record/48493/files/TAZ-TFG-2016-136.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Magisterio en Educación Primaria Te invito a leer: la biblioteca en un CRA. Una propuesta didáctica para animar a leer TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981572495606e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/categoria132/oai_zaguan.unizar.es_48493.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:10:15.365Z"
+        ],
+        "digest": [
+          "dc120da79332b93e1e6d8dd0f5be2179"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85241.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85241.xml"
+        ],
+        "content": [
+          "Marco Murria, Julio Gutierrez Pérez, Diego Cosculluela Gracia, Miguel Ángel 2019 El renderizado o generación de imágenes sintéticas basado en físicas es un campo de la informática gráfica muy complejo que requiere simular el transporte de luz y sus interacciones con medios y geometrías. Este proceso es muy costoso de realizar para la obtención de imágenes de alta calidad por lo que existe una fuerte investigación en nuevos o mejores métodos de generarlas. El uso de técnicas de aprendizaje autmático basadas en redes neuronales ha demostrado gran potencial en investigación aplicada al renderizado. Sin embargo su uso no es trivial ya que las distintas librerías que las desarrollan son ajenas a los sistemas de render y no están preparadas para hacer un uso conjunto.\u003Cbr /\u003EEn este proyecto se presenta un nuevo sistema diseñado y desarrollado con el fin de facilitar el uso de librerías de redes neuronales dentro de un motor de renderizado. Para ello se realiza un estudio de las características de los renderizadores más utilizados actualmente en investigación junto con otro sobre las librerías de aprendizaje automático de uso más extendido. Escogiendo finalmente el renderizador Mitsuba y la librería de aprendizaje automático LibTorch se realiza un análisis de sus flujos de ejecución, culminando en el diseño e implementación de una arquitectura que integra LibTorch en Mitsuba. \u003Cbr /\u003EEl sistema propuesto es validado mediante la reproducción de un artículo de reducción de varianza en renderizado desarrollado por Disney para la aplicación en sus películas de animación. Finalmente sobre el artículo se propone e implementa una variación aplicando el método a imágenes con medios participativos.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/85241 spa Universidad de Zaragoza; Departamento de Informática e Ingeniería de Sistemas; Área de Lenguajes y Sistemas Informáticos http://zaguan.unizar.es/record/85241/files/TAZ-TFG-2019-2746.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Ingeniería Informática Integración de un sistema de aprendizaje automático en un motor de renderizado TAZ-TFG Integration of a machine learning system in a rendering engine\n"
+        ],
+        "_version_": 1.850483344883581e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85241.xml"
+      }
+    ]
+  }
+}

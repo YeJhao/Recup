@@ -1,0 +1,1092 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 4,
+    "params": {
+      "q": "content:((TFG TFM PFC) AND veterinaria AND (gat* perr*) AND [20120101 TO 20180101])",
+      "indent": "true",
+      "q.op": "OR",
+      "rows": "100",
+      "wt": "json",
+      "useParams": ""
+    }
+  },
+  "response": {
+    "numFound": 51,
+    "start": 0,
+    "numFoundExact": true,
+    "docs": [
+      {
+        "tstamp": [
+          "2025-12-03T10:21:31.528Z"
+        ],
+        "digest": [
+          "d54e9168293fe2b56152de0348adbc3c"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62353.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62353.xml"
+        ],
+        "content": [
+          "Verde Arribas, María Teresa Ugalde Ormazabal, Irati Vit, Ivana Marcela 2017 La casuística de presentación de enfermedades concomitantes en pacientes geriátricos con enfermedad renal crónica (ERC) es muy elevada, siendo el objetivo de este trabajo el análisis de tratamientos farmacológicos capaces de alcanzar un nivel terapéutico sin efectos negativos y el estudio de las contraindicaciones que puedan presentarse en un paciente con esta enfermedad. Como muchos de estos fármacos y sus metabolitos se excretan por el riñón, afectan en la evolución de la enfermedad renal, por ello, es importante el ajuste de la dosificación de fármacos a través del cálculo de la función renal del paciente. En este trabajo también se mencionarán los métodos para la evaluación de la función renal en veterinaria, tales como, la concentración sérica de creatinina, cuya tasa en sangre correlaciona la tasa de filtración glomerular del riñón (TFG) y el nuevo biomarcador, la dimetilarginina simétrica (SDMA). El presente trabajo se basa en una revisión bibliográfica actualizada sobre los principales aspectos a tener en cuenta en el tratamiento farmacológico de pacientes geriátricos con enfermedad renal crónica, ya que en la actualidad, en medicina veterinaria, no se dispone de estudios científicos basados en la evidencia. Irati Ugalde Ormazabal abordará los siguientes temas: la utilización de AINEs en la ERC, la utilización de antibióticos en la ERC y la utilización de fármacos en pacientes con sintomatología digestiva con ERC. Ivana Marcela Vit abordará los siguientes temas: la utilización de fármacos en pacientes con trastornos cardiovasculares y renales, la utilización de fármacos en neurología en la ERC, la utilización de fármacos en endocrinología en la ERC y la utilización de fármacos en la anestesia en la ERC. http://zaguan.unizar.es/record/62353 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62353/files/TAZ-TFG-2017-1320.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Abordaje del tratamiento farmacológico en perros y gatos geriátricos con enfermedad renal crónica que presentan enfermedades concomitantes TAZ-TFG Approach in pharmacological treatment in geriatric dogs and cats with chronic renal disease that present concomitant diseases\n"
+        ],
+        "_version_": 1.8504833340004106e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62353.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:14:12.971Z"
+        ],
+        "digest": [
+          "d4ab7e6950d3a898549f3c2a0f77ab7a"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0006468148],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31832.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31832.xml"
+        ],
+        "content": [
+          "Verde Arribas, María Teresa Pardo Cortinas, María Frau Tascón, María 2015 La otitis externa es una de las patologías más frecuentes en la clínica veterinaria de pequeños animales, de mayor incidencia en perros que en gatos. El objetivo del presente trabajo es identificar y analizar los factores primarios y secundarios, así como los factores predisponentes y perpetuantes, implicados en la patogenia de las otitis externas del perro. El estudio se realizó sobre los casos clínicos de otitis atendidos en el servicio de Dermatología del Hospital de la Facultad de Veterinaria de Zaragoza. En el periodo del estudio se atendieron 162 perros de los cuales 40 presentaban otitis y han sido incluidos en el estudio. La información de cada caso clínico fue recogida en una ficha técnica elaborada expresamente para el estudio, en ella se incluían los datos relativos a las características de la otitis, reseña y examen del paciente. El estudio de los datos obtenidos ha permitido obtener los resultados siguientes. En relación al factor raza, la mayor incidencia se presenta en perros de raza Cocker (20%), mestizos (15%) y Bulldog Francés (12,5%). En referencia a los factores predisponentes, el de mayor importancia es la conformación del pabellón auricular, detectado en el 12,5% de los casos. Respecto a los factores primarios los tres más destacados han sido: atopia (70%), presencia de parásitos (50%) e hipersensibilidad alimentaria (35%). A través de exámenes citológicos se analizaron los factores secundarios: los cocos fueron los agentes observados con mayor frecuencia, presentes en el 22,5% de los perros con otitis. Finalmente los factores perpetuantes más representativos han sido: los cambios patológicos crónicos y la hiperplasia epidérmica o sebácea. El mayor error que se comete en el ámbito clínico es considerar que se trata de una entidad aislada, cuando en más del 90% de los casos la otitis externa es un signo más de un proceso dermatológico más o menos generalizado. Para poder tratar y prevenir las recaídas de las otitis es necesario analizar cuidadosamente los factores que intervienen en su desarrollo (factores predisponentes, primarios, secundarios y perpetuantes). http://zaguan.unizar.es/record/31832 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/31832/files/TAZ-TFG-2015-1134.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Otitis externas en perros: análisis de los factores primarios y secundarios implicados en su desarrollo. TAZ-TFG\n"
+        ],
+        "_version_": 1.8504833432404623e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31832.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:19:11.519Z"
+        ],
+        "digest": [
+          "3274e40d871469a36ebe235ae9689ebe"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56963.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56963.xml"
+        ],
+        "content": [
+          "SIMÓN VALENCIA, MARÍA CARMEN CES DE PAZ, ELENA 2016 Introducción y objetivos. Los antibióticos son esenciales en el tratamiento de infecciones humanas y animales. Numerosas bacterias han desarrollado o adquirido resistencia parcial o total a los antibióticos, y esto es consecuencia de su uso y abuso. La resistencia a antibióticos aumenta a un ritmo mucho mayor del que se crean nuevos antimicrobianos, lo que obliga a preservar la eficacia de los ya existentes. El objetivo del presente estudio fue estudiar la resistencia antibiótica de bacterias aisladas de casos clínicos y detectar la posible presencia de factores asociados a la misma en los antibióticos más utilizados en la clínica diaria. Material y métodos. Se incluyeron 114 casos de perros y gatos, que se diagnosticaron en el laboratorio de Enfermedades Infecciosas de la Facultad de Veterinaria de Zaragoza durante el año 2015. Los datos epidemiológicos, clínicos, las características de la bacteria aislada y su sensibilidad a los antibióticos se introdujeron en una base de datos para el análisis estadístico. Resultados. De los 114 casos sospechosos de infección, se aislaron bacterias en 68 animales, de los cuales se obtuvieron 95 aislados. Los datos más relevantes se estudiaron en Staphylococcus spp, Streptococcus spp y Enterobacterias. En las infecciones genitales predominaban los Streptococcus spp. (88,33%) y en infecciones urinarias las Enterobacterias (75,00%). La resistencia a Antibióticos fue muy elevada en Enterobacterias, seguido por los Streptococcus spp y Staphylococcus spp. Conclusiones. Las bacterias aisladas son las que habitualmente se encuentran en la clínica del perro y el gato. Su resistencia a los antibióticos más usados para las infecciones del perro y el gato es elevada y superior a las informadas por otros autores. El riesgo de que estos animales colaboren en la diseminación de bacterias o elementos de transmisión de la resistencia a las personas que conviven con ellos puede ser elevado. http://zaguan.unizar.es/record/56963 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/56963/files/TAZ-TFG-2016-3167.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria BACTERIAS AISLADAS DE CASOS CLÍNICOS DE PERRO Y GATO, SUS RESISTENCIAS A ANTIBIÓTICOS Y POSIBLE REPERCUSIÓN EN LA ESPECIE HUMANA TAZ-TFG ANTIBIOTIC RESISTANCE OF BACTERIA ISOLATED FROM CLINICAL CASES OF DOG AND CAT, AND POSSIBLE IMPACT ON HUMAN SPECIE\n"
+        ],
+        "_version_": 1.8504833330021663e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56963.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:07:02.233Z"
+        ],
+        "digest": [
+          "a338b6d75cbcd6d403a7d3b190821e49"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.009535492],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/oai_zaguan.unizar.es_76687.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/oai_zaguan.unizar.es_76687.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Faustino Manuel Guillén Crusells, María 2018 Se trata de una revisión bibliográfica sobre la relación entre fibrilación auricular e ictus cerebrales en perros y gatos, ya que esta relación está demostrada en Medicina Humana, pero la etiología de este proceso no es del todo conocida en perros y gatos Por tanto, el objetivo era determinar si en estos existe relación entre arritmias cardiacas, alteraciones de la coagulación y problemas cerebrales. Tras esta revisión no se obtuvo ninguna referencia que demostrase la relación de las tres patologías en perros, sin embargo, en gatos sí está demostrada una relación entre arritmia cardíaca y tromboembolismo, el tromboembolismo aórtico felino. Dado que en humana se emplea la terapia anticoagulante en pacientes con fibrilación auricular para prevenir ictus se proponía el uso profiláctico de los mismos en pacientes cardiópatas caninos y felinos, pero esto requiere de futuros estudios. http://zaguan.unizar.es/record/76687 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/76687/files/TAZ-TFG-2018-3324.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Relación del accidente cerebrovascular con arritmias cardíacas en perros y gatos TAZ-TFG Stroke and cardiac arrhythmia relation in dogs and cats\n"
+        ],
+        "_version_": 1.8504813295341404e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/oai_zaguan.unizar.es_76687.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:43:18.354Z"
+        ],
+        "digest": [
+          "dbaa15d2631d8c660827df2f1a7e68f6"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000025504905],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_69548.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_69548.xml"
+        ],
+        "content": [
+          "Simón Valencia, María del Carmen del Hoyo Ramírez, María Concepción 2018 El objetivo del estudio es analizar la evolución temporal y las características de la resistencia a los antibióticos de Escherichia coli aislada de casos clínicos de infecciones caninas y felinas, en los años 2015 y 2016, y relacionarlo con posibles consecuencias para la salud humana. Es un estudio retrospectivo de la resistencia a antibióticos de 49 aislados de E. coli obtenidos de perros y gatos que sufrían diversas infecciones. La prevalencia de E. coli resistentes ha oscilado desde un 20,17% para pradofloxacina y trimethoprim-sulfametoxazol a un 89,58%para doxicilina y 78,57% para ampicilina. Se observó una prevalencia elevada de resistencia a antibióticos en los E. coli analizados, similar a las detectadas en países del sur de Europa. Se observa una ligera tendencia a la disminución entre el año 2015 y 2016 en algunos antibióticos. Se confirma la necesidad de seguir con campañas conjuntas de concienciación sobre el uso prudente de antibióticos para los animales domésticos y las personas. http://zaguan.unizar.es/record/69548 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/69548/files/TAZ-TFG-2018-127.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Enterobacterias aisladas de infecciones urogenitales de perro y gato, evolución temporal de la resistencia a los antibióticos y valoración de los resultados respecto a la salud humana y animal. TAZ-TFG Enterobacteria isolated from urogenital infections of cats and dogs, the temporal evolution of the antibiotic resistance and asessment of the results regarding to human and animal health.\n"
+        ],
+        "_version_": 1.850498151379632e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_69548.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:05:46.200Z"
+        ],
+        "digest": [
+          "dedeef43e8a28adeceb6e61bac4fa5f5"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.011425028],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57207.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57207.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Manuel Sorrentino Martín, Joshua 2016 Uno de los ejes centrales en el tratamiento de la ICC es la inhibición del sistema renina-angiotensina-aldosterona, debido a que su activación resulta perjudicial para el corazón, puesto que produce un aumento de la resistencia, incrementando notablemente el riesgo de fibrosis del miocardio y la aparición de edemas. Es por ello que la inhibición del sistema resulta clave para el tratamiento de la ICC. Actualmente los fármacos utilizados en veterinaria con este fin son los IECA, pero hay situaciones en las que el uso de estos fármacos esta desaconsejado, o que tras el inicio del tratamiento aparecen efectos secundarios y hay que retirarlos. Este trabajo revisa el uso potencial de los ARA II, fármaco que también inhibe el sistema reni-na-angiotensina, en perros con insuficiencia cardiaca congestiva utilizando para ello el modelo en medicina humana dada la falta de información sobre este tópico en medicina veterinaria. En humana los ARA II son utilizados en el tratamiento de la ICC cuando los pacientes no toleran los IECA. Por ello, uno de los objetivos principales de este trabajo es demostrar la utilidad potencial del uso de los ARA II en las situaciones en que los IECA están desaconsejados o produzcan efectos adversos en medicina veterinaria. Tras la revisión podemos concluir que los ARA II no han demostrado diferencias de eficacia respecto a los IECA en la reducción de la morbi-mortatilidad en pacientes con insuficiencia cardíaca. Es por ello que los IECA continúan siendo el tratamiento de elección. Los ARA II son una buena alternativa en aquellas situaciones en las que los IECA den lugar a efectos secundarios. Además, podrían emplearse con cierta precaución en aquellas situaciones en las que el uso de los IECA esté desaconsejado, ya que también podrían producir efectos adversos. http://zaguan.unizar.es/record/57207 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/57207/files/TAZ-TFG-2016-1669.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Utilidad potencial del uso de los ARA II en el tratamiento de la insuficiencia cardíaca congestiva en perros TAZ-TFG Potential use of ARB in the treatment of congestive heart failure in dogs\n"
+        ],
+        "_version_": 1.850481329161896e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57207.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:15:52.534Z"
+        ],
+        "digest": [
+          "c424644d0a49629110da58e4073f51f6"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62360.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62360.xml"
+        ],
+        "content": [
+          "Lain Brito, Antxon José Rodriguez Salaverria Zapirain, Pablo 2017 En los últimos años, la cardiología veterinaria ha dado un salto gigante gracias a los nuevos medicamentos de los que disponemos, pero sobre todo y fundamentalmente gracias a una rápida y precoz detección de las patologías cardiacas en la consulta diaria veterinaria. Esto ha sido posible gracias a una técnica que durante la pasada década se ha convertido en una herramienta accesible a los veterinarios de pequeños animales y ha sido empleada como una parte más de los procedimientos diagnósticos, y no es otra que la ecografía. Con una rápida detección del problema cardiaco, se alarga significativamente la vida de nuestros pacientes y su calidad de vida mejora de manera exponencial. Quisiera recalcar, que la clínica en la que he tenido el gusto de realizar el trabajo, no es una clínica especializada en cardiología ni mucho menos, ni los propietarios acuden específicamente porque sus perros presenten problemas cardiacos. Durante este trabajo, se va a ir mostrando el procedimiento llevado a cabo para detectar las cardiopatías mediante el ecógrafo y las medidas ecográficas utilizadas para justificarlas (ratio del diámetro atrio izquierdo/aorta), y mostrar algunos casos detectados en la clínica. http://zaguan.unizar.es/record/62360 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62360/files/TAZ-TFG-2017-1283.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Ecocardiografía en la clínica de pequeños animales TAZ-TFG Small animals clinic echocardiography\n"
+        ],
+        "_version_": 1.8504833340098478e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62360.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:49:34.461Z"
+        ],
+        "digest": [
+          "55cf6cd1704603954c789831983619c2"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000025504905],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_71151.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_71151.xml"
+        ],
+        "content": [
+          "Alamán Valtierra, Manuel Mata Esteve, Mònica 2018 El shunt portosistémico es una anomalía vascular que consiste en una comunicación entre la vascularización portal y la circulación sistémica, que puede localizarse bien a nivel extrahepático, bien a nivel intrahepático. La presencia de este/os vaso/s anómalo/s hace que el flujo portal que se dirige hacia el hígado se vea reducido y como consecuencia aparece una degeneración hepática, comprometiendo su funcionalidad. Esta patología puede tener dos orígenes distintos, existiendo los shunts congénitos y los shunts adquiridos. Los primeros se forman como consecuencia a un cierre inapropiado de diferentes partes de la vascularización fetal, mientras que los segundos son secundarios a hipertensión portal crónica. Esta patología no solo ha sido descrita en el perro, sino también en el gato, en el humano y en otros mamíferos. Los shunts congénitos pueden ser únicos o dobles y su tratamiento requiere de la oclusión del vaso/s mediante técnicas quirúrgicas. Existen varias técnicas, entre las que encontramos la ligadura con sutura de seda o polipropileno, el ameroide constrictor, la banda de celofán y los coils trombogénicos. La técnica a usar dependerá, entre otros factores, de la localización y el diámetro del shunt. En el caso de los shunts adquiridos, que aparecen de forma múltiple, la cirugía no está indicada. Debido a la afección del hígado y su funcionalidad alterada, es importante establecer un protocolo anestésico adecuado y adaptado a cada paciente, para minimizar al máximo el riesgo anestésico y la aparición de posibles complicaciones. http://zaguan.unizar.es/record/71151 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/71151/files/TAZ-TFG-2018-1447.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Revisión bibliográfica sobre la anestesia y las distintas técnicas quirúrgicas para la resolución de shunts portosistémicos TAZ-TFG Bibliographical review on anesthesia and the different surgical techniques for the resolution of portosystemic shunts\n"
+        ],
+        "_version_": 1.8504981580632556e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_71151.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:28:14.278Z"
+        ],
+        "digest": [
+          "53ed7e93e697f97238dc80076deb738c"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62342.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62342.xml"
+        ],
+        "content": [
+          "Verde Arribas, María Teresa Trivez Boned, María del Carmen Ferreira Abellán, Lorena 2017 La dermatofitosis o tiña es una infección micótica superficial de la piel causada por hongos dermatofíticos. Se trata de la dermatosis contagiosa más importante en perros y gatos, siendo en la especie felina donde se considera que tiene mayor prevalencia. Además, los felinos pueden actuar como fuente directa y primaria de infección, existiendo asimismo un elevado número de portadores asintomáticos dentro de esta especie, lo que realza la importancia de los gatos como diseminadores de la enfermedad. En este trabajo, se ha realizado una revisión bibliográfica sobre los tipos de dermatofitos más importantes en la especie felina, sus características microbiológicas, los patrones clínicos que pueden provocar, la metodología para su diagnóstico y el tratamiento. Para ello, se han consultado libros especializados, diversos artículos y bases de datos. Paralelamente, se ha desarrollado un trabajo de campo entre los meses de octubre 2016 a abril 2017, consistente en cultivar muestras de pelo y escamas de los gatos atendidos en dos centros clínicos veterinarios de Zaragoza. En cuanto a material y métodos utilizados para el estudio de los casos, nos hemos hecho servir de una ficha (Anexo I) para recoger de forma sistemática los mismos datos en cada caso y recopilar así la información de forma ordenada. El objetivo del trabajo es valorar el porcentaje de gatos positivos a dermatofitosis de entre todos los gatos atendidos en los dos centros clínicos seleccionados, en el periodo indicado, en diversas zonas de la ciudad de Zaragoza. Se tomaron muestras de 90 gatos, procedentes de diferentes zonas, y se efectúo un cultivo micológico DTM que nos permitió diagnosticar la enfermedad y, en algunos casos, diferenciar la especie de hongo causante de la misma. Finalmente, se ha podido observar una prevalencia de la enfermedad del 35,56%, siendo Trichophyton mentagrophytes la especie más frecuentemente hallada. http://zaguan.unizar.es/record/62342 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62342/files/TAZ-TFG-2017-1380.pdf http://zaguan.unizar.es/record/62342/files/TAZ-TFG-2017-1380_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Dermatofitosis en gatos en la ciudad de Zaragoza TAZ-TFG Dermatophytosis in cats in Zaragoza city\n"
+        ],
+        "_version_": 1.8504833339836334e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62342.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:25:19.922Z"
+        ],
+        "digest": [
+          "fb6e88b8b5a737d4a87c7ab03b2e00b0"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56957.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56957.xml"
+        ],
+        "content": [
+          "Verde Arribas, María Teresa Peciña García, Mercedes Ibáñez Martínez, Guiomar 2016 Estudio de la enfermedad cutánea denominada Demodicosis canina dónde se procede a la revisión bibliográfica de la misma: patogenia, presentaciones clínicas y opciones terapéuticas, dónde nos centramos principalmente en una de las nuevas moléculas descritas: fluralaner. Por otra parte se ha realizado un estudio con casos de 20 perros afectados por demodicosis generalizada en un periodo de 12 meses en la Clínica Veterinaria Cameros (Villamediana de Iregua, La Rioja). Se ha comparado la efectividad y seguridad de antiguos tratamientos (ivermectina) frente a una de las nuevas moléculas (fluralaner). Asimismo se han estudiado las razas de perros y edades más frecuentemente afectadas además de las posibles causas subyacentes. http://zaguan.unizar.es/record/56957 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56957/files/TAZ-TFG-2016-3183.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Demodicosis canina: una nueva alternativa terapéutica TAZ-TFG Canine Demodicosis: a new therapy\n"
+        ],
+        "_version_": 1.8504833435445494e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56957.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:12:38.545Z"
+        ],
+        "digest": [
+          "224dce5a7d3b6291c8290b0b4c0ea956"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76380.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76380.xml"
+        ],
+        "content": [
+          "Sever Bermejo, José Ramón Hidalgo Ginés, Carla 2018 Actualmente, la rotura del ligamento cruzado craneal (LCCr) es una de las causas más frecuentes de cojera en perros. Es una enfermedad con muchas incógnitas alrededor de su etiopatogenia y de cuál podría ser su tratamiento más adecuado. Por eso, ha sido y es objeto de muchos estudios durante décadas. Esta revisión se centra sobre todo en comparar las tres cirugías más practicadas por los especialistas: la sutura fabelar lateral (LFS), la osteotomía niveladora de la meseta tibial (TPLO) y el avance de la tuberosidad tibial (TTA). Para ello, se ha consultado la información más actual al respecto. La intención no es concluir cuál es la mejor, dado que ni siquiera los más especializados han podido resolverlo hasta hoy. Este trabajo expone las diferencias y similitudes que tienen entre ellas en la teoría y en su puesta en práctica en la clínica veterinaria para averiguar los factores que pueden influir en la elección de una u otra. http://zaguan.unizar.es/record/76380 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/76380/files/TAZ-TFG-2018-4407.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Rotura del ligamento cruzado anterior en el perro. Comparación de técnicas quirúrgicas TAZ-TFG Cranial cruciate ligament rupture in dogs. A comparison of surgical techniques\n"
+        ],
+        "_version_": 1.8504833347344138e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76380.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:21:49.067Z"
+        ],
+        "digest": [
+          "73e30ccea2b8a58a8c2b3aafe8884e34"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62350.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62350.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Faustino Manuel Segurola Solana, María Asunción 2017 La endocardiosis mitral es un proceso degenerativo que afecta al tejido de la válvula mitral y que, poco a poco, provoca una insuficiencia valvular dando lugar a una insuficiencia cardíaca congestiva. Suele ocurrir en perros de raza pequeña o mediana, en los que se trata de una de las patologías cardíacas más importantes. El trabajo comenzará con una breve introducción de la enfermedad, seguida de los conceptos principales de la histología y lesiones (macroscópicas y microscópicas) de la válvula mitral. A continuación, se describirá la etiología, epidemiología, fisiopatología y principales complicaciones de esta afección. Se detallarán los métodos diagnósticos y tratamientos (médico y posibles intervenciones quirúrgicas), incluyendo los últimos avances en ambos campos y posteriormente el pronóstico de la enfermedad. Se finalizará con la presentación de un caso clínico de estadio avanzado, el cual es evaluado periódicamente en la facultad de veterinaria de Lyon (Vetagro Sup, Francia). De esta forma, algunas de las ideas desarrolladas a lo largo del trabajo serán reflejadas de manera práctica y dinámica para facilitar su comprensión. http://zaguan.unizar.es/record/62350 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62350/files/TAZ-TFG-2017-1344.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Últimos avances en el diagnóstico y tratamiento de la endocardiosis mitral en perros TAZ-TFG Recent advances in the diagnosis and treatment of mitral endocardiosis in dogs\n"
+        ],
+        "_version_": 1.8504833440331858e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62350.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:27:54.236Z"
+        ],
+        "digest": [
+          "aef13e04d3b4d5711be54d3c71deca57"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62346.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62346.xml"
+        ],
+        "content": [
+          "Monteagudo Ibáñez, Luis Vicente Tejedor Hernández, Teresa Etxarri Elizalde, Teresa 2017 La mutación del gen MDR1 (Multi-Drug Resistance 1) provoca un déficit e incluso ausencia, de glicoproteína P, la cual se encarga del transporte de numerosos xenobióticos por el organismo, facilitando su eliminación e impidiendo que lleguen a órganos donde resultan tóxicos. Esta mutación produce numerosos efectos perjudiciales en numerosas razas caninas comunes. La relevancia de esta mutación radica en los graves efectos que produce en relación a la administración de fármacos de uso común en la clínica veterinaria. En el presente trabajo también se estudia un caso de un Rottweiler con sintomatología similar a los individuos afectados por la mutación debido a reacciones adversas por la administración de fármacos sustratos de la glicoproteína P. Para ello, mediante muestras sanguíneas de los progenitores del animal afectado, se ha realizado extracción de ADN, amplificación mediante PCR, secuenciación y alineación, para comprobar la presencia o no de dicha mutación. La mutación del gen de resistencia a múltiples drogas (MDR1) es un hallazgo relativamente reciente que precisa de un continuo estudio puesto que cada vez se obtienen nuevos datos que conllevan más medicamentos y más individuos afectados. http://zaguan.unizar.es/record/62346 spa Universidad de Zaragoza; Departamento de Anatomía, Embriología y Genética Animal; Área de Genética http://zaguan.unizar.es/record/62346/files/TAZ-TFG-2017-1357.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Resistencia múltiple a drogas en perros: el gen MDR1 TAZ-TFG Multi-drugs resistance in dogs: the gene MDR1\n"
+        ],
+        "_version_": 1.8504833339899249e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62346.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:20:54.756Z"
+        ],
+        "digest": [
+          "aa3e9f6b058830fbb33e87c991a30a53"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62359.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62359.xml"
+        ],
+        "content": [
+          "Aceña Fabián, María Carmen Rosselló Matamalas, Aina Maria 2017 El cáncer es una de las patologías con mayor interés en la medicina veterinaria en nuestra época. Por este motivo, el presente trabajo pretende ofrecer una visión global acerca del carcinoma de células escamosas en gatos. El carcinoma de células escamosas (CCE) es un tipo de neoplasia dérmica maligna cuya incidencia es mayor en gatos geriátricos de capa clara y con zonas despigmentadas. Por su carácter maligno, aparece relativamente rápido en la dermis de los felinos y está asociado a una serie de factores predisponentes tales como la exposición prolongada a la radiación solar y al humo del tabaco, entre otros. El principal objetivo de este proyecto es realizar una revisión bibliográfica global de la neoplasia, incluyendo datos acerca de la etiopatogenia, clasificación y predisposición y de los diferentes tipos de tratamientos médicos y quirúrgicos y sus correspondientes pronósticos. Además se presenta un enfoque detallado de la electroquimioterapia, una de las terapias más innovadoras para esta patología, junto a un caso real. Por último, se valora la eficacia de los diferentes tratamientos instaurados en pacientes reales mediante una revisión general de una pequeña selección de casos clínicos. http://zaguan.unizar.es/record/62359 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62359/files/TAZ-TFG-2017-1301.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria El carcinoma de células escamosas felino: la electroquimioterapia y otros tratamientos novedosos TAZ-TFG Feline squamous cell carcinoma: electrochemotherapy and other novel treatments\n"
+        ],
+        "_version_": 1.850483334006702e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62359.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:43:59.950Z"
+        ],
+        "digest": [
+          "f250d41dca1447e8551cfaeb4fd5285c"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000026475225],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64069.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64069.xml"
+        ],
+        "content": [
+          "Unzueta Galarza, Amaya Fernández Gómez, María 2017 La efusión o derrame pleural en gatos es un hallazgo que se presenta con una frecuencia muy significativa en la clínica veterinaria diaria. Consiste en la acumulación patológica de líquido en la cavidad pleural, que es el espacio que queda entre las capas de tejido que recubren los pulmones y la cavidad torácica. Las causas que pueden originar el derrame pleural en los gatos son muy diversas, pudiendo variar desde una insuficiencia cardíaca como origen de efusión trasudativa a una inflamación, neoplasia, lesión pulmonar o bloqueo de vasos y linfáticos como posibles causas de efusión de naturaleza exudativa.     Se lleva a cabo un estudio retrospectivo cuyo objetivo es realizar una descripción de los aspectos clínicos y radiológicos de los derrames pleurales en los gatos y evaluar estadísticamente la etiología de dicha patología en una población estudiada. El análisis estadístico retrospectivo se realizará a partir de la observación de radiografías torácicas de la especie felina contenidas en la base de datos del HVUZ, con el fin de recopilar todos aquellos casos en los que hay signos radiológicos compatibles con efusión pleural. Posteriormente se realizará la búsqueda del agente etiológico identificado en cada caso como causante de dicha efusión, de forma que se establecerá un orden de relación entre la causa y la efusión.  http://zaguan.unizar.es/record/64069 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/64069/files/TAZ-TFG-2017-3258.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria La efusión pleural en gatos: aspectos radiológicos y etiológicos TAZ-TFG Pleural effusion in cats: radiological and etiological aspects\n"
+        ],
+        "_version_": 1.8504981511489454e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64069.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:28:04.760Z"
+        ],
+        "digest": [
+          "ab8310e2347976e49425a1ab1ea8b695"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62344.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62344.xml"
+        ],
+        "content": [
+          "Acín Tresaco, Cristina Bolea Bailo, Rosa María Salord Torres, Francesc Xavier 2017 La reacción de hipersensibilidad tipo I (hipersensibilidad inmediata) es una reacción inmediata que se produce cuando un antígeno se combina con un anticuerpo (IgE) preformado (creado por una exposición sensibilizante al mismo antígeno) y se une a los mastocitos provocando una reacción instantánea: sustancias inflamatorias y vasoactivas son liberadas por esas células, causando vasodilatación, edema, quimiotaxis eosinofílica, prurito y broncoconstricción. Los ejemplos más importantes de reacciones de hipersensibilidad inmediatas en medicina veterinaria van desde trastornos alérgicos sistémicos (anafilaxis) hasta trastornos alérgicos específicos tales como alergias respiratorias y oculares (rinitis alérgica, bronquitis y conjuntivitis), alergias alimentarias y alergias cutáneas. Los trastornos alérgicos de la piel son los más relevantes en la especie canina, especialmente un síndrome multifactorial denominado Dermatitis Atópica Canina, sufrido por entre el 10 y el 15% de la población canina. En la primera década del siglo XX, el científico austriaco Clemens von Pirquet introdujo el término \"alergia\" en el mundo de la medicina humana. Posteriormente el concepto se extendió al campo veterinario y ya en 1941 se informó de un caso de manifestaciones clínicas compatibles con atopia canina en un perro afectado de rinitis alérgica estacional. Justo en 1971 se describieron inicialmente los signos clínicos de CAD. Las condiciones alérgicas suelen ser multifactoriales y en ellas intervienen tanto factores intrínsecos, únicos del animal, como factores extrínsecos, relacionados con el medio ambiente y con el microambiente cutáneo. Una comprensión completa de estos factores es necesaria si la condición se quiere abordar con éxito desde el punto de vista diagnóstico y terapéutico. http://zaguan.unizar.es/record/62344 eng Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/62344/files/TAZ-TFG-2017-1370.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria La reacción de hipersensibilidad tipo I en la especie canina: dermatitis atópica canina y otras enfermedades alérgicas TAZ-TFG Type I hypersensitivity reaction in the canine species: canine atopic dermatitis and other allergic diseases\n"
+        ],
+        "_version_": 1.8504833339878277e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62344.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:17:47.337Z"
+        ],
+        "digest": [
+          "2b08333ca3778a31b555e6760c971bac"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76377.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76377.xml"
+        ],
+        "content": [
+          "Gil García, Julio Bengoa Casado, Águeda 2018 La morfología de la columna vertebral condiciona su funcionamiento estático y dinámico, de manera que las alteraciones anatómica de esta región,son el origen de patologías. El conocimiento morfofuncional detallado de la columna vertebral, resulta esencial tanto para plantear la mejores soluciones a su patología, como para comprender las posturas que el animal puede mostrar. http://zaguan.unizar.es/record/76377 spa Universidad de Zaragoza; Departamento de Anatomía, Embriología y Genética Animal; Área de Anatomía y Anatomía Patológica Comparadas http://zaguan.unizar.es/record/76377/files/TAZ-TFG-2018-4439.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Análisis morfomecánico sobre la columna toracolumbar del perro. TAZ-TFG Morphomechanical analysis on the thoracolumbar spine of the dog.\n"
+        ],
+        "_version_": 1.8504833347323167e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76377.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:20:15.661Z"
+        ],
+        "digest": [
+          "a38cdbecea680c085deb828a3d6969de"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0006468148],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31825.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31825.xml"
+        ],
+        "content": [
+          "Bolea Bailo, Rosa María Martín Burriel, Inmaculada Martínez Martínez, Berta 2015 Este trabajo fin de grado ha consistido en la realización de un seguimiento diagnóstico post-mortem de un gato con dermatitis necrótica. Se le realizó un estudio histopatológico de la lesión, cultivo del agente y posterior diagnóstico molecular mediante secuenciación génica. La secuencia de nucleótidos obtenida se comparó en la base de datos GenBank donde se mostró un 100% de identidad con Aspergillus tubingensis. http://zaguan.unizar.es/record/31825 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/31825/files/TAZ-TFG-2015-1158.pdf http://zaguan.unizar.es/record/31825/files/TAZ-TFG-2015-1158_ANE.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Caracterización de microorganismos asociados a procesos patológicos en especies de interés veterinario. TAZ-TFG\n"
+        ],
+        "_version_": 1.8504833432373166e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31825.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:27:59.759Z"
+        ],
+        "digest": [
+          "98ac920d684ab123fa646ddd369b7b0b"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62345.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62345.xml"
+        ],
+        "content": [
+          "Loste Montoya, Araceli Marca Andrés, Mª del Carmen Parra Martínez, Cristina 2017 El hipotiroidismo canino es una de las endocrinopatías más frecuentes en la clínica que resulta de una deficiente producción, secreción o actuación de las hormonas tiroideas: tiroxina (3,5,3’,5’-L-tetrayodotironina o T4) y triyodotironina (3,5,3’-L-triyodotironina o T3). Se trata de una enfermedad multisistémica, por lo que plantea una gran dificultad en su diagnóstico, ya que no existen síntomas patognomónicos ni disponemos de una prueba diagnóstica segura y eficaz. Por ello, antes de realizar análisis hormonales, es fundamental interpretar la información recogida tras una exhaustiva anamnesis, exploración física completa y realización de pruebas generales que orienten el diagnóstico, entre las que se incluye el hemograma. Clásicamente, se considera que la deficiencia de hormonas tiroideas se acompaña de una anemia normocítica, normocrómica y no regenerativa. Con este trabajo pretendemos evaluar las alteraciones hematológicas que presentan perros hipotiroideos en el momento del diagnóstico y su evolución durante el tratamiento. Para ello, se han incluido 16 perros con hipotiroidismo primario atendidos en la Consulta de Endocrinología del Hospital Veterinario de la Facultad de Veterinaria de Zaragoza durante el periodo comprendido entre los años 2012-2016. Ninguno de los perros hipotiroideos incluidos en el estudio presentó anemia normocítica, normocrómica y no regenerativa en el momento del diagnóstico ni en ninguno de los controles realizados durante el tratamiento. Una vez instaurado el mismo, se observa un aumento progresivo en el recuento de eritrocitos, hemoglobina y hematocrito, si bien en todo momento los valores están dentro del rango normal para la especie y, por lo tanto, carecen de significación clínica. El recuento de plaquetas y glóbulos blancos es variable y sus modificaciones no se relacionan con la respuesta clínica del paciente durante el tratamiento. Por tanto, en nuestro estudio, los cambios hematológicos encontrados no han supuesto una ayuda en el diagnóstico ni en la monitorización del hipotiroidismo canino. http://zaguan.unizar.es/record/62345 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62345/files/TAZ-TFG-2017-1358.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Hipotiroidismo canino. Estudio de las alteraciones hematológicas TAZ-TFG Canine hypothyroidism. Study of hematological disorders\n"
+        ],
+        "_version_": 1.8504833440237486e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62345.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:46:58.921Z"
+        ],
+        "digest": [
+          "cc3ae589c4acfacadddfeb9c70675ade"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000026475225],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64155.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64155.xml"
+        ],
+        "content": [
+          "Falceto Recio, María Victoria Aceña Fabián, Mª del Carmen Aceña Fabián, María Carmen Cifre Pallicer, Cristina 2017 La neoplasia ovárica tumoral en la perra es una patología reproductiva con bajo porcentaje de aparición con respecto al resto de patologías del aparato reproductor. Sin embargo, la verdadera incidencia de los tumores ováricos en esta especie pasa desapercibida debido a que es una patología que aumenta con el avance de la edad y es frecuente realizar la esterilización canina mediante ovariectomía /ovariohisterectomía en edad temprana, por lo que la ausencia del aparato genital la evita. Dicha neoplasia puede presentar un comportamiento benigno o maligno, y afecta a diferentes tejidos del ovario, así como otras estructuras anexas. http://zaguan.unizar.es/record/64155 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/64155/files/TAZ-TFG-2017-2972.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Patología ovárica tumoral en la perra TAZ-TFG Ovarian tumor pathology in female dog\n"
+        ],
+        "_version_": 1.8504981511678198e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64155.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:41:16.280Z"
+        ],
+        "digest": [
+          "d76cf34a111a786e7af048958f99b3c9"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000025504905],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_71143.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_71143.xml"
+        ],
+        "content": [
+          "Loste Montoya, Araceli Royo Bejarano, Mirian 2018 El hipertiroidismo es la endocrinopatía más frecuente en gatos de edad avanzada y una de las enfermedades más importantes en la clínica felina,con una prevalencia del 10% en gatos geriátricos. Los síntomas clínicos clásicos son: pérdida de peso, polifagia, poliuria, polidipsia y vómitos crónicos.En la actualidad contamos con cuatro opciones de tratamiento: dietético,médico,quirúrgico y con yodo radioactivo (I-131).La radioterapia es el tratamiento de elección,siendo curativo en el 95% de los casos. Hasta hace un año no contábamos en España con ningún centro especializado en el diagnóstico, mediante gammagrafía, y tratamiento del hipertiroidismo felino con yodo radioactivo, puesto que las instalaciones requieren unos permisos especiales por el riesgo que conlleva el tratamiento radioactivo. http://zaguan.unizar.es/record/71143 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/71143/files/TAZ-TFG-2018-1636.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Nueva opción de tratamiento del hipertiroidismo felino en España TAZ-TFG New available treatment for feline hyperthyroidism in Spain\n"
+        ],
+        "_version_": 1.8504981514991698e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria222/oai_zaguan.unizar.es_71143.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:41:36.513Z"
+        ],
+        "digest": [
+          "7c3058a137a3482cfb9f7ea09a4e15f3"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58037.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58037.xml"
+        ],
+        "content": [
+          "Castillo Hernández, Juan Antonio Cortés Cebrián, Alberto Higinio Ortega Hernández,Paula 2016 La leishmaniosis visceral canina (LVC) es una enfermedad parasitaria, causada por Leishmania infatum transmisible por vectores, que afecta principalmente al perro, al que puede producir una enfermedad mortal, y que se presenta de forma endémica en España. El objetivo de este trabajo ha sido validar y comparar una técnica de diagnóstico molecular (RT-PCR o qPCR) frente a tres técnicas serológicas (IFI y AD “in house” y una ELISA comercial) en un estudio epidemiológico de la LVC en una población canina (n=29) mediante muestras de conjuntiva obtenidas con hisopo. Se demostró, por un lado, que la técnica ELISA fue la más sensible presentando una concordancia moderada y débil con IFI y DAT respectivamente y, por otro lado, PCR en tiempo real detectó ADN del kinetoplasto de L.infantum en todos los animales incluso en los que todavía no pudieron desarrollar anticuerpos. http://zaguan.unizar.es/record/58037 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/58037/files/TAZ-TFG-2016-4347.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Diagnóstico de la leishmaniosis visceral canina: Estudio comparativo de diferentes pruebas diagnósticas para su utilización en estudios epidemiológicos TAZ-TFG Diagnosis of canine visceral leishmaniasis: A comparative study of different diagnostic tests for use in epidemiological studies\n"
+        ],
+        "_version_": 1.850498150252413e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58037.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:25:24.933Z"
+        ],
+        "digest": [
+          "714efa7c679fd832043b89f859990e5f"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56956.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56956.xml"
+        ],
+        "content": [
+          "Martínez Sañudo, María José Rodrigo Briongos, Verónica Gil Díaz, Sandra 2016 La urolitiasis canina es una patología de las vías urinarias muy frecuente y común, pudiendo afectar a cualquier perro. Dicha enfermedad tiene una elevada tasa de incidencia en nuestro país, la cual depende de múltiples factores, destacando entre ellos el manejo nutricional. Este trabajo pretende conocer y profundizar en la enfermedad mediante una revisión bibliográfica de documentos en formato digital y físico, así como realizar un estudio retrospectivo de la casuística observada en el Hospital Veterinario de la Universidad de Zaragoza. De este modo, se podrá realizar una comparativa entre los datos obtenidos en la revisión bibliográfica y los datos obtenidos en la revisión de las historias clínicas del Hospital Veterinario de la Universidad de Zaragoza. Finalmente, se procederá a exponer las conclusiones obtenidas tras el análisis de las comparativas destacando las coincidencias y las divergencias entre los datos del hospital y los recogidos en la bibliografía. http://zaguan.unizar.es/record/56956 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56956/files/TAZ-TFG-2016-3184.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria La urolitiasis canina y estudio retrospectivo de su casuística en el Hospital Veterinario de la Universidad de Zaragoza TAZ-TFG Canine urolithiasis and retrospective study of casuistry observed at the Veterinary Hospital of the University of Zaragoza\n"
+        ],
+        "_version_": 1.8504833329948262e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56956.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:21:30.528Z"
+        ],
+        "digest": [
+          "e5531d5e8569a15e5095b9c18d2bbb46"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76433.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76433.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Faustino Manuel García Villar, Sergio 2018 Una cantidad creciente de pruebas sugiere que la flora entérica puede tener un papel importante en la patogénesis de las enfermedades inflamatorias intestinales (EII), ya que, en todos los casos, los pacientes parecen tener la composición luminal alterada lo cual podría, proporcionar el estímulo necesario para el inicio y el mantenimiento de la inflamación crónica que caracteriza a las EII. El presunto papel de las bacterias en la patogénesis de la enfermedad proporciona la justificación para el uso de agentes, como los antibióticos, que alteran la flora intestinal. Sin embargo, existe mucha incertidumbre acerca de la utilización óptima de los antibióticos en el tratamiento de estas enfermedades, y hay que tener en cuenta que los antibióticos pueden inducir efectos adversos, especialmente durante la terapia a largo plazo. Este estudio pretende evaluar la eficacia de ciertos antibióticos en el tratamiento de la enfermedad inflamatoria intestinal, siendo el objetivo principal de estudio, la eficacia sobre la colitis crónica que no responde a los tratamientos empíricos. http://zaguan.unizar.es/record/76433 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/76433/files/TAZ-TFG-2018-4273.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Uso de antibióticos en el tratamiento de la enfermedad inflamatoria intestinal en perros. TAZ-TFG Use of antibiotics in the treatment of inflammatory bowel disease in dogs.\n"
+        ],
+        "_version_": 1.8504833444389847e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76433.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:45:52.428Z"
+        ],
+        "digest": [
+          "9a972013169d354126989a900ed0eb20"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_57486.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_57486.xml"
+        ],
+        "content": [
+          "García-Belenguer Laita, Silvia Rosado Sánchez, Belén Sánchez Castelló, Violeta 2015 La domesticación del perro a partir del lobo ha supuesto una serie de importantes cambios morfológicos, fisiológicos y conductuales. La conducta de alimentación del perro ha sido especialmente influenciada por este proceso. Así, a diferencia del lobo, que es carnívoro, el perro es una especie omnívora, siendo su conducta alimentaria muy flexible. En cada individuo, dicha conducta puede verse modificada por diversos factores, relacionados con el propio alimento, como la palatabilidad o la digestibilidad, y otros dependientes del propio animal, como serían los sentidos, las experiencias previas o la facilitación social. Es importante entender los mecanismos de control internos que rigen la conducta alimentaria mediante los centros nerviosos y los neurotransmisores. En ocasiones, la conducta alimentaria sufre alteraciones, que pueden deberse a un problema orgánico, estrés, entorno inadecuado para el animal... Entre estas alteraciones, destacan la pica, la anorexia y la obesidad. La relación entre la alimentación y la conducta social en el perro se ha estudiado poco, especialmente respecto a como pueden influenciarse negativamente entre ellas, con lo que un problema alimentario puede desencadenar en un problema de comportamiento y viceversa. http://zaguan.unizar.es/record/57486 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/57486/files/TAZ-TFG-2015-2960.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Estudio de la conducta alimentaria en perros con problemas de comportamiento TAZ-TFG\n"
+        ],
+        "_version_": 1.8504981573208637e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_57486.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:35:00.892Z"
+        ],
+        "digest": [
+          "18d97ac468b8232b2731105c05dd116e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56988.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56988.xml"
+        ],
+        "content": [
+          "Lebrero Berna, MºEugenia Ortillés Gonzalo, Ángel Luis Fortuny Clanchet, Marc 2016 Las úlceras indolentes son lesiones corneales epiteliales, que se consideran complicadas, puesto que no resuelven con el proceso normal de cicatrización corneal. Suele afectar a perros de cualquier raza y de mediana edad, entre los 7 y 9 años, teniendo una elevada incidencia en la clínica de pequeños animales. Son lesiones crónicas con los bordes epiteliales de la herida no adheridos al estroma subyacente, no infectadas, poco o no vascularizadas y con signos de dolor que tienden a desaparecer. Son resistentes al tratamiento médico habitual y persisten en el tiempo, incluso en ausencia de factores perpetuantes. Es una patología que carece de un tratamiento completamente eficaz y de naturaleza refractaria. El presente trabajo recoge el estudio retrospectivo de 25 casos clínicos diagnosticados de úlcera indolente, y atendidos por el Servicio de Oftalmología del Hospital Veterinario de la Universidad de Zaragoza durante un año. Se han analizado todos los datos disponibles en los historiales clínicos, seleccionando aquellos más relevantes y comparables con otros estudios publicados, observando que los datos obtenidos en el análisis estadístico se corresponden con la información recogida en la revisión bibliográfica. http://zaguan.unizar.es/record/56988 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56988/files/TAZ-TFG-2016-3043.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Úlceras corneales indolentes en la especie canina. Revisión de la casuística durante un año en el Hospital Veterinario de la Universidad de Zaragoza. TAZ-TFG Corneal indolent ulcers in dogs. Review of casuistry for a year at the Veterinary Hospital of the University of Zaragoza.\n"
+        ],
+        "_version_": 1.850483343552938e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56988.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:46:05.313Z"
+        ],
+        "digest": [
+          "73b52eba35bcb54a0d2cf2d8241ae6c2"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000026475225],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64154.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64154.xml"
+        ],
+        "content": [
+          "Casao Gascón, Adriana Sierra Sainz-Aja, Alejandro Sánchez Martínez, Ana Laura 2017 La familia Felidae abarca un alto número de géneros y especies con una gran variedad entre ellas, tanto en hábitos y comportamiento como en tamaño y hábitat. Esta gran diversidad resulta sorprendente si tenemos en cuenta que todas ellas descienden de un mismo ancestro común, el Proailurus lemanensis. Sin embargo, a pesar de que existen muchas especies de felinos en la actualidad, una gran parte de ellas se encuentra en peligro de extinción. En este trabajo se sigue la línea evolutiva de la familia Felidae, empezando por su ancestro común, Proailurus lemanensis, siguiendo por las especies extintas y llegando a las especies actuales. Para acercarnos a los primeros felinos, se desarrolla la evolución y la relación entre los distintos clados descendientes del género Proailurus y como únicamente una de estas ramas dio lugar a los felinos modernos. Estos últimos se dividen en primer lugar en subfamilias (Pantherinae y Felinae) y después en linajes, que es el principal método de clasificación actual. Estos linajes, por orden de aparición en el tiempo son: Panthera, Catopuma, Caracal, Ocelote, Lynx, Puma, Gato Leopardo y Gato Doméstico. Finalmente, se recoge toda la información actual sobre la domesticación del gato, que se produjo hace 9.500 años en Oriente Medio. http://zaguan.unizar.es/record/64154 spa Universidad de Zaragoza; Departamento de Bioquímica y Biología Molecular y Celular; Área de Zoología http://zaguan.unizar.es/record/64154/files/TAZ-TFG-2017-2980.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Del Proailurus al gato doméstico: evolución de la Familia Felidae TAZ-TFG From Proailurus to the domestic cat: evolution of the Family Felidae\n"
+        ],
+        "_version_": 1.850498157827326e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64154.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:32:38.038Z"
+        ],
+        "digest": [
+          "8b747e9aadf348272777fe9b7ae49630"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56947.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56947.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Faustino Manuel Vivancos Zapater, Susana 2016 Este Trabajo de Fin de Grado va a consistir en una revisión bibliográfica sobre la pancreatitis en la especie canina, y en una búsqueda de artículos actuales sobre el manejo diagnóstico y terapéutico la misma. A su vez, la información obtenida se contrastará con casos clínicos de pancreatitis visitados en el Hospital Clínico Veterinario de la Universidad de Zaragoza proporcionados por el director. La pancreatitis se trata de una patología de complicado diagnóstico y, puesto que no existen marcadores específicos con suficiente sensibilidad para detectarla con gran fiabilidad, nos tenemos que basar en análisis bioquímicos de parámetros como los TLIs y la Lipasa, complementados con la ecografía. Estos últimos años se han conseguido importantes avances en cuanto a nuevas técnicas diagnósticas, que serán comentadas en el presente trabajo. Por otro lado, otro reto al cual se enfrenta el clínico veterinario con la pancreatitis, es el tratamiento. Hace unos años, se recomendaba el ayuno de los pacientes, sin embargo, en los últimos estudios, se ha valorado la posibilidad de instaurar la nutrición enteral lo más temprano posible. Por estas razones, el principal cometido de este trabajo es obtener información para valorar y actualizar las posibilidades diagnósticas y de tratamiento de la pancreatitis en el perro. Y a su vez mostrar la realidad que presenta esta enfermedad a la hora de manejarla mediante la descripción y discusión de varios casos. http://zaguan.unizar.es/record/56947 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56947/files/TAZ-TFG-2016-3197.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Últimos avances en el diagnóstico y el tratamiento de la pancreatitis en el perro TAZ-TFG Latest advances in the diagnosis and treatment of canine pancreatitis\n"
+        ],
+        "_version_": 1.8504833329843405e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56947.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:23:56.790Z"
+        ],
+        "digest": [
+          "53fc6e7228f6fd5dd6de00fdff605dca"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76368.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76368.xml"
+        ],
+        "content": [
+          "Bonastre Ráfales, Cristina Naval Ruiz, Andrea 2018 El síndrome braquiocefálico en perros es una patología que se caracteriza por una gran variedad de anomalías anatómicas de diferente intensidad como: elongación del paladar blando, estrechamiento de los orificios nasales o hipoplasia traqueal. Estas características anatómicas causan entre otros signos clínicos tanto respiratorios como gastrointestinales de intensidad variable como: intolerancia al ejercicio, distrés respiratorio, disfagia, reflujo gastroesofágico, etc. La resolución de este síndrome o disminución de los síntomas clínicos se realiza mediante tratamiento quirúrgico. Existen varias técnicas para ello, como la resección en cuña de las narinas estenóticas, el acortamiento del paladar blando y la extracción de los sáculos laríngeos. Se debe combinar la cirugía con el tratamiento médico para optimizar los resultados. El manejo anestésico de estos pacientes, a menudo complejo, es una parte fundamental de la intervención. Se trata de pacientes con obstrucción parcial de la vía aérea superior que les ocasiona una dificultad respiratoria. Los momentos más críticos del procedimiento anestésico son la inducción y la recuperación, debido a las características fisiológicas y anatómicas que presentan los braquiocefálicos. Las complicaciones más frecuentes asociadas a este tipo de procedimientos son la obstrucción de las vías aéreas, las alteraciones gastrointestinales y la alteración de la termorregulación. En este trabajo se realiza una revisión bibliográfica del manejo anestésico en perros para la resolución del síndrome braquiocefálico y se describe un caso clínico real. http://zaguan.unizar.es/record/76368 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/76368/files/TAZ-TFG-2018-4591.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Manejo anestésico del perro con síndrome braquiocefálico TAZ-TFG Anesthetic management of the dog with brachycephalic syndrome\n"
+        ],
+        "_version_": 1.8504833347281224e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76368.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:22:06.109Z"
+        ],
+        "digest": [
+          "469d9f44e8fb8b9c853c7e7d631595e5"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56917.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56917.xml"
+        ],
+        "content": [
+          "García-Belenguer Laita, Sylvia Palacio Liesa, Jorge Ignacio Barrio Dorado, Julia 2016 La epilepsia idiopática (EI) canina es una enfermedad que puede afectar gravemente a la salud de los perros sino se controla. A su diagnóstico se llega por exclusión y requiere un tratamiento con pautas estrictas que el propietario del perro debe asumir, además de producir efectos secundarios. Existe una respuesta individual dependiente del paciente, por ello la elección del tratamiento debe ser específica para cada animal, destacando la importancia de hacer un seguimiento de ésta, y vigilando los efectos secundarios que este tipo de medicación produce. Conocer la calidad de vida que tiene un animal con EI e intentar sacar una conclusión objetiva tiene una gran relevancia para los propietarios de éstos, de cara a tomar la decisión de seguir adelante con el tratamiento en su mascota. La severidad, la frecuencia y el tipo de crisis, los efectos adversos que la medicación puede causar en el perro y los cambios de comportamiento del animal son factores que pueden ayudarnos a evaluarla. Nos apoyamos en la encuesta realizada por Wessmann (2015) que engloba estos factores que afectan a la calidad de vida de las mascotas, teniendo en cuenta las condiciones necesarias para el bienestar animal. Además, la calidad de vida que tienen los perros repercute directamente en la de los propietarios, es por ello que, el cuestionario recoge preguntas dirigidas tanto a la repercusión que supone la enfermedad en la vida del animal como en la del propietario. http://zaguan.unizar.es/record/56917 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56917/files/TAZ-TFG-2016-3259.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Calidad de vida en perros con epilepsia idiopática TAZ-TFG Quality of life in dogs with idiopathic epilepsy\n"
+        ],
+        "_version_": 1.8504833435351122e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56917.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:21:12.986Z"
+        ],
+        "digest": [
+          "a7c663d67d4de59a483c9a5835c44dc8"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62356.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62356.xml"
+        ],
+        "content": [
+          "Aceña Fabián, María Carmen Gómez Fernández, Joana 2017 El adenocarcinoma tiroideo canino tiene una baja incidencia en la población; sin embargo, se trata de un tumor de elevada malignidad, invasivo y de carácter metastásico, por lo que es importante conocerlo y saber aplicar el tratamiento adecuado para cada caso. Por ello, en este trabajo se pretende realizar una actualización de la bibliografía existente sobre el carcinoma de tiroides en el perro. En este texto se hace un abordaje global sobre el tumor en la actualidad, en el cual se describen los diferentes tipos de tumores tiroideos que afectan a la especie canina, y se explica la etiología de los mismos. Se lleva a cabo una especificación de los síntomas de la enfermedad y se detallan los métodos empleados para el diagnóstico de esta patología. Esto consiste en una anamnesis e historia clínica, exploración física del tumor, listado de diagnósticos diferenciales, diagnóstico laboratorial y diversas técnicas de diagnóstico por imagen (radiología, ecografía y TAC). Posteriormente, y en función del tipo de presentación del tumor, se exponen las distintas opciones terapéuticas, como la cirugía, radioterapia y quimioterapia, además del tratamiento con yodo radioactivo. También se menciona el problema del hipotiroidismo tras la aplicación de estos tratamientos. Después, considerando todas estas fases, se plantea el pronóstico del carcinoma tiroideo canino. Finalmente, para ilustrar el presente trabajo, se describe el seguimiento de un caso clínico llevado a cabo en una clínica privada, con el cual se pretende resaltar la importancia del diagnóstico precoz en este tipo de patología. http://zaguan.unizar.es/record/62356 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62356/files/TAZ-TFG-2017-1307.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Revisión del carcinoma de tiroides canino. Avances terapéuticos TAZ-TFG Canine thyroid carcinoma review. Therapeutic advances\n"
+        ],
+        "_version_": 1.8504833440363315e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62356.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:37:10.717Z"
+        ],
+        "digest": [
+          "7b5914467777cca196cf7c4c6037c6f9"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62335.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62335.xml"
+        ],
+        "content": [
+          "Garcia-Belenguer Laita, Sylvia Aceña Fabián, María Carmen Casillas Perujo, Violeta 2017 La mejora en el cuidado, tratamiento y nutrición animal ha alargado de forma significativa el tiempo de supervivencia de los animales de compañía. Este incremento de la longevidad está unido a un aumento en la prevalencia de enfermedades propias de una edad avanzada, como son algunos problemas neurológicos y en concreto los tumores intracraneales. En un estudio reciente de Fluehmann et al (2006) con más de 4000 perros referidos por enfermedades neurológicas el 14% tenían más de 10 años y un 32% estaba entre 7 y 9 años. Aunque no han sido identificados de forma específica los factores causales de las neoplasias, hay estudios que valoran la posible contribución en su desarrollo de factores como la dieta, el medio ambiente, la genética, enfermedades virales e inmunológicas o traumatismos craneoencefálicos. Los tumores intracraneales pueden desarrollarse en cualquier área del cerebro y dependiendo de la localización darán lugar a distintos síntomas neurológicos y comportamentales. La aparición de estos síntomas puede ser gradual o brusca dependiendo de la naturaleza del tumor. La gravedad de los síntomas dependerá de la localización y extensión de la lesión pudiendo ser focal, multifocal o difusa. El objetivo de este trabajo es realizar una revisión bibliográfica actualizada de los tipos de tumores intracraneales en la especie canina, así como de su posible localización en las distintas áreas cerebrales para determinar la asociación entre dicha localización y las alteraciones comportamentales que van a presentar estos animales. Para alcanzar este objetivo se llevará a cabo una búsqueda bibliográfica en las principales bases de datos científicas (Medline, Sciendirect, Pubmed). http://zaguan.unizar.es/record/62335 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62335/files/TAZ-TFG-2017-1413.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Revisión de tumores intracraneales y su repercusión sobre el comportamiento en perros. TAZ-TFG Review of intracranial tumors and their impact on behavior in dogs.\n"
+        ],
+        "_version_": 1.8504833339752448e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62335.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:12:27.203Z"
+        ],
+        "digest": [
+          "34b4c906b31da5ba962b8ae9a5364ada"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000983511],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76382.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76382.xml"
+        ],
+        "content": [
+          "Navarro Combalía, Laura Ramos Alonso, Laura 2018 Dentro de las patologías dermatológicas más importantes en la especie canina destaca la dermatitis atópica. La dermatitis atópica canina (DAC) es una enfermedad alérgica, inflamatoria y con una fuerte predisposición genética en algunas razas de perro, cuyo síntoma principal es el prurito. El diagnóstico de la DAC es principalmente clínico y se basa en la presencia de una serie de aspectos clínicos característicos (Criterios de Favrot) junto con la exclusión de otras enfermedades pruriginosas. Existen unas recomendaciones internacionales para el tratamiento de los perros con dermatitis atópica. El enfoque terapéutico tradicional es distinto para los casos agudos y crónicos, pero en ambos se basa en identificar y evitar en la medida de lo posible los factores desencadenantes, mantener la integridad de la barrera cutánea y administrar sustancias antipruriginosas que ayuden a controlar los signos clínicos, como los glucocorticoides, la ciclosporina y el oclacitinib. Este tratamiento combinado suele ser necesario de por vida, lo que incrementa el riesgo de aparición de efectos secundarios, graves en algunas ocasiones, y que reducen la calidad de vida de los pacientes. Es por esto que en los últimos años, numerosas investigaciones se han centrado en la búsqueda de fármacos eficaces y más seguros para el control de los signos clínicos de la DAC. Recientemente, la terapia con anticuerpos monoclonales se está empleando dentro del manejo terapéutico en perros atópicos con un alto margen de seguridad. Concretamente, un anticuerpo monoclonal (lokivetmab) ha sido comercializado con este fin. Su mecanismo de acción se basa en bloquear la IL-31, una interleuquina que ha demostrado tener un papel esencial en el desarrollo del prurito en la DAC. http://zaguan.unizar.es/record/76382 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/76382/files/TAZ-TFG-2018-4368.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Nueva terapia con anticuerpos monoclonales para el tratamiento de la dermatitis atópica canina TAZ-TFG Updates in the treatment of canine atopic dermatitis (CAD): Use of monoclonal antibodies\n"
+        ],
+        "_version_": 1.850483334736511e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/oai_zaguan.unizar.es_76382.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:09:34.382Z"
+        ],
+        "digest": [
+          "0d081061468eff6ee59a77696a2c3221"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0003661484],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85138.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85138.xml"
+        ],
+        "content": [
+          "Simón Valencia, María Carmen López Plana, Paula 2019 La Leptospirosis es la zoonosis bacteriana más diseminada en el planeta, causada por diferentes serovares patógenas del género Leptospira. En los mamíferos suele ser subclínica, pero puede ocasionar cuadros graves y mortales. En las personas puede cursar cuadros similares a una gripe, o evolucionar a cuadros graves con fallo renal, hepático, pulmonar y muerte (Enfermedad de Weil). Los principales reservorios en el entorno humano son las ratas, bóvidos, porcino, perros y caballos. Frecuentemente, la diseminación e infección ocurren a través del agua contaminada con la orina de portadores asintomáticos y de los reservorios que excretan la bacteria en orina, incluso por alimentos o suelo contaminados. La Leptospirosis es un problema grave de Salud Pública en zonas donde los factores de riesgo son abundantes, como Sudamérica y el Sur-Este de Asia. En áreas de clima templado se estima que afecta a 0,1- 1/100.000 habitantes por año, mientras que en climas tropicales la cifra supera los 10/100.000 habitantes al año. La incidencia real de Leptospirosis se desconoce, debido a la existencia de enfermedades endémicas con signos clínicos similares y a la falta de servicios diagnósticos adecuados en las zonas de mayor incidencia, que suelen coincidir con zonas de escasos recursos económicos. En España, el número de casos declarados en humanos ha ido en aumento desde 2015, con 5 casos declarados, al 2016 con 15 casos y al año 2017 con 23 casos, todos ellos sin muertes. La vacunación es el gran reto de cara a su prevención y control.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/85138 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/85138/files/TAZ-TFG-2019-3196.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Leptospirosis y Leptospirosis canina: estado actual de su conocimiento y dificultades diagnósticas TAZ-TFG Leptospirosis and Canine Leptospirosis: current state of knowledge and diagnostic difficulties\n"
+        ],
+        "_version_": 1.8504833361342628e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/categoria31/oai_zaguan.unizar.es_85138.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:16:15.087Z"
+        ],
+        "digest": [
+          "0893be4d32fcfa1ec9254b39bfc1b76b"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56926.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56926.xml"
+        ],
+        "content": [
+          "Bonastre Ráfales, Cristina Torre Martínez, Amaya de Cirerol Viada, Elena 2016 La prevención y control del dolor son fundamentales en la recuperación postoperatoria de un animal. El uso de infiltraciones anestésicas en la línea de incisión puede ser de utilidad en el control del dolor en pacientes sometidos a laparotomías. En este estudio incluyeron un total de 17 perros, hembras, clasificadas como ASA I-II, a las que se les realizó una laparotomía media para llevar a cabo una ovariohisterectomía. Fueron distribuidos aleatoriamente en cuatro grupos, en función de la solución a infiltrar: lidocaína (1), adrenalina (2), lidocaína y adrenalina (3), y suero salino fisiológico (4) en el grupo control. Las infiltraciones se realizaron a nivel subcutáneo a razón de 1 ml/cm de longitud de la incisión. A nivel intraoperatorio se registraron las necesidades de rescate analgésico de cada paciente. La evaluación del dolor postoperatorio se realizó a las 1 y 2 h postoperatorias usando la forma abreviada de la escala de Glasgow para dolor agudo. Se evaluó además la presencia de hematoma, inflamación y seroma en la herida y la evolución de la cicatrización. No hubo diferencias significativas entre grupos en cuanto a las necesidades de analgesia de rescate intraoperatorias ni en cuanto a las evaluaciones del dolor mediante la escala de Glasgow a las 1 y 2 horas postoperatorias. Por el contrario, no se observaron complicaciones postoperatorias a nivel de la incisión ni alteraciones en la cicatrización de la herida. No se ha demostrado que el uso de infiltraciones en la línea alba con lidocaína y/o adrenalina tenga efecto beneficioso en la prevención y el control del dolor postoperatorio en ovariohisterectomías en la especie canina. http://zaguan.unizar.es/record/56926 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56926/files/TAZ-TFG-2016-3234_ANE.pdf http://zaguan.unizar.es/record/56926/files/TAZ-TFG-2016-3234.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria ESTUDIO COMPARATIVO DE LA EFICACIA ANALGÉSICA DE INFILTRACIONES ANESTÉSICAS EN LA LÍNEA ALBA Y SUS EFECTOS EN LA CICATRIZACION EN LAPAROTOMÍAS EN LA ESPECIE CANINA TAZ-TFG COMPARATIVE STUDY OF THE ANALGESIC EFFICACY OF LINEA ALBA ANAESTHETIC INFILTRATIONS AND ITS EFFECTS ON WOUND HEALING FOLLOWING LAPAROTOMY IN THE DOG\n"
+        ],
+        "_version_": 1.8504833435372093e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56926.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:43:01.074Z"
+        ],
+        "digest": [
+          "1e88f52066646384995daae296901ce3"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.000026475225],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64068.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64068.xml"
+        ],
+        "content": [
+          "Gracia Salinas, María Jesús Garcia Aonso, Marta 2017 La hepatozoonosis es una enfermedad parasitaria emergente producida por Hepatozoon canis y transmitida principalmente por la ingestión de garrapatas del género Rhipicephalus sanguineus. Afecta principalmente a cánidos domésticos y parasita mayormente los leucocitos del torrente sanguíneo. Este trabajo de fin de grado (TFG) es un estudio de la prevalencia de H. canis y la relación de los casos positivos con los síntomas clínicos y los hallazgos laboratoriales más destacables junto con las pautas de control utilizadas por los propietarios frente a ectoparásitos. Se realiza en el barrio “El Molino” de Punta Lara, localidad de Ensenada (34° 49′ 0″ S, 57° 58′ 0″ W), provincia de Buenos Aires, Argentina. La parte práctica del trabajo se realizó en el Laboratorio de Parasitosis Humanas y Zoonosis Parasitarias, en la Cátedra de Parasitología Comparada de la Facultad de Ciencias Veterinarias, Universidad Nacional de La Plata, Argentina. Para llevar a cabo los objetivos establecidos se muestrearon a un total de 94 perros a los que se les extrajo sangre y se les hizo una revisión general. También se recaudó información mediante una encuesta epidemiológica para estudiar los signos clínicos presentes en el animal, el plan de desparasitación actual y la presencia o no de ectoparásitos. Se ha constatado una elevada prevalencia de H. canis (30,85%) con una carga parasitaria baja (3,8%) y un tamaño medio de los gamontes de 12x6 micras. Asimismo, el hematocrito medio obtenido fue bajo (30,26%). Aparentemente la presencia del parásito no siempre altera los parámetros bioquímicos (urea, creatinina, fosfatasa alcalina y proteínas totales) ya que solo el 54% de los perros positivos muestran uno o más valores alterados (aumentados o disminuidos). Finalmente, el desuso, mal uso o la inefectividad de los antiparasitarios utilizados se refleja en el número de perros que, aún siendo tratados, son positivos (11%). http://zaguan.unizar.es/record/64068 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/64068/files/TAZ-TFG-2017-3259.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Parasitosis hemática: Hepatozoonosis canina TAZ-TFG Hematic parasites: canine hepatozoonosis\n"
+        ],
+        "_version_": 1.8504981578042573e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria22/categoria221/oai_zaguan.unizar.es_64068.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:10:41.131Z"
+        ],
+        "digest": [
+          "8b0c1d6ac1613e297de64c52451398d6"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56936.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56936.xml"
+        ],
+        "content": [
+          "Luño Muniesa, Isabel Muniesa Del Campo, Ana Alcalá Pallás, Nerea 2016 Tanto en la especie humana como en animales de laboratorio se ha demostrado la influencia que ejercen el estrés y el estado emocional en la conducta alimentaria, provocando un incremento de la ingesta, especialmente de determinados alimentos. Sin embargo, apenas existen estudios a este respecto en animales de compañía, a pesar de las consecuencias que pueden derivarse de un patrón alimentario anómalo, entre las que se incluye la obesidad. El objetivo principal de este trabajo fue dilucidar si existe una relación entre el estado emocional y el patrón alimentario en la especie canina. En segunda instancia, se intentó esclarecer si los perros que mostraban este tipo de modificación en su conducta alimentaria seguían algún patrón determinado. Para ello, se rediseñó una encuesta elaborada en un estudio preliminar del mismo grupo (Lacoma Torres, 2015) para optimizar la posterior interpretación de los datos obtenidos, así como para obtener información adicional. Dicha encuesta se realizó a los propietarios de perros que habían acudido a la consulta de Etología del Hospital Clínico Veterinario de la Universidad de Zaragoza durante el periodo de 2012-2015, así como al público general a través de una red social, obteniéndose un total de 1157 respuestas que, tras un proceso de limpieza y aplicación de criterios de exclusión, fueron reducidas a 1099 respuestas válidas. Tras integrar los resultados en una base de datos, se procedió a su depuración para permitir un correcto análisis. Éste se realizó mediante el programa de estadística PSPP, versión 0.10.1-g1082b8 (PSPP_0.10.1_2016-04-01_32bits.exe). De los resultados obtenidos cabe destacar que el porcentaje de sobrepeso fue notablemente mayor entre los pacientes de la consulta de Etología que en el resto de grupos. Asimismo, el 50% de los animales considerados muy nerviosos presentaba el hábito de robar comida, lo que sugeriría la existencia de ingesta de tipo emocional en perros. http://zaguan.unizar.es/record/56936 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56936/files/TAZ-TFG-2016-3220.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Influencia del estrés en el comportamiento alimentario del perro. TAZ-TFG Stress influence on dog's eating behaviour.\n"
+        ],
+        "_version_": 1.8504833329717576e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56936.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:05:37.286Z"
+        ],
+        "digest": [
+          "6138c6ab498da893c71c1d355f97b442"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.011425028],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57158.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57158.xml"
+        ],
+        "content": [
+          "Monzón Garcés, Marta Badiola Díez, Juan José Beltrán Palacios, Laura 2016 La rabia es una enfermedad vírica, causada por virus pertenecientes al género Lyssavirus. Es una zoonosis que produce una encefalomielitis, casi siempre mortal una vez que han aparecido los síntomas clínicos. Su distribución es mundial y aunque la incidencia real de rabia humana se desconoce, la OMS estima que cada año se producen en el mundo unas 55.000 muertes por esta enfermedad, principalmente en países en desarrollo. España está libre de esta zoonosis en mamíferos terrestres desde 1978. Desde esta fecha, se han diagnosticado varios casos de \"rabia importada\", en perros procedentes de Marruecos. A este dato hay que añadir que se han declarado una veintena de murciélagos positivos al virus en España. Teniendo en cuenta estos datos epidemiológicos, así como la situación geográfica de nuestro país como zona de paso entre Europa y países endémicos, resulta necesario extremar las medidas de prevención y control de la enfermedad. Con el fin de lograr una percepción real de la situación actual de protección y vacunación contra la rabia se realiza un estudio preliminar para valorar el estado inmunológico frente al virus causal de esta enfermedad en una muestra representativa de cánidos mediante la determinación de anticuerpos contra dicho virus. Se aplica una prueba serológica basada en un ELISA indirecto como técnica inmunológica admitida por la OIE para la detección cualitativa de anticuerpos contra la rabia en muestras de sueros individuales con el objeto de determinar si los animales presentan seroconversión tras su vacunación. El estudio se ha llevado a cabo sobre 17 muestras, procedentes de perros del Albergue Sanitario de Movera (Zaragoza). El estudio evidencia que en el 23.5 % y 5.9 % de los perros muestreados se ha logrado la seroconversión al presentar títulos iguales o superiores a 0.5 UI/ml, respectivamente, mientras que el 70.6 % restante no alcanza este umbral de protección establecido por la OIE. http://zaguan.unizar.es/record/57158 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/57158/files/TAZ-TFG-2016-1742.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Valoración de la cobertura vacunal antirrábica TAZ-TFG Assessment of the rabies vaccine coverage\n"
+        ],
+        "_version_": 1.850481332144046e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57158.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:21:15.295Z"
+        ],
+        "digest": [
+          "c3a49acd19e458badbe32b2289f2b150"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56898.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56898.xml"
+        ],
+        "content": [
+          "Monteagudo Ibáñez, Luis Vicente Blanco Redondo, Carmen Andrea 2016 La displasia de cadera canina es una enfermedad ósea, hereditaria y crónica que consiste en un desarrollo defectuoso de la articulación coxofemoral. Se empieza a desarrollar a los cuatro-cinco meses de edad, con una remodelación de las cabezas femorales y la cavidad acetabular que componen la articulación y producen una enfermedad degenerativa de la misma. En la aparición de la enfermedad influyen factores ambientales y genéticos, por lo que se define como una enfermedad multifactorial. Su prevalencia llega hasta el 70% en algunas razas. Una de las misiones de los veterinarios es evitar la transmisión de factores genéticos de riesgo a las nuevas generaciones. Con un diagnóstico precoz junto con un manejo óptimo, podemos conseguir controlar ambientalmente la enfermedad en el caso de perros afectados, así como su erradicación en las poblaciones, logrando la reducción de la frecuencia de las variantes genéticas involucradas (control genético). El objetivo de este Trabajo Fin de Grado es realizar una revisión bibliográfica sobre los métodos de control genético de la displasia de cadera canina, comenzando por los basados en métodos radiológicos clásicos desarrollados por ejemplo por la Orthopedic Foundation for Animals (OFA), la Federación CInológica Internacional (FCI), la British Veterinary Association (BVA), pasando a las nuevos enfoques como el sistema PennHip (método de exploración radiográfica multifacética para la evaluación de la cadera), hasta llegar a los análisis genómicos como el que se comercializa bajo el nombre de Dysgen en el caso del Labrador Retriever y que cuenta con un 95% de fiabilidad realizando un análisis de sangre a las pocas semanas de vida (o incluso en recién nacidos). El estudio comparativo de estos métodos puede ser útil para tomar las decisiones adecuadas en el control genético y ambiental de la displasia de cadera, además de facilitar el tratamiento temprano de los afectados. http://zaguan.unizar.es/record/56898 spa Universidad de Zaragoza; Departamento de Anatomía, Embriología y Genética Animal; Área de Genética http://zaguan.unizar.es/record/56898/files/TAZ-TFG-2016-3313.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria COMPARATIVA DE MÉTODOS GENÉTICOS DE CONTROL DE LA DISPLASIA DE CADERA HEREDITARIA CANINA TAZ-TFG COMPARISON OF GENETIC METHODS FOR THE CONTROL OF HEREDITARY CANINE HIP DYSPLASIA\n"
+        ],
+        "_version_": 1.8504833435288207e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56898.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:33:07.111Z"
+        ],
+        "digest": [
+          "54d9850d91ed67e885cd8872ba4585d4"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56940.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56940.xml"
+        ],
+        "content": [
+          "Estrada Peña, Agustín Ventura Ballano, Beatriz 2016 Las garrapatas de los animales de compañía constituyen un problema tanto en el entorno de la salud animal como en la sanidad pública, debido a la transmisión de un cierto número de agentes patógenos. Aunque tales patógenos son transmitidos por la picadura de la garrapata, la proximidad de los perros puede propiciar, en algunas ocasiones, un mayor riesgo para la especie humana. Hasta la fecha, jamás se ha realizado un estudio sistemático, mediante vigilancia activa, de las especies de garrapatas de los perros domésticos en España, en primer lugar por la obvia necesidad de recopilar la información abarcando todas las regiones biogeográficas del país, además de verificar los muestreos con una periodicidad y con una extensión de al menos un año. La primera condición garantiza que se abarcan el máximo espectro de variabilidad de especies. La segunda, que se captura la variabilidad anual. Este Trabajo de Fin de Grado pretende estudiar una colección de garrapatas que fueron recogidas sistemáticamente de perros domésticos, gracias a la colaboración activa de 27 clínicas veterinarias, enroladas voluntariamente en el estudio, y repartidas de forma homogénea en las regiones ecológicas del país. Amén de la colecta de las garrapatas, cada clínica proporcionó una serie de datos epidemiológicos de los perros entre los que se incluían sus hábitos de vida, la zona en la que vivían y el entorno en el que desarrollaban su actividad. La colección consta de más de 1.600 ejemplares, que serán clasificados y puestos en su contexto epidemiológico. Los objetivos son i) conocer las especies de garrapatas existentes en perros domésticos en España, ii) averiguar su estacionalidad y momentos de máxima actividad (con objeto de guiar una prevención), iii) evaluar su asociación con determinados entornos ecológicos y iv) comprobar los factores que implican un mayor riesgo para los perros. http://zaguan.unizar.es/record/56940 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/56940/files/TAZ-TFG-2016-3209.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Distribución y epidemiología de las garrapatas del perro doméstico en España TAZ-TFG Distribution and epidemiology of domestic dog ticks in Spain\n"
+        ],
+        "_version_": 1.850483343540355e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56940.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:35:00.070Z"
+        ],
+        "digest": [
+          "6e762ce4ccc33c23e1ef1e6db7ac8d5e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0002884251],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62338.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62338.xml"
+        ],
+        "content": [
+          "Rosado Sánchez, Belén Luño Muniesa, Isabel Torres Guiseris, Ana Beatriz 2017 Aunque existen numerosos estudios que demuestran la existencia de diferencias entre perros (y entre perros y lobos) con distinto grado de socialización y vínculo con las personas en sus habilidades de comunicación para la resolución de diversas tareas, apenas existen referencias que profundicen en el efecto del adiestramiento sobre dichas habilidades. El objetivo del presente trabajo fue determinar si existen diferencias entre perros adiestrados y no adiestrados en la habilidad de comunicación con su guía y en la capacidad para la resolución de problemas en colaboración con éste. Para ello, se llevó a cabo una prueba resoluble de obtención de comida, en la cual se valoró la capacidad resolutiva de los perros sin ayuda del propietario. En segundo lugar, una prueba no resoluble, que permitió valorar las habilidades de comunicación del perro con su guía para resolver el problema, analizando diferentes conductas relacionadas con la interacción con el aparato y el guía. Ambas pruebas, grabadas para su posterior análisis, se llevaron a cabo en 11 perros adiestrados en agility y 14 perros no adiestrados en ninguna disciplina. Los perros adiestrados en agility mostraron una duración (p\u003C0.001) y frecuencia (p\u003C0.05) de mirada al dueño superiores que los perros no adiestrados. Sin embargo, no hubo resultados significativos respecto a una mayor capacidad resolutiva de los perros entrenados. Esto sugiere un efecto del adiestramiento en las capacidades comunicativas entre el perro y su guía, favoreciendo el uso de estrategias sociales tales como el contacto visual para abordar un problema no resoluble, si bien el adiestramiento no parece afectar a la capacidad resolutiva en un problema de obtención de alimento cuando éste sí tiene solución. Serán necesarios futuros estudios con mayor número de animales, razas y disciplinas de entrenamiento para corroborar estos resultados. http://zaguan.unizar.es/record/62338 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/62338/files/TAZ-TFG-2017-1392.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Habilidades de comunicación y resolución de problemas en perros adiestrados y no adiestrados TAZ-TFG Comunication and problem solving skills in trained and untrained dogs\n"
+        ],
+        "_version_": 1.85048334401536e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/oai_zaguan.unizar.es_62338.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:07:20.591Z"
+        ],
+        "digest": [
+          "19d3fe528beb4d9d2b2b36023f76d1ff"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.011425028],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57161.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57161.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Faustino Manuel Morata Francisco, Sandra 2016 Las principales manifestaciones clínicas de la IC derivan de la acción de los mecanismos compensadores implicados en el mantenimiento de la presión arterial y del volumen plasmático. El efecto a largo plazo de estos mecanismos conllevan la formación de edema y signos congestivos. Por este motivo, el tratamiento principal está enfocado en reducir la congestión a base del uso de diuréticos capaces de conseguir beneficios sintomáticos rápidos. En esta revisión se describen los mecanismos de los principales diuréticos y su utilidad clínica. De todos ellos el diurético más utilizado en la clínica del perro es la furosemida. A lo largo del tratamiento, los efectos de la furosemida para una misma dosis parecen estar reducidos y requieren de un incremento en su dosificación. La persistencia de signos congestivos pese al uso de diuréticos potentes se reconoce como resistencia al uso de diuréticos. La cuestión que plantea cuáles son las causas sobre las que se establece una respuesta refractaria conlleva el planteamiento de un fenómeno de origen multifactorial. La interacción funcional que se establece entre el riñón y el corazón insuficiente puede ser uno de estos factores. Asimismo interacciones farmacológicas como el empleo de los AINEs y los efectos en la nefrona frente al incremento de solutos en el lumen tubular resultante del tratamiento diurético son factores que influyen en los rendimientos decrecientes del mismo. Esta situación terapéutica concomitante a la necesidad de reducir la actividad del SRAA, implica el abordaje de diferentes estrategias. Una de las estrategias clásicamente conocidas es el triple tratamiento diurético y el uso combinado de IECAs. No obstante el desenlace continúa siendo la ausencia de respuesta al tratamiento. Alternativas como el uso de diferentes diuréticos y su manejo combinado, ARA-II, vaptanes, y técnicas de ultrafiltración son objeto de valoración frente a esta situación. http://zaguan.unizar.es/record/57161 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/57161/files/TAZ-TFG-2016-1739_ANE.pdf http://zaguan.unizar.es/record/57161/files/TAZ-TFG-2016-1739.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Resistencia del riñón al uso prolongado de diuréticos en pacientes caninos con insuficiencia cardiaca. Manejo terapéutico y alternativas. TAZ-TFG Kidney resistance to chronic use of diuretics in dogs with congestive chronic heart failure. Treatment alternatives and management.\n"
+        ],
+        "_version_": 1.8504813321471918e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/oai_zaguan.unizar.es_57161.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:20:41.714Z"
+        ],
+        "digest": [
+          "6b07d34d30c8f3f444dfd02123383b85"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0006468148],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31821.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31821.xml"
+        ],
+        "content": [
+          "Verde Arribas, María Teresa Pardo Cortinas, María Serrano Berges, Blanca 2015 La cistitis idiopática felina (CIF) es una patología relativamente frecuente tanto en machos como hembras, que puede aparecer como un episodio obstructivo recurrente (frecuente en machos) o no obstructivo (común en gatos jóvenes y hembras). Incluso puede coexistir con otros síndromes del tracto urinario inferior. La etiopatogenia no está claramente determinada. Entre los factores desencadentes se cita el estrés, pero la enfermedad parece que sólo se producirá en gatos que presenten fallo en la respuesta adrenocortical, o bien un defecto en la capa de glicosaminoglicanos de la superficie luminal de la vejiga de la orina, con alteración en la permeabilidad del urotelio e inflamación vesical, siendo un proceso intensamente doloroso. La CIF parece similar a la cistitis intersticial (CI) humana en su patogenia.La CI humana es más frecuente en mujeres y presenta carácter crónico, considerándose también un proceso multifactorial. Algunas hipótesis etiológicas plantean que una disfunción en la permeabilidad vesical generaría pérdida de potasio y además permitiría que toxinas presentes en la orina contactaran con el intersticio mucoso, activando mastocitos y generando una respuesta inflamatoria o autoinmune, provocando dolor. También se relaciona con enfermedades crónicas como la fibromialgia. A lo largo de esta revisión bibliográfica establecemos las principales diferencias y semejanzas biopatogénicas entre ambos trastornos. Así mismo, se lleva a cabo una actualización de las principales moléculas utilizadas en la especie humana, con el objetivo de aportar nuevas alternativas de tratamiento a las ya empleadas en la cistitis idiopática felina. Para concluir y de manera complementaria, se realiza una revisión de la historia clínica de 13 gatos con signos clínicos similares a los de CIF atendidos en el Hospital Clínico Veterinario de la Universidad de Zaragoza, con el propósito de elaborar un análisis de tipo cuantitativo de los factores desencadenantes, las características biopatológicas más relevantes y las pautas terapéuticas llevadas a cabo en la clínica actual http://zaguan.unizar.es/record/31821 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/31821/files/TAZ-TFG-2015-1170_ANE.pdf http://zaguan.unizar.es/record/31821/files/TAZ-TFG-2015-1170.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Cistitis Idiopática Felina versus cistitis intersticial humana. Análisis de factores desencadenantes. TAZ-TFG\n"
+        ],
+        "_version_": 1.850483343236268e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria12/oai_zaguan.unizar.es_31821.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:28:45.187Z"
+        ],
+        "digest": [
+          "34b117beb476face0521f60d42809af6"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56905.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56905.xml"
+        ],
+        "content": [
+          "Muniesa Del Campo, Ana Ferreira González, Chelo Travé Alfaro, Clara 2016 En el presente trabajo se ha realizado una revisión bibliográfica de la Dirofilariosis canina, además de analizar comparativamente diferentes tipos de detección e identificación de microfilarias, a partir de una base de datos cedida por el profesor Miguel Ángel Peribáñez. La Dirofilariosis es una enfermedad parasitaria cardiopulmonar de distribución mundial, cuya incidencia va en aumento; además causa un problema importante para la salud del individuo afectado y produce infecciones zoonósicas. Existen varias especies de filarias que pueden vivir en el perro, pero la más importante clínicamente es Dirofilaria immitis (Leidy, 1856). El objetivo del estudio es profundizar y adquirir más conocimientos respecto a la Dirofilariosis y analizar una muestra de datos obtenida en pueblos de la provincia de Zaragoza (Ejea, Pinsoro, Valareña, etc.), con objeto de extraer conclusiones relativas a razas afectadas, edades susceptibles, pruebas diagnósticas, etc. Además del uso y manejo con cierta soltura de un programa de software libre (PSPP) para tratamiento estadístico de datos. La metodología a seguir para llevar a cabo el trabajo ha consistido en consultar bibliografía e internet para redactar la parte teórica y, una vez terminada, aprender a manejar el programa mencionado para poder trabajar la base de datos y, así, conseguir el objetivo propuesto. Algunos de los resultados obtenidos al analizar las distintas variables de los datos recogidos, confirman que el “Test de Knott Modificado” es la prueba diagnóstica directa más eficaz tal y como destaca la bibliografía consultada, que los perros de caza son las razas menos protegidas y por lo tanto las más afectadas, y que la edad con más riesgo a enfermar está entorno a los 3 años. La prevalencia e importancia de este nematodo parásito va en aumento por lo que es fundamental seguir realizando estudios estadísticos cuyos resultados sirvan para concienciar a la población acerca del uso de una prevención adecuada, mejorar los métodos diagnósticos menos eficaces y, en general, profundizar en la epidemiología. http://zaguan.unizar.es/record/56905 spa Universidad de Zaragoza; Departamento de Anatomía, Embriología y Genética Animal; Área de Anatomía y Anatomía Patológica Comparadas http://zaguan.unizar.es/record/56905/files/TAZ-TFG-2016-3294.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Análisis Comparativo de diferentes Tipos de Detección e Identificación de Microfilarias de la Filariosis Canina TAZ-TFG Comparative Analysis of Different Types od Detection and Identification of Microfilarias of the Canine Filariasis\n"
+        ],
+        "_version_": 1.850483332928766e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56905.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:16:36.821Z"
+        ],
+        "digest": [
+          "9654768b3ba0baf04f52a857e8a64753"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56921.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56921.xml"
+        ],
+        "content": [
+          "Castillo Hernández, Juan Antonio Morales Amella, Mariano José Torres Aceña, César 2016 Este estudio, realizado en un grupo de perros de raza Beagle (n=30) se basó en la cuantificación de anticuerpos específicos anti-Leishmania (IgG1, IgG2 e IgG totales ) mediante técnicas serológicas (ELISA, IFI y DAT). El objetivo fue estudiar la correlación entre los niveles de anticuerpos y la evolución de la infección en el animal, buscando una asociación entre las cantidades crecientes de inmunoglobulinas y la aparición y agravamiento de signos clínicos. Además, se pretendía discutir la supuesta correspondencia entre la producción de IgG1 y el desarrollo de una respuesta inmunitaria tipo Th2, que no es capaz de hacer frente al parásito y convierte al individuo en susceptible; así como la asociación entre el predominio de IgG2 post infección y el desarrollo de una respuesta tipo Th1, que confiere protección frente al parásito y logra evitar la progresión de la enfermedad. Los resultados mostraron diferencias significativas en los niveles de IgG1 entre el grupo de animales con signos clínicos, que reflejaron valores elevados de dicha inmunoglobulina, y el grupo de individuos asintomáticos, cuyos valores fueron sensiblemente menores. Además se calculó el Ratio IgG2/IgG1, que según ciertos autores permite establecer un pronóstico acerca de la progresión de la enfermedad. Si el valor es elevado, supone la existencia de un predominio de IgG2 sobre las IgG1, es decir, el pronóstico será favorable. Si por el contrario, los valores fueran menores, el pronóstico sería peor. En nuestro estudio pudo observarse cierta diferencia entre los dos grupos de animales, obteniéndose resultados más elevados del Ratio IgG2/IgG1 en el grupo de asintomáticos, lo cual apoyaría la hipótesis enunciada anteriormente. Sin embargo, la diferencia entre los dos grupos no llegó a ser significativa, por lo que no podemos afirmar a ciencia cierta que esta asociación sea válida para el pronóstico. http://zaguan.unizar.es/record/56921 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Sanidad Animal http://zaguan.unizar.es/record/56921/files/TAZ-TFG-2016-3250.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Valoración de la ratio IgG2/IgG1 mediante un ELISA comercial como indicador pronóstico de la infección experimental por Leishmania infantum en perro. TAZ-TFG Evaluation of the IgG2/IgG1 ratio by using a commercial ELISA test like a prognosis indicator of the Leishmania infantum-experimental infection in dog.\n"
+        ],
+        "_version_": 1.8504833329465917e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56921.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:37:07.447Z"
+        ],
+        "digest": [
+          "f29776691b399e3a3d68e80a6917860e"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56878.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56878.xml"
+        ],
+        "content": [
+          "Martínez Sañudo, María José Sardón Ruiz, Ana Quezada Rojas, Gabriel Andrés 2016 Es cada vez más frecuente en los últimos años recibir en los servicios de urgencia de los hospitales veterinarios pacientes felinos politraumatizados debido a una caída de altura. Estos accidentes se producen por el comportamiento descuidado de los gatos cerca de ventanas, terrazas o balcones situados en segundos pisos o superiores. En consecuencia, los animales sufren lesiones tales como contusión pulmonar, neumotórax, fisura palatina, fracturas faciales u otras lesiones ortopédicas. Todo ello se recoge en lo que se conoce como “Síndrome del gato paracaidista”. El objetivo de este trabajo es perfilar las características de los casos atendidos en el Hospital Veterinario de la Universidad de Zaragoza (HVUZ) con los datos recogidos en la bibliografía. Para ello, se ha realizado una búsqueda en bases de datos, artículos, revistas electrónicas y libros con el fin de adquirir un conocimiento profundo del síndrome (etiología, factores predisponentes, biomecánica en la caída, factores de riesgo, patogenia, diagnóstico, tratamiento, pronóstico y prevención). Paralelamente, se ha hecho un estudio de los casos que se han presentado en el HVUZ, donde se reúnen los datos generales de los pacientes (sexo, edad, peso, castrado/esterilizado o no, altura y mes de la caída) y los signos con los que se han presentado en la consulta (ortopédicos, torácicos, abdominales y shock). Hemos comparado los datos recogidos de la bibliografía con los obtenidos en nuestro estudio, mostrando un elevado nivel de correlación. Ambos coinciden en aspectos como la elevada tasa de supervivencia, el alto porcentaje de jóvenes afectados o la concentración de accidentes en meses cálidos. Sin embargo, no hay un acuerdo sobre si el sexo o la castración están relacionados con el síndrome y no hay un patrón común con respecto a la relación entre la altura y la gravedad de las lesiones. http://zaguan.unizar.es/record/56878 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56878/files/TAZ-TFG-2016-3365.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Paciente felino politraumatizado como consecuencia de una caída de altura. Estudio retrospectivo de la casuística del Hospital Veterinario de la Universidad de Zaragoza TAZ-TFG Politraumatized feline patient as a result of a fall from a height. A retrospective study of the casuistry of the Veterinary Hospital of the University of Zaragoza.\n"
+        ],
+        "_version_": 1.8504833435235779e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56878.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:48:27.144Z"
+        ],
+        "digest": [
+          "c055a98f245d0caa0f314b30f3fe6fb1"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0000070347587],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58043.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58043.xml"
+        ],
+        "content": [
+          "Verde Arribas, María Teresa Artola Magallon, Beatriz 2016 La dermatitis atópica canina (DAC) es una enfermedad inflamatoria crónica pruriginosa de la piel, con predisposición genética asociada a la producción de IgE frente a alérgenos medioambientales en la mayoría de los casos. Su prevalencia es muy elevada (10-15%). Los perros con DAC precisaran terapia a lo largo de toda su vida para controlar las lesiones inflamatorias de la piel y para reducir el grado de prurito. Glucocorticoides y ciclosporina han sido las drogas más utilizadas en los últimos años para el tratamiento de las DAC. En 2014 se presenta en Europa una nueva molécula de efecto muy selectivo que impide la activación de una interleucina implicada en la transmisión del prurito (IL-31) , y de otras interleucinas que tienen efecto inflamatorio. La finalidad de este trabajo ha sido evaluar la eficacia clínica de este nuevo fármaco (Oclacitinib) en el control de prurito y las lesiones en perros diagnosticados de DAC, durante un periodo de 6 meses, en pacientes caninos que asistieron al Servicio de Dermatología del Hospital Veterinario de la Facultad. Se ha realizado una revisión bibliográfica sobre los mecanismos de acción de las enzimas Janus Kinasas y de las moléculas inhibidoras tipo JAK-1, entre las que se halla oclacitinib. Los perros con DAC seleccionados fueron diagnosticados en base a la realización de pruebas laboratoriales que permiten excluir otras patologías similares (parasitarias, bacterianas, micóticas, y otras hipersensibilidades) y que además cumplían un mínimo de cinco de los criterios de Favrot. A todos los perros se les administró un protocolo terapeútico con Oclacitinib durante 4 semanas. Se realizaron los controles de tomas de muestras y evaluación clínica en tres momentos: dia 0 (inicio), dia 3 (a los tres días de tratamiento), día 7(tras una semanade tratamiento con dosis alta) y día 14 (tras dos semanas con dosis alta). A partir del día 14 se redujo la dosis a la mitad hasta el día 28 (t28). http://zaguan.unizar.es/record/58043 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/58043/files/TAZ-TFG-2016-4272.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Eficacia del oclacitinib en el control de la dermatitis atópica canina TAZ-TFG Efficacy of oclacitinib to control canine atopic dermatitis\n"
+        ],
+        "_version_": 1.850498157379584e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria2/categoria21/categoria211/oai_zaguan.unizar.es_58043.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:06:25.200Z"
+        ],
+        "digest": [
+          "5f70490506f79e2cf5a5a5b7355f15d3"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.013971332],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/oai_zaguan.unizar.es_86869.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria3/oai_zaguan.unizar.es_86869.xml"
+        ],
+        "content": [
+          "Morales Amella, Mariano José Moreno Burgos, Bernardino Núñez Martínez, María Teresa 2019 Las enfermedades transmitidas por vectores tienen cada vez mayor importancia debido a su\u003Cbr /\u003Ecreciente expansión derivada de diversos factores entre los cuales, destaca el cambio climático\u003Cbr /\u003Ecomo causa principal.\u003Cbr /\u003EDentro de estas enfermedades se engloban los patógenos de estudio en este trabajo: Ehrlichia\u003Cbr /\u003Ecanis y Anaplasma phagocytophilum, los cuales producen dos de las enfermedades caninas,\u003Cbr /\u003Etransmitidas por garrapatas (ehrlichiosis monocítica y anaplasmosis granulocítica,\u003Cbr /\u003Erespectivamente), de mayor relevancia en España y Europa. El vector de E. canis es\u003Cbr /\u003ERhipicephalus sanguineus, una garrapata ampliamente distribuida pero con preferencia por\u003Cbr /\u003Etemperaturas suaves y cálidas, y también por zonas interiores. Por el contrario, el vector de A.\u003Cbr /\u003Ephagocytophilum es Ixodes ricinus, que puede encontrarse en la vegetación de campos y\u003Cbr /\u003Ebosques en zonas de gran humedad y a mayores latitudes que R. sanguineus.\u003Cbr /\u003ETanto la ehrlichiosis como la anaplasmosis tienen una clínica inespecífica entre la que destacan\u003Cbr /\u003Edebilidad, letargia, fiebre y anorexia además de epistaxis, petequias, equimosis y palidez de\u003Cbr /\u003Emucosas. Los hallazgos laboratoriales más destacados son la trombocitopenia y la anemia.\u003Cbr /\u003EEstudios anteriores establecen prevalencias para E. canis en España entorno al 4-5%, mientras\u003Cbr /\u003Eque para A. phagocytophilum van del 3,1 al 15,6%.\u003Cbr /\u003EEn este estudio retrospectivo, se ha realizado un análisis de los datos de dos poblaciones de\u003Cbr /\u003Eperros: 2.367 perros con sintomatología y/o hematología compatible con ehrlichiosis y cuyas\u003Cbr /\u003Emuestras fueron recolectados entre 2013 y 2017; y otra de 860 perros aparentemente sanos\u003Cbr /\u003Ecuyas serologías se realizaron entre 2016 y 2019, y en los cuales, además, se dispone de un\u003Cbr /\u003Eregistro de análisis hematológicos, bioquímicos y cociente albumina/globulina. En ambos casos\u003Cbr /\u003Eel método diagnóstico fue la inmunofluorescencia indirecta, determinándose la presencia de\u003Cbr /\u003Eanticuerpos frente a E. canis en ambos grupos y frente A. phagocytophilum solo en el grupo\u003Cbr /\u003Easintomático. La prevalencia de E. canis para el grupo sintomático fue de 12,38%, mientras que\u003Cbr /\u003Epara el grupo asintomático fue de 2,33% para E. canis y de 2,44% para A. phagocytophilum. Se\u003Cbr /\u003Eobservó la trombocitopenia como la alteración hematológica más frecuente.\u003Cbr /\u003E\u003Cbr /\u003E http://zaguan.unizar.es/record/86869 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/86869/files/TAZ-TFG-2019-4539.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Estudio serológico de Ehrlichia canis y Anaplasma phagocytophilum en perros en España TAZ-TFG Serological study of Ehrlichia canis and Anaplasma phagocytophilum in dogs in Spain\n"
+        ],
+        "_version_": 1.8504813297470013e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria3/oai_zaguan.unizar.es_86869.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:13:01.590Z"
+        ],
+        "digest": [
+          "ad3b92636d5514e012b814d7c2670d4a"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56865.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56865.xml"
+        ],
+        "content": [
+          "Gascón Pérez, Faustino Manuel Ruiz Berdión, Gema 2016 Los trastornos renales son una de las manifestaciones clínicas más frecuentes en la leishmaniosis canina. El depósito de inmunocomplejos a nivel del glomérulo renal genera una glomerulonefritis que en sus inicios puede ser reversible pero a medida que la enfermedad avanza se instaura una enfermedad renal grave. Nos planteamos en este trabajo si en los animales con lesión renal avanzada debida al depósito de inmunocomplejos en el tejido renal, a la vez que tratamos la leishmaniosis, puede ser interesante buscar un control del depósito de inmunocomplejos con el uso de inmunosupresores, y así controlar la evolución de la lesión. Se debe estudiar la enfermedad renal de cada paciente para elegir el el protocolo más adecuado en función del grado de insuficiencia renal; que deberá ser usado en combinación con la terapia estándar de la enfermedad renal. La eficacia puede ser evaluada por el impacto del tratamiento en la proteinuria, la función renal y la concentración de albúmina. Respecto al tratamiento de la leishmaniosis canina nos centraremos en casos en el estadío III o IV de insuficiencia renal; porque en los estadíos I y II utilizando protocolos que combinen alopurinol/antimoniato de meglumina/miltefosina/domperidona, se obtiene una mejoría de los animales en un porcentaje elevado (90%). En casos de estadíos III y IV de insuficiencia renal, utilizando solo alopurinol, conseguimos alargar la vida de los animales, tratando de forma simultánea la insuficiencia renal. Si optamos por el uso de domperidona sola los resultados son aún más espectaculares, mejorando el cuadro clínico de la insuficiencia renal y reduciendo el título de anticuerpos en suero. Cuando se tratan animales afectados de leishmaniosis, con un grado de insuficiencia renal en estadíos II y III lo más prudente es iniciar el tratamiento evitando los leishmanicidas, con alopurinol y/o domperidona; el uso de immunosupresores simultáneamente para controlar la evolución de la lesión renal puede ser interesante, y es este trabajo hemos revisado estos aspectos proponiendo varios protocolos en base a unas cuestiones planteadas desde nuestra experiencia en el manejo de perros con leishmania. http://zaguan.unizar.es/record/56865 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56865/files/TAZ-TFG-2016-3743.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Actualización del manejo terapéutico de la insuficiencia renal en perros con leishmaniosis TAZ-TFG Updating the therapeutic management of renal failure in dogs with leishmaniasis\n"
+        ],
+        "_version_": 1.8504833435172864e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56865.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:27:51.077Z"
+        ],
+        "digest": [
+          "518632806409bc19aaa14bb87a1826f0"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56889.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56889.xml"
+        ],
+        "content": [
+          "Unzueta Galarza, Amaya Muniesa Del Campo, Ana Martínez Gallarte, Natalia 2016 La displasia de cadera es la enfermedad osteoarticular más frecuente en perros y posee gran importancia en la clínica de pequeños animales. Aunque la principal causa que determina su aparición es el factor genético, ha quedado constatado científicamente la existencia de factores predisponentes (peso, edad, sexo, raza) que pueden incidir sobre el desarrollo de la enfermedad o agravar los síntomas clínicos. Para valorar la prevalencia de displasia y la relación entre dicha enfermedad y los factores predisponentes, se lleva a cabo un estudio retrospectivo en el HVUZ con 133 radiografías de cadera de animales que han acudido al hospital con sintomatología ortopédica. Tras la obtención de la prevalencia de displasia de cadera y la prevalencia de los distintos grados (B,C,D y E) se relacionan ambas prevalencias con la raza, el sexo, la edad y tamaño de los animales. En el estudio se obtuvo que la prevalencia de displasia era de 61,7%. En aquellos individuos diagnosticados como displásicos se determinó un predominio de grado C (21’1%). Al relacionar los distintos factores predisponentes con prevalencia y grado de displasia, se encontró relación significativa entre grados severos de displasia (D,E) y pertenencia a una raza citada en la bibliografía como predisponente de enfermedad, mientras que en las razas no contempladas en dicho grupo predominaron los grados leve y moderado de displasia (B,C). Igualmente el tamaño de los individuos resultó tener relación significativa con el grado de enfermedad. Por el contrario pese a que los resultados descriptivos muestran tendencias de interés, no se ha encontrado relación estadística significativa al enfrentar la variable displasia con la raza, el sexo, la edad o el tamaño de los animales. De la misma manera, no se ha encontrado relación significativa entre el sexo o la edad de los animales estudiados con el grado de displasia. http://zaguan.unizar.es/record/56889 spa Universidad de Zaragoza; Departamento de Anatomía Patológica, Medicina Legal y Forense y Toxicología; Área de Anatomía Patológica http://zaguan.unizar.es/record/56889/files/TAZ-TFG-2016-3335.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Estudio radiológico sobre prevalencia de displasia de cadera en pacientes caninos del Hospital Veterinario de la Universidad de Zaragoza en relación con la raza, sexo, edad y peso. TAZ-TFG Radiological study about hip dysplasia prevalence in canine patients at the Veterinarian Hospital of Zaragoza University in relation to race, sex, age and weight.\n"
+        ],
+        "_version_": 1.8504833435267236e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56889.xml"
+      },
+      {
+        "tstamp": [
+          "2025-12-03T10:13:06.824Z"
+        ],
+        "digest": [
+          "3976cf3e8afea81f43019ae304b560e3"
+        ],
+        "host": [
+          "hendrix-http.cps.unizar.es"
+        ],
+        "boost": [0.0007616685],
+        "id": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56971.xml",
+        "url": [
+          "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56971.xml"
+        ],
+        "content": [
+          "Bonastre Ráfales, Cristina Torre Martínez, Amaya De Bein Añorga, Amaia Miren 2016 La inducción anestésica es una fase en la que, tras la administración de un agente anestésico, se produce la inconsciencia del animal y la pérdida de los reflejos protectores, permitiendo todo ello la intubación del paciente y el mantenimiento anestésico. El objetivo principal de este trabajo fue comparar la calidad de la inducción anestésica en perros sanos usando alfaxalona o la combinación alfaxalona-ketamina. El estudio fue prospectivo, ciego y randomizado. Se incluyeron en el estudio 28 perros sanos, clasificados como ASA I-II y que fueran a ser sometidos a una anestesia general en el Hospital Veterinario de la Universidad de Zaragoza. Tras una premedicación con dexmedetomidina y metadona intramuscular se administró, en función del grupo de estudio, alfaxalona o alfaxalona/ketamina intravenosa a dosis-efecto hasta la pérdida total de reflejos y por tanto hasta que la intubación endotraqueal fuera posible. Antes y después de la inducción se registraron distintos parámetros clínicos tales como: presión arterial, frecuencia cardíaca, frecuencia respiratoria, reflejos y posición del globo ocular. Además se valoró la calidad de la intubación, y se registraron las necesidades de agente inductor y el tiempo transcurrido hasta la primera respiración. Al acabar la intervención, también se valoró la calidad del despertar del paciente o si fue necesario volver a sedarlo en la recuperación anestésica. Los resultados del estudio fueron los siguientes: la dosis de alfaxalona administrada en cada grupo fue menor con la administración de la combinación alfaxalona-ketamina (0,7 ± 0,072 mg/kg) que con la alfaxalona sola (1 ± 0,097 mg/kg) (p=0,017). La proporción acumulada de individuos que respiraron por primera vez en el mismo periodo de tiempo fue mayor con el grupo 1 de alfaxalona (p=0,006), pero el tiempo hasta la primera respiración fue más largo en el grupo de alfaxalona-ketamina (p=0,003). Los efectos en los valores postinducción de frecuencia cardiaca y frecuencia respiratoria fueron muy similares en ambos grupos, mientras que el uso de alfaxalona fue asociado a un ligero aumento de la presión arterial postinducción (de 134,8 ± 4,618 mmHg a 136,6 ± 5,083 mmHg) (p=0,029) y el uso de alfaxalona-ketamina a una disminución de ésta (de 134,600 ± 8,231 mmHg a 126,46 ± 6,611 mmHg) (p=0,844). Como conclusión final, parece ser que la combinación de alfaxalona-ketamina consigue reducir la dosis total de alfaxalona respecto al uso de alfaxalona sola para inducción en perros sanos, aunque la depresión respiratoria que produce esta mezcla es mayor. http://zaguan.unizar.es/record/56971 spa Universidad de Zaragoza; Departamento de Patología Animal; Área de Medicina y Cirugía Animal http://zaguan.unizar.es/record/56971/files/TAZ-TFG-2016-3143_ANE.pdf http://zaguan.unizar.es/record/56971/files/TAZ-TFG-2016-3143.pdf http://creativecommons.org/licenses/by-nc-sa/3.0/ Graduado en Veterinaria Estudio comparativo del uso de alfaxalona y de la combinación alfaxalona-ketamina en la inducción anestésica en perros sanos TAZ-TFG Comparative study of the use of alfaxalone and alfaxalone-ketamine admixture for induction of anaesthesia in healthy dogs\n"
+        ],
+        "_version_": 1.850483343547695e+18,
+        "_root_": "http://hendrix-http.cps.unizar.es/recinfo/categoria1/categoria13/oai_zaguan.unizar.es_56971.xml"
+      }
+    ]
+  }
+}
