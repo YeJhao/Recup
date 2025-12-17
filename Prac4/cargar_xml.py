@@ -16,11 +16,11 @@ class XMLLoader:
     def __init__(self):
         # Definimos las categorías y sus palabras clave asociadas
         self.categorias = {
-            'Ciencias': ['Fisica', 'Quimica', 'Biologia', 'Matemáticas', 'Geologia']
-            'Ingenieria': ['Informatica', 'Eléctrica' 'Electronica', 'Mecanica', 'Telecomunicaciones'], 'Industrial',
-            'Ciencias de la salud': ['Medicina', 'Enfermeria', 'Fisioterapia', 'Psicologia', 'Veterinaria'], 
-            'Artes y Humanidades': ['Bellas Artes', 'Filosofia', 'Historia', 'Lenguas Modernas'],
-            'Sociales' : ['Deporte', 'Derecho', 'Economia', 'ADE', 'Empresa'] 
+            'Artes y Humanidades' : ['Bellas Artes', 'Estudios Clásicos', 'Estudios Ingleses', 'Filología Hispánica', 'Filosofía', 'Historia', 'Historia del Arte', 'Lenguas Modernas'],
+            'Ciencias' : ['Biotecnología', 'Ciencia y Tecnología de los Alimentos', 'Ciencias Ambientales', 'Física', 'Geología', 'Matemáticas', 'Óptica y Optometría', 'Química'],
+            'Ciencias de la Salud' : ['Enfermería', 'Fisioterapia','Medicina', 'Nutrición Humana y Dietética', 'Odontología', 'Psicología', 'Terapia Ocupacional', 'Veterinaria'],
+            'Ciencias Sociales y Jurídicas' : ['ADE', 'Administración y Dirección de Empresas', 'Ciencias de la Actividad Física y del Deporte', 'Derecho', 'Economía', 'Finanzas y Contabilidad', 'Geografía y Ordenación del Territorio', 'Geografía', 'Gestión y Administración Pública', 'Magisterio', 'Marketing', 'Periodismo', 'Relaciones Laborales y Recursos Humanos', 'Trabajo Social', 'Turismo'],
+            'Ingeniería y Arquitectura' : ['Arquitectura', 'Arquitectura Técnica', 'Defensa y Seguridad', 'Ingenieria Agroalimentaria y del Medio Rural', 'Ingeniería Aeroespacial', 'Ingeniería Eléctrica', 'Ingeniería Electrónica y Automática', 'Ingeniería Biomédica', 'Ingeniería Civil', 'Ingeniería de Tecnologías de Telecomunicación', 'Ingeniería Eléctrica', 'Ingeniería Informática', 'Ingeniería Mecánica', 'Ingeniería Mecatrónica', 'Ingeniería Química']
         }
     
     def load_xmls(self,xml_folder):
@@ -48,21 +48,25 @@ class XMLLoader:
         return df
 
     def asignar_categoria(self, row):
-        """Asigna una categoría a partir de los metadatos."""
-        # Combinar varios campos de texto donde puede aparecer las palabras clave
-        text = ""
-        for col in ["subject", "relation", "publisher", "type"]:
-            if col in row and pd.notna(row[col]):
-                text += str(row[col]).lower() + " "
-        
-        # Buscar en el diccionario de categorías
+        subj = ''
+        if 'subject' in row and pd.notna(row['subject']):
+            subj = row['subject']
+
+        # Normalizar a texto
+        if isinstance(subj, (list, tuple)):
+            subj_text = ' '.join([str(s) for s in subj]).lower()
+        else:
+            subj_text = str(subj).lower()
+
+        if subj_text.strip() == '' or subj_text == 'nan':
+            return 'Otros'
+
         for categoria, keywords in self.categorias.items():
             for palabra in keywords:
-                if palabra in text:
+                if palabra.lower() in subj_text:
                     return categoria
-        
-        # Si no coincide con ninguna categoría
-        return "Otros"
+
+        return 'Otros'
 
 if __name__ == '__main__':
     # Valores por defecto
