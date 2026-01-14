@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <informationNeeds>
-    <!-- 
-    Necesidad de información 101-4:
-    TFGs o TFMs relacionados con animación o visión por computador
-    escritos en español y publicados en los últimos 20 años. 
-    -->
     <informationNeed>
         <identifier>101-4</identifier>
         <text>
@@ -14,9 +9,10 @@
 
             SELECT DISTINCT ?doc
             WHERE {
-                ?doc text:query "animación OR 'visión por computador'" .
+                (?doc ?score) text:query ("animación \"visión por computador\"") .
                 ?doc zaguan:language "spa" .
                 ?doc zaguan:date ?date .
+                ?doc a ?type ;
                 FILTER (?date >= "2005"^^xsd:gYear && 
                     (?type = zaguan:TFG || ?type = zaguan:TFM))
             }
@@ -37,10 +33,13 @@
 
             SELECT DISTINCT ?doc
             WHERE {
-                ?doc text:query "veterinaria" .
-                ?doc text:query "gato OR perro" .
+                (?doc ?score) text:query ("gato gata perro perra") .
+                ?doc zaguan:subject ?subj .
+                ?subj zaguan:nombreTema "Veterinaria" .
                 ?doc zaguan:date ?date .
-                FILTER (?date >= "2012"^^xsd:gYear && ?date <= "2018"^^xsd:gYear)
+                ?doc a ?type ;
+                FILTER (?date >= "2005"^^xsd:gYear && 
+                    (?type = zaguan:TFG || ?type = zaguan:TFM))
             }
             LIMIT 100
         </text>

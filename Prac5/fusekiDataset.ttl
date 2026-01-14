@@ -1,19 +1,22 @@
 ## Licensed under the terms of http://www.apache.org/licenses/LICENSE-2.0
 
-@prefix :        <#> .
-@prefix fuseki:  <http://jena.apache.org/fuseki#> .
-@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ja:      <http://jena.hpl.hp.com/2005/11/Assembler#> .
-@prefix dc:      <http://purl.org/dc/elements/1.1/> .
-@prefix tdb2:    <http://jena.apache.org/2016/tdb#> .
-@prefix text:    <http://jena.apache.org/text#> .
-@prefix zaguan:  <http://zaguan.unizar.es/ontologia#> .
+PREFIX :        <#>
+PREFIX fuseki:  <http://jena.apache.org/fuseki#>
+PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX ja:      <http://jena.hpl.hp.com/2005/11/Assembler#>
+PREFIX dc:      <http://purl.org/dc/elements/1.1/>
+PREFIX tdb2:    <http://jena.apache.org/2016/tdb#>
+PREFIX text:    <http://jena.apache.org/text#>
+PREFIX zaguan:  <http://zaguan.unizar.es/ontologia#>
 
 [] rdf:type fuseki:Server ;
    fuseki:services (
      :service
    ) .
+
+## Service description for "/dataset"
+## with a TDB2 dataset and a text index.
 
 :service rdf:type fuseki:Service ;
     fuseki:name "datasetExample" ;
@@ -44,38 +47,39 @@
     fuseki:dataset :text_dataset ;
     .
 
+## ---------------------------------------------------------------
+## Confiure a dataset with a text index.
+## See
+##   https://jena.apache.org/documentation/query/text-query.html
+## for details
+
 :text_dataset rdf:type     text:TextDataset ;
     text:dataset   :base_dataset ;
     text:index     :indexLucene ;
     .
 
 :base_dataset rdf:type      tdb2:DatasetTDB ;
-    tdb2:location "/fuseki/databases/datasetFuseki/TDB2"
+    tdb2:location "/fuseki/databases/datasetExample/TDB2"
     .
 
 :indexLucene a text:TextIndexLucene ;
     # File location of index
-    text:directory "/fuseki/databases/datasetFuseki/Lucene" ;
+    text:directory "/fuseki/databases/datasetExample/Lucene" ;
     text:entityMap :entMap ;
     .
 
-:entMap a text:EntityMap ;
-    text:entityField "uri" ;
-    text:uidField "uid" ;
-    text:defaultField "title description subject publisher";
-    text:map (
-        [ text:field "title" ; text:predicate zaguan:title ]
-        [ text:field "identifier" ; text:predicate zaguan:identifier ]
-        [ text:field "author" ; text:predicate zaguan:nombrePersona ]
-        [ text:field "contributor" ; text:predicate zaguan:contributor ]
-        [ text:field "description" ; text:predicate zaguan:description ]
-        [ text:field "subject" ; text:predicate zaguan:subject ]
-        [ text:field "publisher" ; text:predicate zaguan:publisher ]
-        [ text:field "rights" ; text:predicate zaguan:rights ]
-        [ text:field "relation" ; text:predicate zaguan:relation ]
-        [ text:field "language" ; text:predicate zaguan:language ]
-        [ text:field "date" ; text:predicate zaguan:date ]
-        [ text:field "type" ; text:predicate rdf.type ]
-        )
+<#entMap> a text:EntityMap ;
+    text:entityField      "uri" ;
+    ## Must be defined in the text:map
+    text:defaultField     "title" ;
+    ## Enable deleting of text index entries.
+    text:uidField         "uid" ;
+    text:map (          
+         [ text:field "title" ; text:predicate zaguan:title ]
+         [ text:field "description" ; text:predicate zaguan:description ]
+         [ text:field "authorName" ; text:predicate zaguan:nombrePersona ]
+         [ text:field "contributorName" ; text:predicate zaguan:nombrePersona ]
+         [ text:field "subjectName" ; text:predicate zaguan:nombreTema ]
+         [ text:field "entityName" ; text:predicate zaguan:nombreEntidad ]
+         )
     .
-

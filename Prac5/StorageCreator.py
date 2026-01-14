@@ -11,7 +11,6 @@ import requests, time
 
 # URL de Fuseki admin
 FUSEKI_HOST = 'http://localhost:3030'
-DATASET_URL = "http://localhost:3030/midataset"       # URL del dataset creado
 ADMIN_USER = 'admin'
 ADMIN_PASS = 'admin'
 
