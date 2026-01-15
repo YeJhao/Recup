@@ -11,6 +11,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.cm as cm 
 
+def normalize_doc_id(doc_uri):
+    return doc_uri.rstrip('/').split('/')[-1]
+
 def prec_at_k(k, results, qrels):
     docs_relev_recup = 0
     i = 0
@@ -164,7 +167,8 @@ if __name__ == '__main__':
                 query_id, doc_id, relevance = parts
                 if query_id not in qrels:
                     qrels[query_id] = {}
-                qrels[query_id][doc_id] = int(relevance)
+                norm_id = normalize_doc_id(doc_id)
+                qrels[query_id][norm_id] = int(relevance)
     
     # Leer el archivo de resultados
     results = {}
@@ -176,7 +180,8 @@ if __name__ == '__main__':
                 query_id, doc_id = parts
                 if query_id not in results:
                     results[query_id] = []
-                results[query_id].append(doc_id)
+                norm_id = normalize_doc_id(doc_id)
+                results[query_id].append(norm_id)
 
     # Asegurarse de que todas las necesidades de información en results estén en qrels
     for qid in results:
