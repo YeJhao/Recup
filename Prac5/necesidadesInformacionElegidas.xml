@@ -130,7 +130,7 @@
         <text><![CDATA[
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
 
-            SELECT ?doc
+            SELECT DISTINCT ?doc
             WHERE {
                 ?doc zaguan:title ?title .
                 ?doc zaguan:subject ?subj .
