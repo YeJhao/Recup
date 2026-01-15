@@ -4,17 +4,33 @@
         <identifier>101-4</identifier>
         <text>
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX text: <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT DISTINCT ?doc
             WHERE {
-                (?doc ?score) text:query ("animación \"visión por computador\"") .
-                ?doc zaguan:language "spa" .
+                ?doc rdf:type ?type .
+                FILTER (?type = zaguan:TFG || ?type = zaguan:TFM) .
+                
+                ?doc zaguan:title ?title .
                 ?doc zaguan:date ?date .
-                ?doc a ?type ;
-                FILTER (?date >= "2005"^^xsd:gYear && 
-                    (?type = zaguan:TFG || ?type = zaguan:TFM))
+                ?doc zaguan:language ?lang .
+
+                FILTER (?lang = "spa") .
+
+                ?doc zaguan:subject ?subj .
+                ?subj zaguan:nombreTema ?tema .
+
+                FILTER(
+                    (
+                        CONTAINS(LCASE(?tema), "animación") ||
+                        CONTAINS(LCASE(?tema), "visión por computador")
+                    )
+                )
+
+                FILTER (?date >= "2005"^^xsd:gYear) .
+
             }
             LIMIT 100
         </text>
@@ -28,18 +44,32 @@
         <identifier>106-4</identifier>
         <text>
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX text: <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT DISTINCT ?doc
-            WHERE {
-                (?doc ?score) text:query ("gato gata perro perra") .
-                ?doc zaguan:subject ?subj .
-                ?subj zaguan:nombreTema "Veterinaria" .
+            WHERE {               
+                ?doc zaguan:title ?title .
                 ?doc zaguan:date ?date .
-                ?doc a ?type ;
-                FILTER (?date >= "2005"^^xsd:gYear && 
-                    (?type = zaguan:TFG || ?type = zaguan:TFM))
+
+                ?doc zaguan:subject ?subj .
+                ?subj zaguan:nombreTema ?tema .
+
+                ?doc zaguan:description ?desc .
+
+                FILTER(
+                    (CONTAINS(LCASE(?tema), "veterinaria"))
+
+                    (
+                        CONTAINS(LCASE(?desc), "felinos") ||
+                        CONTAINS(LCASE(?desc), "caninos") ||
+                        CONTAINS(LCASE(?desc), "gatos")   ||
+                        CONTAINS(LCASE(?desc), "perros")
+                    )
+                )
+
+                FILTER (?date >= "2012"^^xsd:gYear && ?date <= "2018"^^xsd:gYear) .
             }
             LIMIT 100
         </text>
@@ -54,20 +84,38 @@
         <identifier>206-4</identifier>
         <text>
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX text: <http://jena.apache.org/text#>
-
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+            
             SELECT DISTINCT ?doc
             WHERE {
-                {
-                    ?doc text:query "López AND author" .
-                } UNION {
-                    ?doc text:query "López AND contributor" .
-                }
-                ?doc zaguan:publisher ?ent .
-                ?ent zaguan:nombreEntidad "Informática" .
-
                 ?doc rdf:type ?type .
-                FILTER (?type = zaguan:TFG || ?type = zaguan:TFM)
+                FILTER (?type = zaguan:TFG || ?type = zaguan:TFM) .
+
+                ?doc zaguan:title ?title .
+                ?doc zaguan:date ?date .
+
+                OPTIONAL { 
+                    ?doc zaguan:author ?a .
+                    ?a zaguan:nombrePersona ?autor .
+                }
+
+                OPTIONAL { 
+                    ?doc zaguan:contributor ?c .
+                    ?c zaguan:nombrePersona ?director .
+                }
+
+                FILTER (
+                    (BOUND(?autor) && CONTAINS(LCASE(?autor), "lópez")) ||
+                    (BOUND(?director) && CONTAINS(LCASE(?director), "lópez"))
+                )
+
+
+                ?doc zaguan:publisher ?entidad .
+                ?entidad zaguan:nombreEntidad ?nombreEntidad .
+
+                FILTER(CONTAINS(LCASE(?nombreEntidad), "informática"))
             }
             LIMIT 100
         </text>
@@ -81,15 +129,23 @@
         <identifier>209-2</identifier>
         <text>
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX text: <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT DISTINCT ?doc
             WHERE {
-                ?doc text:query "arte" .
-                ?doc text:query "aragonés" .
+                ?doc zaguan:title ?title .
                 ?doc zaguan:date ?date .
-                FILTER (?date <= "1899"^^xsd:gYear)
+
+                ?doc zaguan:subject ?subj .
+                ?subj zaguan:nombreTema ?tema .
+
+                FILTER(
+                    (CONTAINS(LCASE(?tema), "arte aragonés"))
+                )
+
+                FILTER (?date <= "1899"^^xsd:gYear) 
             }
             LIMIT 100
         </text>
@@ -102,11 +158,26 @@
         <identifier>305-4</identifier>
         <text>
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX text: <http://jena.apache.org/text#>
+            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT ?doc
             WHERE {
-                ?doc text:query "algoritmos de búsqueda AND (medicina OR proteinas OR síntomas OR pacientes)" .
+                ?doc zaguan:title ?title .
+                ?doc zaguan:date ?date .
+
+                ?doc zaguan:description ?desc .
+
+                FILTER(
+                    (   
+                        CONTAINS(LCASE(?desc), "algortimos de búsqueda") && (
+                        CONTAINS(LCASE(?desc), "medicina")  ||
+                        CONTAINS(LCASE(?desc), "proteínas") ||
+                        CONTAINS(LCASE(?desc), "sintomas")  ||
+                        CONTAINS(LCASE(?desc), "pacientes")
+                    ))
+                )
             }
             LIMIT 100
         </text>
