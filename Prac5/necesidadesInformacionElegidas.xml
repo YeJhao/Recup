@@ -2,95 +2,67 @@
 <informationNeeds>
     <informationNeed>
         <identifier>101-4</identifier>
-        <text>
+        <text><![CDATA[
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
+            PREFIX text:  <http://jena.apache.org/text#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT DISTINCT ?doc
             WHERE {
-                ?doc rdf:type ?type .
-                FILTER (?type = zaguan:TFG || ?type = zaguan:TFM) .
-                
-                ?doc zaguan:title ?title .
+                (?doc ?score) text:query ("animación \"visión por computador\"") .
+                ?doc zaguan:language "spa" .
                 ?doc zaguan:date ?date .
-                ?doc zaguan:language ?lang .
-
-                FILTER (?lang = "spa") .
-
-                ?doc zaguan:subject ?subj .
-                ?subj zaguan:nombreTema ?tema .
-
-                FILTER(
-                    (
-                        CONTAINS(LCASE(?tema), "animación") ||
-                        CONTAINS(LCASE(?tema), "visión por computador")
-                    )
-                )
-
-                FILTER (?date >= "2005"^^xsd:gYear) .
-
+                ?doc a ?type ;
+                FILTER (?date >= "2005"^^xsd:gYear && 
+                    (?type = zaguan:TFG || ?type = zaguan:TFM))
             }
             LIMIT 100
-        </text>
+        ]]></text>
     </informationNeed>
-    <!--
-    Necesidad 106-4:
-    Trabajos veterinarios relacionados con especies felinas o caninas,
-    publicados entre 2012 y 2018
-    -->
     <informationNeed>
         <identifier>106-4</identifier>
-        <text>
+        <text><![CDATA[
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
             PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT DISTINCT ?doc
             WHERE {               
-                ?doc zaguan:title ?title .
                 ?doc zaguan:date ?date .
 
                 ?doc zaguan:subject ?subj .
-                ?subj zaguan:nombreTema ?tema .
+                ?subj zaguan:nombreTema ?tipo .
 
                 ?doc zaguan:description ?desc .
+                ?doc zaguan:title ?title .
 
                 FILTER(
-                    (CONTAINS(LCASE(?tema), "veterinaria"))
-
+                    (CONTAINS(LCASE(?tipo), "veterinaria"))
+                    &&
                     (
                         CONTAINS(LCASE(?desc), "felinos") ||
                         CONTAINS(LCASE(?desc), "caninos") ||
-                        CONTAINS(LCASE(?desc), "gatos")   ||
-                        CONTAINS(LCASE(?desc), "perros")
+                        CONTAINS(LCASE(?desc), "gat")   ||
+                        CONTAINS(LCASE(?desc), "perr")  ||
+                        CONTAINS(LCASE(?title), "felinos") ||
+                        CONTAINS(LCASE(?title), "caninos") ||
+                        CONTAINS(LCASE(?title), "gat")   ||
+                        CONTAINS(LCASE(?title), "perr")
                     )
                 )
 
                 FILTER (?date >= "2012"^^xsd:gYear && ?date <= "2018"^^xsd:gYear) .
             }
             LIMIT 100
-        </text>
+        ]]></text>
     </informationNeed>
-    <!--
-    Necesidad 206-4:
-    Documentos cuyo autor o contribuidor sea de la familia López
-    publicados por el departamento de Informática
-    y TFG o TFM
-    -->
     <informationNeed>
         <identifier>206-4</identifier>
-        <text>
+        <text><![CDATA[
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
             
             SELECT DISTINCT ?doc
             WHERE {
-                ?doc rdf:type ?type .
+                ?doc a ?type .
                 FILTER (?type = zaguan:TFG || ?type = zaguan:TFM) .
 
                 ?doc zaguan:title ?title .
@@ -118,68 +90,82 @@
                 FILTER(CONTAINS(LCASE(?nombreEntidad), "informática"))
             }
             LIMIT 100
-        </text>
+        ]]></text>
     </informationNeed>
-    <!--
-    Necesidad 209-2:
-    Documentos que traten sobre arte aragones
-    que no traten temas posteriores al siglo XIX
-    -->
     <informationNeed>
         <identifier>209-2</identifier>
-        <text>
+        <text><![CDATA[
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT DISTINCT ?doc
             WHERE {
+                ?doc a ?type .
+                FILTER (?type = zaguan:TFG || ?type = zaguan:TFM || ?type = zaguan:PFC) .
                 ?doc zaguan:title ?title .
-                ?doc zaguan:date ?date .
+
+                ?doc zaguan:description ?desc .
 
                 ?doc zaguan:subject ?subj .
                 ?subj zaguan:nombreTema ?tema .
 
                 FILTER(
-                    (CONTAINS(LCASE(?tema), "arte aragonés"))
+                    (CONTAINS(LCASE(?tema), "arte") || 
+                     CONTAINS(LCASE(?desc), "arte") ||
+                     CONTAINS(LCASE(?title), "arte")
+                    ) &&
+                    (REGEX(LCASE(?tema), "arag[oó]n(e|es|esa|esas)") || 
+                     REGEX(LCASE(?desc), "arag[oó]n(e|es|esa|esas)") ||
+                     REGEX(LCASE(?title), "arag[oó]n(e|es|esa|esas)")
+                    ) &&
+                    !CONTAINS(LCASE(?tema), "xx") &&
+                    !CONTAINS(LCASE(?desc), "xx") &&
+                    !CONTAINS(LCASE(?title), "xx")
                 )
-
-                FILTER (?date <= "1899"^^xsd:gYear) 
             }
             LIMIT 100
-        </text>
+        ]]></text>
     </informationNeed>
-    <!--
-    Necesidad 305-4:
-    Documento que traten algoritmos de búsqueda ene entornos relacionados con la medicina
-    -->
     <informationNeed>
         <identifier>305-4</identifier>
-        <text>
+        <text><![CDATA[
             PREFIX zaguan: <http://zaguan.unizar.es/ontologia#>
-            PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-            PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 
             SELECT ?doc
             WHERE {
                 ?doc zaguan:title ?title .
-                ?doc zaguan:date ?date .
-
+                ?doc zaguan:subject ?subj .
+                ?subj zaguan:nombreTema ?tema .
                 ?doc zaguan:description ?desc .
 
                 FILTER(
                     (   
-                        CONTAINS(LCASE(?desc), "algortimos de búsqueda") && (
-                        CONTAINS(LCASE(?desc), "medicina")  ||
-                        CONTAINS(LCASE(?desc), "proteínas") ||
-                        CONTAINS(LCASE(?desc), "sintomas")  ||
-                        CONTAINS(LCASE(?desc), "pacientes")
-                    ))
+                        (
+                            REGEX(LCASE(?desc), "informátic[oa]") ||
+                            REGEX(LCASE(?title), "informátic[oa]") ||
+                            REGEX(LCASE(?tema), "informátic[oa]")   ||
+                            REGEX(LCASE(?desc), "algortimo(s) de búsqueda") ||
+                            REGEX(LCASE(?title), "algortimo(s) de búsqueda") ||
+                            REGEX(LCASE(?tema), "algortimo(s) de búsqueda")
+                        )
+                        && 
+                        (
+                            REGEX(LCASE(?desc), "medicina")  ||
+                            REGEX(LCASE(?desc), "proteína(s)") ||
+                            REGEX(LCASE(?desc), "síntoma(s)")  ||
+                            REGEX(LCASE(?desc), "paciente(s)")  ||
+                            REGEX(LCASE(?title), "medicina")  ||
+                            REGEX(LCASE(?title), "proteína(s)") ||
+                            REGEX(LCASE(?title), "síntoma(s)")  ||
+                            REGEX(LCASE(?title), "paciente(s)") ||
+                            REGEX(LCASE(?tema), "medicina")  ||
+                            REGEX(LCASE(?tema), "proteína(s)") ||
+                            REGEX(LCASE(?tema), "síntoma(s)")  ||
+                            REGEX(LCASE(?tema), "paciente(s)")
+                        )
+                    )
                 )
             }
             LIMIT 100
-        </text>
+        ]]></text>
     </informationNeed>
 </informationNeeds>

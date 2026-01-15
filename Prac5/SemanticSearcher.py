@@ -22,8 +22,10 @@ def search(info_needs_file, output_file, sparql_endpoint="http://localhost:3030/
 
     for need in root.findall("informationNeed"):
         identifier = need.find("identifier").text.strip()
-        query_text = need.find("text").text.strip()
+        text_elem = need.find("text")
+        query_text = "".join(text_elem.itertext()).strip()
 
+        #print(query_text)  # Debug
         # Ejecuta la consulta SPARQL
         sparql.setQuery(query_text)
         try:
